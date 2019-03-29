@@ -6,3 +6,5 @@ tags:
 ---
 
 Example Post in Category 1
+
+Hei dette er jo fett.
