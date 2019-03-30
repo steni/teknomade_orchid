@@ -1,7 +1,7 @@
 site:
   about:
-    siteName: 'Orchid Starter'
-    subtitle: 'Basic starter repo to get going with Orchid quickly'
+    siteName: 'TEKNOMADE'
+    subtitle: 'Systemutvikling ♥ Markedsføring'
     siteDescription: 'This is a short blurb you can set below this index layouts sidebar.'
     avatar: '/assets/media/logo.jpg'
 
@@ -25,8 +25,8 @@ theme:
       includeTerms: true
       termsAtRoot: true
     - type: 'page'
-      title: 'About'
-      itemId: 'Author One'
+      title: 'Historien'
+      itemId: 'Sten Morten Misund-Asphaug'
     - type: "pages"
       atRoot: true
   sidebar:

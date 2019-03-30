@@ -1,6 +1,6 @@
 ---
-title: 'Author One'
-name: 'Author One'
-avatar: '/assets/images/avatar.jpg'
-email: 'cjbrooks12@gmail.com'
+title: 'Sten Morten Misund-Asphaug'
+name: 'Sten Morten Misund-Asphaug'
+avatar: '/assets/images/smma-half-figure.jpg'
+email: 'stenmorten@gmail.com'
 ---

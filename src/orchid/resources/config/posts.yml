@@ -1,15 +1,15 @@
 permalink: ':category/:year/:monthName/:slug'
 categories:
-  - key: 'category1'
-    title: 'Category 1'
-  - key: 'category2'
-    title: 'Category 2'
+  - key: 'systemutvikling'
+    title: 'Systemutvkling'
+  - key: 'markedsføring'
+    title: 'Markedsføring'
 authors:
-  - name: 'Author Two'
-    avatar: 'assets/images/avatar.jpg'
-    email: 'email@domain.tld'
+  - name: 'Sten Morten Misund-Asphaug'
+    avatar: 'assets/images/smma-half-figure.jpg'
+    email: 'steni@teknomade.no'
 postPages:
-  author: 'Author One'
+  author: 'Sten Morten Misund-Asphaug'
   layout: single
   components:
     - type: pageContent

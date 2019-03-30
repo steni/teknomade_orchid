@@ -8,8 +8,8 @@ components:
     category: ':any'
     noWrapper: true
     template:
-      - 'includes/postPreview_large'
-next: 'category1'
+      - 'includes/postPreview_mini'
+next: 'markedsføring'
 ---
 
 Thanks for trying out Orchid! Feel free to take a look around, then head over to the 
