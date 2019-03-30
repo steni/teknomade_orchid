@@ -1,5 +1,5 @@
 ---
-title: Examples - Programming HOLA Sa
+title: Hva sier andre?
 ---
 
 ### Syntax Highlighting with Pygments 
@@ -8,7 +8,7 @@ title: Examples - Programming HOLA Sa
 {% verbatim %}
 {% highlight language="java" %}
     public abstract class OrchidGenerator extends Prioritized implements OptionsHolder {
-        
+
         protected final String key;
     
         protected final OrchidContext context;

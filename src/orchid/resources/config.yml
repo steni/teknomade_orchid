@@ -13,22 +13,29 @@ theme:
     github: 'githubUsername'
     other:
       - label: 'linkedin'
-        link: 'https://www.example.com'
+        link: 'https://www.linkedin.com/in/stenmorten/'
         icon: 'fa-tag'
   menu:
-    - type: 'page'
-      title: 'Home'
-      url: '/'
-    - type: "wikiSections"
+  #  - type: 'page'
+  #    title: 'Home'
+  #    url: '/'
+  #  - type: "wikiSections"
     - type: 'taxonomy'
       taxonomyType: 'categories'
       includeTerms: true
       termsAtRoot: true
     - type: 'page'
       title: 'Historien'
-      itemId: 'Sten Morten Misund-Asphaug'
-    - type: "pages"
-      atRoot: true
+      itemId: 'Historien'
+    - type: 'page'
+      title: 'CV'
+      itemId: 'CV - Sten Morten Misund-Asphaug'
+    - type: 'page'
+      title: 'Hva sier andre?'
+      itemId: 'Og hva sier de andre?'
+
+  #  - type: "pages"
+  #    atRoot: true
   sidebar:
     - type: recentPosts
       limit: 3
