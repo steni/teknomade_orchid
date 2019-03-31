@@ -3,7 +3,7 @@ site:
     siteName: 'TEKNOMADE'
     subtitle: 'Systemutvikling ♥ Markedsføring'
     siteDescription: 'This is a short blurb you can set below this index layouts sidebar.'
-    avatar: '/assets/media/logo.jpg'
+    avatar: '/assets/media/3kant.png'
 
 theme:
   social:
@@ -33,6 +33,9 @@ theme:
     - type: 'page'
       title: 'Hva sier andre?'
       itemId: 'Og hva sier de andre?'
+    - type: 'page'
+      title: 'Ditt eget språk'
+      itemId: 'ryolisp'
 
   #  - type: "pages"
   #    atRoot: true
