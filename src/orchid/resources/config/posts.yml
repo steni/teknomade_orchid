@@ -6,7 +6,7 @@ categories:
     title: 'Markedsføring'
 authors:
   - name: 'Sten Morten Misund-Asphaug'
-    avatar: 'assets/images/smma-half-figure.jpg'
+    avatar: '/assets/images/smma-half-figure.jpg'
     email: 'steni@teknomade.no'
 postPages:
   author: 'Sten Morten Misund-Asphaug'
