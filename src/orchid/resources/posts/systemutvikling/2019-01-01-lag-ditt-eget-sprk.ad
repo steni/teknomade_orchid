@@ -1,18 +1,16 @@
 +++
 title = "Lag ditt eget språk, i Groovy, på under 50 minutter"
 featuredImage = "assets/media/ryolisp.png"
+tags= "systemutvikling"
 +++
 
 == Lag ditt eget språk, i Groovy, på under 50 minutter
 *Foredrag på JavaZone*
 
-video::74401304[vimeo,width=640,height=480]
-
-https://github.com/steni/RYOLisp[Kode @ *GitHub*, window="_blank"]
 
 Å skrive sitt eget programmeringsspråk er en deilig opplevelse. Vi skal lære å skrive en interpreter for et enkelt lisp-språk, ved hjelp av Groovy, på under 50 minutter.
 
-Lær Lisp, Groovy, og hvordan interpretere virker ... på under en time.
+Lær Lisp, Groovy, og hvordan interpretere virker ... 
 
 Vi bruker forskjellige programmeringsspråk hver dag. Mange av oss er innom Java og JavaScript, kanskje php, eller Clojure, eller Groovy eller Ruby... og vi tar disse språkene egentlig for gitt.
 
@@ -20,4 +18,12 @@ Men ... hvordan er de laget? Hvilke bevegelige biter har de? Hva gjør de forskj
 
 Den store hemmeligheten er at dette egentlig ikke er så vanskelig. Hvis vi bare bruker litt tid på hver bit, for seg selv, og peprer den med tester, forsvinner magien, og bare kode står igjen.
 
-Deilig, deilig kode.                               
+Deilig, deilig kode.
+
+https://github.com/steni/RYOLisp[Kode @ *GitHub*, window="_blank"]
+
+Se videoen under nå!
+
+video::74401304[vimeo,width=640,height=480]
+
+

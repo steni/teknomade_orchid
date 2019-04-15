@@ -3,30 +3,39 @@ site:
     siteName: 'TEKNOMADE'
     subtitle: 'Systemutvikling ♥ Markedsføring'
     siteDescription: 'This is a short blurb you can set below this index layouts sidebar.'
-    avatar: '/assets/media/3kant.png'
+    avatar: '/assets/media/tn-merke.png'
 
 theme:
   social:
     facebook: 'facebookUsername'
     twitter: 'twitterHandle'
     instagram: 'instagramHandle'
-    github: 'githubUsername'
+    github: 'steni'
     other:
       - label: 'linkedin'
         link: 'https://www.linkedin.com/in/stenmorten/'
         icon: 'fa-tag'
   menu:
-  #  - type: 'page'
-  #    title: 'Home'
-  #    url: '/'
-  #  - type: "wikiSections"
-    - type: 'taxonomy'
-      taxonomyType: 'categories'
-      includeTerms: true
-      termsAtRoot: true
+    #  - type: 'page'
+    #    title: 'Home'
+    #    url: '/'
+    #  - type: "wikiSections"
+ #   - type: 'taxonomy'
+  #    taxonomyType: 'categories'
+  #    includeTerms: true
+  #    termsAtRoot: true
     - type: 'page'
       title: 'Historien'
       itemId: 'Historien'
+    - type: 'page'
+      title: 'Kurs'
+      itemId: 'Kurs'
+    - type: 'page'
+      title: 'Produkter'
+      itemId: 'Produkter'
+    - type: 'page'
+      title: 'Eventer'
+      itemId: 'Eventer'
     - type: 'page'
       title: 'CV'
       itemId: 'CV - Sten Morten Misund-Asphaug'
@@ -34,8 +43,12 @@ theme:
       title: 'Hva sier andre?'
       itemId: 'Og hva sier de andre?'
     - type: 'page'
-      title: 'Ditt eget språk'
-      itemId: 'ryolisp'
+      title: 'Kontakt'
+      itemId: 'Kontakt'
+
+    - type: 'page'
+      title: 'Sbansk - Snakk med Sbanken med kode'
+      itemId: 'sbanken-api-1'
 
   #  - type: "pages"
   #    atRoot: true
@@ -46,12 +59,6 @@ theme:
       noWrapper: true
       template:
         - 'includes/postPreview_mini'
-    - type: recentPosts
-      limit: 5
-      category: personal
-      noWrapper: true
-      template:
-        - 'includes/postPreview_list'
   extraCss:
     - 'assets/css/extraCss.scss'
     - 'assets/css/pygments.scss'
