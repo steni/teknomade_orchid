@@ -3,7 +3,7 @@ layout: index
 components:
       - type: readme
 
-next: 'programmering'
+next: 'systemutvikling'
 ---
 
 # Hvem er Sten Morten Misund-Asphaug?
