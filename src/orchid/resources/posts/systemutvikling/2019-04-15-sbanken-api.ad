@@ -5,7 +5,20 @@ tags= "systemutvikling"
 +++
 
 == Sbansk: Styr egne konti med Sbanken API
-*Bibliotek du kan bruke i dag*
+EUs Revised Payment Service Directive (PSD2) vil føre til store endringer når det gjelder betalingstjenester. (1)
+For Norges del må direktivet må tas inn i EØS-avtalen før det hele trår i kraft, men deler av regelverket gjennomføres
+likevel i Norge allerede nå.
+
+Gjennom å lage åpne APIer skapes det en plattform som gir tredjeparter tilgang til data, og til å utføre handlinger
+på kundenes vegne, uten selv å være en banktjeneste (2).
+
+Sbanken var tidlig ute med å tilgjengjeliggjøre et knippe tjenester via et nytt API.
+
+Disse er i dag begrenset slik at du kan se egne konti og transaksjoner, og utføre overføringer mellom egne konti.
 
 https://github.com/steni/Sbansk[Kode @ *GitHub*, window="_blank"]
 
+
+== Kilder
+(1) Finans Norge - https://www.finansnorge.no/tema/bank/psd2-eller-betalingstjenestedirektivet/ - hentet 2019-04-18
+(2) Wikipedia - https://en.wikipedia.org/wiki/Open_banking - hentet 2019-04-18
