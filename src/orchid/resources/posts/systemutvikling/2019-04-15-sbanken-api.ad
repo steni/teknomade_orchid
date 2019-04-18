@@ -5,20 +5,70 @@ tags= "systemutvikling"
 +++
 
 == Sbansk: Styr egne konti med Sbanken API
-EUs Revised Payment Service Directive (PSD2) vil føre til store endringer når det gjelder betalingstjenester. (1)
-For Norges del må direktivet må tas inn i EØS-avtalen før det hele trår i kraft, men deler av regelverket gjennomføres
-likevel i Norge allerede nå.
+*Nye regler skaper muligheter for oppkomlinger innen finansteknologi (fintech). Det er duket for at PSD2 (EUs "Revised
+Payment Service Directive") vil føre til store endringer når det gjelder tradisjonelle bank-tjenester. (1)*
 
-Gjennom å lage åpne APIer skapes det en plattform som gir tredjeparter tilgang til data, og til å utføre handlinger
-på kundenes vegne, uten selv å være en banktjeneste (2).
+Når bankene tvinges til å åpne for at tredjeparter ikke bare kan få hente det som før har vært høyt skattede
+data, men også kan få utføre tjenester på kundens vegne, skapes grobunn for ny utvikling og ny verdiskapning.
 
-Sbanken var tidlig ute med å tilgjengjeliggjøre et knippe tjenester via et nytt API.
+=== Hvordan får du tilgang til banken?
+Bankene lager åpne APIer, disse utgjør en plattform som både gir tredjeparter tilgang til data, og til å utføre handlinger
+på kundenes vegne (2).
 
-Disse er i dag begrenset slik at du kan se egne konti og transaksjoner, og utføre overføringer mellom egne konti.
+Sbanken var tidlig ute med å tilgjengjeliggjøre et knippe tjenester via et nytt API (3). Disse er i dag begrenset
+slik at du kan se egne konti og transaksjoner, og utføre overføringer mellom egne konti.
 
-https://github.com/steni/Sbansk[Kode @ *GitHub*, window="_blank"]
+Teknomade presenterer i dag Sbansk, et bibliotek som gjør det enkelt for utviklere å komme i gang å bruke Sbanskens API.
+
+=== Slik snakker du Sbansk
+
+[source,java]
+ Sbansk client = new Sbansk();
+ Accounts accounts = client.getAccounts();
+
+Nå inneholder objektet __accounts__ informasjon om alle dine konti. Du kan hente en spesifik konto basert på dens
+navn.
+
+[source,java]
+ Account.Name LONN = Account.Name.nameFor("Lønn");
+ BigDecimal balance = client.getBalance(LONN);
+
+Om du vil vite hvor mye du har på alle konti til sammen:
+
+[source,java]
+ BigDecimal sumOfBalances = client.getSumOfBalances();
+
+Og du overfører mellom konti ved å:
+
+[source,java]
+ Account.Name LONN = Account.Name.nameFor("Lønn");
+ Account.Name BRUKSKONTO = Account.Name.nameFor("Brukskonto");
+ Account from = client.getAccount(LONN);
+ Account to = client.getAccount(BRUKSKONTO);
+ Transfer.Response response = client
+                    .execute(
+                            Transfer
+                                .amount(1.99)
+                                .from(from)
+                                .to(to)
+                                .description("Test api"));
+  assert(response.status == Transfer.Response.Status.OK);
+
+
+=== Slik kommer du raskt i gang
+1. Klon koden fra GitHub: git clone git@github.com:steni/Sbansk.git
+
+2. Registrer deg som bruker av Sbankens __betabank__. Følg instruksjonene på
+https://sbanken.no/bruke/utviklerportalen/[Utviklerportalen, window="_blank"].
+
+3. Når du har gjort det, vil du ha fått en __clientId__ og en __secret__ fra Sbanken, som sammen med ditt fødselsnummer
+vil gi deg tilgangen du skal ha.
+
+4. Under src/main/resources finner du filen template.properties. Fyll inn din client id, secret og fødseselsnummer (SSN),
+og døp filen om til default.properties.
 
 
 == Kilder
 (1) Finans Norge - https://www.finansnorge.no/tema/bank/psd2-eller-betalingstjenestedirektivet/ - hentet 2019-04-18
 (2) Wikipedia - https://en.wikipedia.org/wiki/Open_banking - hentet 2019-04-18
+(3) Sbanken - https://sbanken.no/bruke/utviklerportalen/ - hentet 2019-04-18
