@@ -100,6 +100,10 @@ vil gi deg tilgangen du skal ha.
 4. Under src/main/resources finner du filen template.properties. Fyll inn din client id, secret og fødseselsnummer (SSN),
 og døp filen om til default.properties.
 
+5. Nå kan du for eksempel kjøre ExampleApplication -- husk å endre navnet på kontoen i koden til navnet på en konto du eier.
+
+6. Ta også en titt på alle testene under src/test. De er skrevet i Groovy / Spock, og skal være enkle å forstå.
+
 
 == Kilder
 (1) Finans Norge - https://www.finansnorge.no/tema/bank/psd2-eller-betalingstjenestedirektivet/ - hentet 2019-04-18
