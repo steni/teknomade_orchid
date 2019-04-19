@@ -57,8 +57,8 @@ Og du overfører mellom konti ved å:
 Du kan også spesifisere predikater som avgjør om en transaksjon skal finne sted:
 
 [source,java]
- Transfer transfer = Transfer.amount(AMOUNT).from(a).to(b).description("Test").iff(a.balanceGT, 1000)
- Transfer.Response response = client.execute(transfer)
+ Transfer transfer = Transfer.amount(AMOUNT).from(a).to(b).description("Test").iff(a.balanceGT, 1000);
+ Transfer.Response response = client.execute(transfer);
 
 Her sier du at transaksjonen kun skal utføres om balansen på konto "a" er større enn 1000.
 
@@ -67,11 +67,26 @@ Du kan legge til så mange predikater du vil.
 Overfør 300 om fra konto a til konto b, om det står mer enn 1000 på a og mindre enn 10 på b:
 
 [source,java]
- Transfer transfer = Transfer.amount(300).from(a).to(b).description("Test")
+ Transfer transfer = Transfer.amount(300).from(a).to(b).description("Utbytteparty")
                         .iff(a.balanceGT, 1000)
-                        .iff(b.balanceLT, 10)
+                        .and(b.balanceLT, 10);
 
+__Predicate__ er et funksjonelt interface, og du står fritt til å definere dine egne. Som du ser av eksempelet, har
+klassen __Account__ definert "greater than" og "less than". I tillegg har den "equals".
 
+Å definere egne predikater er enkelt:
+
+[source,java]
+  Predicate<BigDecimal> balanceGT = balance -> (balance.compareTo(this.getBalance()) < 0);
+  Predicate<BigDecimal> balanceLT = balance -> (balance.compareTo(this.getBalance()) > 0);
+  Predicate<BigDecimal> balanceEQ = balance -> (balance.compareTo(this.getBalance()) == 0);
+
+Alle predikater definert på en transaksjon blir evaluert før transaksjonen eventuelt finner sted. Om __ikke__ alle
+predikater er oppfylt, får du følgende respons:
+
+[source,java]
+ Transfer.Response response = client.execute(transfer);
+ assert response == Transfer.Response.CONDITIONS_NOT_SATISFIED
 
 === Slik kommer du raskt i gang
 1. Klon koden fra GitHub: git clone git@github.com:steni/Sbansk.git
