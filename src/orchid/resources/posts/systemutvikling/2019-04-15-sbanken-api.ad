@@ -62,7 +62,7 @@ Du kan også spesifisere predikater som avgjør om en transaksjon skal finne ste
 
 Her sier du at transaksjonen kun skal utføres om balansen på konto "a" er større enn 1000.
 
-Du kan legge til så mange predikater du vil. For eksempel :Overfør kr300 fra konto a til konto b, om det står mer enn
+Du kan legge til så mange predikater du vil. For eksempel: Overfør kr300 fra konto a til konto b, om det står mer enn
 kr 1000 på a og mindre enn kr 10 på b:
 
 [source,java]
