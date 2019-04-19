@@ -54,6 +54,14 @@ Og du overfører mellom konti ved å:
                                 .description("Test api"));
   assert(response.status == Transfer.Response.Status.OK);
 
+Du kan også spesifisere predikater som avgjør om en transaksjon skal finne sted:
+
+[source,java]
+ Transfer transfer = Transfer.amount(AMOUNT).from(a).to(b).description("Test").iff(a.balanceGT, 1000)
+ Transfer.Response response = client.execute(transfer)
+
+Her sier du at transaksjonen kun skal utføres om balansen på konto "a" er større enn 1000.
+
 
 === Slik kommer du raskt i gang
 1. Klon koden fra GitHub: git clone git@github.com:steni/Sbansk.git
