@@ -86,7 +86,7 @@ predikater er oppfylt, får du følgende respons:
 
 [source,java]
  Transfer.Response response = client.execute(transfer);
- assert response == Transfer.Response.CONDITIONS_NOT_SATISFIED
+ assert response == Transfer.Response.CONDITIONS_NOT_SATISFIED;
 
 === Slik kommer du raskt i gang
 1. Klon koden fra GitHub: git clone git@github.com:steni/Sbansk.git
