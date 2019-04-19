@@ -62,6 +62,16 @@ Du kan også spesifisere predikater som avgjør om en transaksjon skal finne ste
 
 Her sier du at transaksjonen kun skal utføres om balansen på konto "a" er større enn 1000.
 
+Du kan legge til så mange predikater du vil.
+
+Overfør 300 om fra konto a til konto b, om det står mer enn 1000 på a og mindre enn 10 på b:
+
+[source,java]
+ Transfer transfer = Transfer.amount(300).from(a).to(b).description("Test")
+                        .iff(a.balanceGT, 1000)
+                        .iff(b.balanceLT, 10)
+
+
 
 === Slik kommer du raskt i gang
 1. Klon koden fra GitHub: git clone git@github.com:steni/Sbansk.git
