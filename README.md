@@ -1,3 +1,13 @@
+# "Software is eating the world"
+
+-Marc Andreessen 
+
+En programmerer elsker dette:
+
+Å grave frem manuelle prosesser som kan automatisere vekk, slik at ingen lenger trenger å gjøre dem: å skape intet ut av noe.
+
+Å gripe en idé ut av løse luften og forme den til virkelighet : Å skape noe ut av intet.
+
 # Vi er skapere  
 
 "The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, 
@@ -13,6 +23,3 @@ screen comes to life, showing things that never were nor could be."
 -Fred Brooks
 
 
-# "Software is eating the world"
-
--Marc Andreessen 
