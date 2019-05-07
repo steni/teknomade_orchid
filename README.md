@@ -12,5 +12,7 @@ screen comes to life, showing things that never were nor could be."
  
 -Fred Brooks
 
-"Software is eating the world"
+
+# "Software is eating the world"
+
 -Marc Andreessen 
