@@ -26,10 +26,14 @@ Kunder jeg har jobbet med: FINN.no, Coop, NRK, NSB, Samlerhuset, Adam og Eva Gru
 == Historikk
 
 === 2017- Giant Leap Technologies AS
+*Forretningsområde:* Mobilapplikasjoner
+
 - "Flyvende keeper": Prosjekleder og utvikler for kunder som Coop og 1881.
 
 
 === 2014-2016 Time Tools Industries AS
+*Forretningsområde:* Digital markedsføring.
+
 I 2014 hoppet jeg i noen år av konsulent-karrieren i Kodemaker AS for å starte Time Tools AS.
 
 Jeg gjorde all digital markedsføring for Adam og Eva Gruppen (frisørsalonger og frisørskole). Annonse- og
@@ -47,10 +51,14 @@ I tillegg gjorde jeg blant annet:
 *I årene 2008 - 2014 var jeg partner, styremedlem, og systemutvikler (konsulent) i Kodemaker Systemutvikling AS.*
 
 === 2012-2014 NSB
+*Forretningsområde:* Transport
+
 - Backend: Utvikling av system for datainnhenting, prosessering og rapportering rundt virksomhetskritiske data for NSB
 - Groovy, Oracle SQL
 
-### 2012 Oiiku AS
+=== 2012 Oiiku AS
+*Forretningsområde:* Eventer
+
 Oikku er et SaaS-system for å organisere eventer, og holde kontakten med deltakerene underveis. Jeg utviklet en modul for å
 kommunisere med deltakere via SMS og epost, gitt visse tidspunkter eller hendelser.
 
@@ -58,7 +66,9 @@ kommunisere med deltakere via SMS og epost, gitt visse tidspunkter eller hendels
 - Clojure, Google Closure, JavaScript, MongoDB, Quartz / Quartzite, Joda Time, JSON, XML/REST mot PSWinCom
 
 
-### 2010-2012 FINN.no
+=== 2010-2012 FINN.no
+*Forretningsområde:* Digitale markedsplasser
+
 Scrum Master for Team Motor.
 
 I tillegg til den normale videreutviklingen av alle motor-produktene, lagde vi en helt ny løsning for Nybil.
@@ -70,7 +80,10 @@ I tillegg til den normale videreutviklingen av alle motor-produktene, lagde vi e
 - Java, Spring, Spring MVC, SolR, Apache Camel, FAST, Tiles 2, JSP, svn, Sybase, JavaScript, jQuery, Tomcat, Cucumber
 
 
-### 2009-2010 NRK Nye Medier
+=== 2009-2010 NRK Nye Medier
+*Forretningsområde:* Kommunikasjon
+
+
 På NRK var jeg i 2009 del av et firemanns-team. Vi lagde en Facebook- applikasjon for å chatte om hva man ser på tv, kalt «TV-Prat».
 
 Dette innebar hovedsakelig å integrere eksisterende chat-teknologi (jabber / XMPP) med Facebook-apiet, samt design og implementasjon av et eget, tynt logikk-lag (php / mysql).
@@ -83,7 +96,9 @@ NRK er opptatt av å være relevant som allmennkringkaster også i fremtiden, og
 - PHP, Jabber (XMPP), JavaScript
 
 
-### 2008-2009 Ably AS (Point Carbon)
+=== 2008-2009 Ably AS (Point Carbon)
+*Forretningsområde:* Energi
+
 *Stikkord:* Rådgivning, arkitektur, utvikling. Ablys teknologi er sentrert rundt telemetri utført ved hjelp av spesialdesignet hardware. Ably er deleid av Point Carbon.
 
 *Arbeidsoppgaver:*
@@ -105,7 +120,9 @@ For Ably betyr datasikring og optimalisering at forretningskritiske data er sikr
 
 ***
 
-### 2004-2008 Sencel Bioinformatics AS
+=== 2004-2008 Sencel Bioinformatics AS
+*Forretningsområde:* Akademia / biologi
+
 - Gensøk-system, utviding av funksjonalitet, og nyutvikling av Pay Per Click - system
 - C, C++, PHP
 
@@ -128,7 +145,9 @@ Annonseringsløsningen er en viktig del av forretningsplanen til PubGene AS, og 
 Samtidig med utviklingsansvaret, drev jeg markedsføring for PubGene via Google AdWords og søkemotoroptimalisering.
 
 
-### 2000-2001, 2004 Tri Mex AS
+=== 2000-2001, 2004 Tri Mex AS
+*Forretningsområde:* Sporing av verditransporter
+
 - Sporing av veriditransport i real time
 - Java, C# MSSQL
 
@@ -136,16 +155,16 @@ TRI-MEX sporer forsendelser gjennom alle reisens etapper ved hjelp av GPS, SMS o
 
 I 2000-2001 lagde jeg meldingsparseren (i Java) som tok imot SMSer og eposter fra sporingsenhetene og parset lokaliseringsdataene (disse kom i flere forskjellige formater), og la dem i en MSSQL database.
 
-Da systemet var på plass, var jeg med å drifte det.
-
 I 2004 kom jeg inn i sluttfasen på et prosjekt der TRI-MEX bygde en web-portalløsning for sine kunder, så kunden selv kunne følge med på forsendelsene. Jeg implementerte logikken for tilgangsbegrensning etter en CRUD-analyse. Dette ble gjort i C# og MSSQL.
 
 
-### 2000-2001 Norconsult AS
+=== 2000-2001 Norconsult AS
+*Forretningsområde:*
+
 - Utvikling av nytt dokumenthåndteringssystem
 - Visual Basic, Oracle database
 
-I samarbeid med en annen designet og implementerte jeg en dokumentdatabase for Norconsult. Formålet med databasen var å holde rede på hvor på huset et enkelt dokument befant seg.
+Ansvar for å designe og implementerte en dokumentdatabase for Norconsult. Formålet med databasen var å holde rede på hvor på huset et enkelt dokument befant seg.
 
 
 
