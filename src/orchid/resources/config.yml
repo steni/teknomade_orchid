@@ -2,7 +2,7 @@ site:
   about:
     siteName: 'TEKNOMADE'
     subtitle: 'Systemutvikling ♥ Markedsføring'
-    siteDescription: 'This is a short blurb you can set below this index layouts sidebar.'
+    siteDescription: 'Teknomader ... Gjør verden bedre med kode!'
     avatar: '/assets/media/tn-merke.png'
 
 theme:
@@ -54,7 +54,7 @@ theme:
   #    atRoot: true
   sidebar:
     - type: recentPosts
-      limit: 3
+      limit: 5
       category: gallery
       noWrapper: true
       template:
