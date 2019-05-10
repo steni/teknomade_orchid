@@ -2,36 +2,72 @@
 title = "Historien"
 +++
 
-image:/assets/media/kjetilsolvangcarlsen.jpeg[float=left]
+Da jeg var liten gutt jobbet far min som grafisk designer på et trykkeri i Bærum.
 
-## Kjetil Solvang Carlsen, Tjenesteansvarlig Coop Norge:
-Sten Morten leverer både teknologi og humør. Et multitalent med personlighet som både tenker ut av boksen, men også strukturerer gode leveranser.
+En dag jeg var syv år gammel, kom han hjem med en bok de hadde trykket den dagen -- for Dønski Videregående Skole --
+den het noe sånt som "Introduksjon til BASIC: __Beginners All-Purpose Symbolic Instruction Code__".
 
-Sten Morten har en utrolig kunnskap fylt med relevant, og urelevant (men allikevel så relevant!) kunnskap. Dette gir faglige diskusjoner ekstra dimensjoner og energi.
+image:/assets/media/sharpmz721.jpg[Sharp MZ-721, float=left]
 
-Sten Morten har en sterk team-profil. Og alle team burde være så heldige å ha med en personlighet som ham.
-(1. mars 2019)
+Boken var varm i hendene mine, trykksverten såvidt tørket. Det luktet cellulose og kjemikalier.
 
-image:/assets/media/fayskogstad.jpg[float=left]
+Det luktet eventyr.
 
-## Fay Skogstad, Adam og Eva Skolen AS:
-“Med Sten Mortens systemer opplevde vi en eksplosjon av nye kunder.” (4. februar 2015)
+Fadern var fremsynt, det skal han ha. Som tidligere svakstrømselektriker var han fascinert av datamaskiner, han mente
+de var fremtiden.
 
-## Eirik Håstein, Produktdirektør, FINN Bil AS (FINN.no):
-“Sten Morten har jobbet i FINN bils utvikingsteam i mer enn 2 år. Han er kunnskapsrik og faglig dyktig samtidig som han er sosial og en humørspreder i teamet. Han evner å se samspillet mellom forretning og produktutvikling og leverer alltid gjennomtenkte og gode løsninger av høy kvalitet. Det har vært en glede å ha Sten Morten i teamet og jeg kan anbefale han som konsulent. Nøkkelkvaliteter: høy kvalitet i arbeidet, løsningsorientert, sosial.”
-(4. juli 2012)
+Derfor hadde han for noen måneder siden satt kloa i en Sharp MZ-721, en mikrodatamaskin med integrert kassettspiller,
+2 KB ROM, 64 KB RAM, 2 KB VRAM og en prosessorhastighet på 4 MHz.
 
-## Jesper Dall, Director Sales & Business Development, Ably AS:
-“Sten Morten is a pleasure to work with. He grasps a variety of IT problems immediately and knows how to implement the necessary changes quickly. His estimates are trustworthy, and he is flexible and personable. I hope to get the opportunity to work with Sten Morten again in the future. Top qualities: Great Results, Personable, Creative”
-(2. november 2009)
+Den kunne vise frem 8 forskjellige farger, og hadde én lydkanal.
 
-## Gavin Bell, Daglig leder, Ably AS:
-“Sten Morten worked for Ably over a 12 month period, on a number of mission critical IT development projects. He delivered at all times consistent, high-quality results, and was always a
-pleasure to work with and have on our team. Top qualities: Great Results, Expert, High Integrity”
-(9. november 2009)
+Og ... den kom med programmeringsspråket BASIC på kassett!
 
-## Trevor Clancy, Manager, PubGene AS:
-Sten Morten was a talented and knowledgeable programmer to work with. I found him to be creative and very forthcoming with new ideas. He had the competence to also implement these ideas in our projects. Furthermore Sten Morten was a very collaborative work colleague, easily to get on with and helpful. I would highly recommend him to participate or lead in project development.
-(1. september 2008)
+Det tok tre minutter og fem-og-tjue sekunder å laste inn BASIC fra kassetten, og så blinket det
+mot meg.
+image:/assets/media/mz700_12.jpg[Sharp MZ-721 BASIC, float=left]
+
+Jeg vet ikke hvor mye du kan om BASIC, men det ser cirka sånn ut når en 7 år gammel pjokk programmerer
+det i 1983:
+
+[source,basic]
+10 PRINT "STEN MORTEN ER KUL"
+20 GOTO 10
+RUN
+
+(Som du kanskje kan gjette, skriver dette programmet "STEN MORTEN ER KUL" på skjermen helt til det
+blir kvelden og foreldrene dine tvinger deg til å skru av datamaskinen og gå og legge deg.)
+
+*Datamaskinen umiddelbare respons* når jeg endret koden fikk piler av elektrisitet til å skyte gjennom kroppen min.
+
+Jeg var Gud!
+
+Et år senere våknet jeg tidlig en lørdag morgen opp med en god idé. Jeg svettet over koden hele
+dagen, hadde knapt tid til middag. Jeg prøvde og feilet og prøvde og feilet igjen.
+
+Og så ... eureka! Det virket!
+
+Og så ... gikk strømmen.
+
+Hele dagens arbeid forsvant.
+
+Jeg gråt, jeg hylte.
+
+Og det skulle bli verre:
+
+Modern kom rasende inn på rommet mitt, brølte at om det var slik datamaskinen fikk
+meg til å føle, så gikk den i søpla.
+
+"Mamma, du forstår ikke". Tårene sto i øynene på meg.
+
+Jeg var en åtte år gammel Gud som hadde mistet skaperverket sitt.
+
+Guden som glemte å lagre.
+
+
+
+
+
+
 
 
