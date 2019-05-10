@@ -7,9 +7,9 @@ site:
 
 theme:
   social:
-    facebook: 'facebookUsername'
-    twitter: 'twitterHandle'
-    instagram: 'instagramHandle'
+    facebook: 'steni'
+    twitter: 'stenmorten'
+    instagram: 'stenmorten'
     github: 'steni'
     other:
       - label: 'linkedin'
