@@ -2,7 +2,7 @@
 
 En programmerer elsker dette:
 
-Å grave frem manuelle prosesser som kan **automatiseres vekk**, slik at ingen lenger trenger å gjøre dem: **å skape intet ut av noe.**
+Å **automatiseres vekk** tungt og kjedelig arbeid, slik at ingen lenger trenger å gjøre det: **å skape intet ut av noe.**
 
 Å gripe en idé ut av løse luften og forme den til virkelighet : **Å skape noe ut av intet.**
 
