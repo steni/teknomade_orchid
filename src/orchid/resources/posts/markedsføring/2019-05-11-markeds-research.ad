@@ -1,0 +1,234 @@
++++
+title = "Skal jeg gå inn i dette markedet?"
+featuredImage = "assets/media/learn-coding.png"
+tags= "markedsføring"
++++
+
+== Notater: Skal jeg gå inn i nytt marked?
+
+Uansett hva du selger, selger du egentlig kunden "en bedre versjon av seg selv".
+
+Dette er spesielt sant i kurs- / ekspertbransjen, der du, når du koker det helt ned, selger
+"how to".
+
+Kunden skal altså på en reise, gjennomgå en transformasjon, og bli en bedre versjon av seg selv.
+
+Kan du beskrive denne transformasjonen med ett ord?
+
+Lære. Vokse. Stoppe. Starte.
+
+I historiefortelling er dette heltens *indre* reise. Michael Hauge fra Story Mastery sier at
+i enhver (Hollywood-) film handler den indre reisen om minst én av disse fire:
+
+*Vinne. Hente. Rømme. Stoppe.*
+
+=== Brainstorming: Hvilke markeder har jeg lyst å gå inn i?
+
+Hva ressonerer med meg å hjelpe til med?
+
+*Jeg vil hjelpe folk å ...*
+
+- bygge funnels
+- programmere
+- lære å programmere Java
+- bygge, ekspandere bedrift
+- skape effektiv markedsføring
+
+("Du må være generell, men spesifikk" -Ryan Levesque)
+
+*Markedet må ikke være for lite (ikke nok kunder, for lite konkurranse!), for stort (for mye konkurranse,
+link:/markedsfring/2019/5/9/unik-mekanisme["Red Ocean]), ha nedadgående trend, eller
+rett og slett være en "fad".*
+
+
+=== Research: Er det en fremtid i disse markedene?
+
+Hvordan vet vi om det er et marked? Det første vi kan gjøre, er å finne ut om folk faktisk søker på relaterte termer.
+
+Her har jeg skrevet inn "how to learn java" i Google. Google viser ikke bare websider som matcher søket, men også andre,
+relaterte søk under overskriften "People also ask".
+
+image:/assets/media/learn-java-1.png[Learn Java Google Search,100%]
+
+TIP: Om du trykker på noen av disse nye søketermene, vil Google vise stadig flere, så du får en lang liste.
+
+Du kan også scrolle til nederst på siden, og se der det står "Searches releated to".
+
+image:/assets/media/releated-searches.png[Learn Java Related Searches, float=left]
+
+*Nå vet du altså __hva__ folk søker på. Det er en god start. Likevel vet du ikke __hvor mange__ som søker.*
+
+=== Smørøyet-frasen
+
+Smørøyet-frasen må uttrykke prosessen eller reisen eller transformasjonen folk vil oppleve som et
+resultat av å kjøpe ditt produkt. (-Ryan Levesque)
+
+Stort sett mellom 1 - 3 ord.
+
+Noen ganger er prosessen bygd inn i ordet selv: "brygge" i ølbrygging.
+
+Tenk på det som noe du kan lære bort: du kan ikke lære bort "øl", men du kan lære bort å __brygge__ øl.
+
+__"To have a successful business means providing customers with something og value, so when in doubt,
+ask yourself 'What do I want to help people do, achieve, experience, or have as an outcome releated
+to my business idea?' This will ensure there's an active process or journey element to your answer."__
+- Ryan Levesque
+
+"Lære programmering / java":
+
+- Jeg vil at folk skal oppleve glede og mestring, få kjenne på kroppen link:/historien[hvor moro programmering
+er], det skal sitre i kroppen når de oppdager sin egen superkraft
+- Jeg vil at folk skal lære nok til å skape noe nytt -- bygge sin egen software
+- Jeg vil at folk skal lære nok til at de kan bli ansatt som junior-programmerere
+- Jeg vil oppfordre og inspirere folk til å strekke seg lenger, til å __kode for en bedre verden__
+- Jeg vil at de skal starte på en livslang reise av skaperglede
+- Og jeg vil være med dem på reisen
+
+*Mulige smørøy-fraser:* __learn programming, learn java, learn python, build funnels, grow business,
+expand business, learn digital marketing__
+
+=== Google-testen og Amazon-testen
+Tast smørøye-frasen inn i Google, og se om resultatene matcher med det du tenker på.
+
+Er det annonser der for produkter eller tjenester som likner på det du tenkte på? I så tilfelle
+tyder det på at det er et marked der.
+
+Ditto for Amazon.
+
+.Smørøyetester
+[width="100%",cols=">s,^m,^m,^m",frame="topbot",options="header",%interactive]
+|==========================
+|Frase            |Google| Annonser | Amazon
+|Learn java       |  Ja  | Ja       | Ja
+|Learn programming|  Ja  | Ja       | Ja
+|Learn python     |  Ja  | -        | Ja
+|Build funnels    |  Ja  | Ja       | Nja
+|Build sales funnels|  Ja| Ja       | Ja
+|Create funnels   |  Ja  | Ja       | Ja
+|Make funnels     | (Ja) | (Ja)     | -
+|Grow business    |  Nja |  -       | -
+|Expand business  |  Nja |  -       | Nja
+|==========================
+
+*Verdens største søkemotor og verdens største markedsplass indikerer at noen av disse ideene er bedre enn andre.*
+
+Nyttig.
+
+== Markedets størrelse: The Market Size Sweet Spot
+
+*Det finnes tre enorme markeder: health, wealth, relationships.*
+
+Det handler i bunn og grunn om at vi er dyr som ønsker å overleve: god helse, tilegne oss og kontrollere ressurser, og
+at vi er avhengige av hverandre.
+
+Innenfor disse finnes det tusenvis av nisjer. Innenfor wealth, for eksempel: hvordan flippe eiendommer,
+hvordan lage nettbutikk, hvordan spekulere i aksjer. Og innenfor hver nisje finnes det sub-nisjer:
+hvordan flippe eiendommer på Frogener, hvordan shorte aksjer.
+
+Det finnes en "Sweet Spot" for å selge opplæring og ekspertise.
+
+Her er ideen din "nok sub-nisje", men ikke "for mye sub-nisje": markedet er stort nok til at det er verdt å være i,
+men ikke så stort at du trenger en milliard-bedrift i ryggen for i det hele tatt å synes.
+
+Vi går videre med: __learn java, learn programming, build (sales) funnels, create funnels__.
+
+image:/assets/media/sweetspot.png[Learn Java Google Search,100%]
+
+Med Google Trends kan du se hvor mye en søketerm blir søkt på, relativt til andre søketermer. Ryan Levesque har gjort
+en brilliant oppdagelse: Av alle de tusenvis av kunnskapsbaserte bedriftene han har undersøkt, ligger alle i det samme
+"båndet" på denne grafen. Alle vellykkede bedrifter ligger et sted mellom "orchid care" i bunnen og "leadership skills"
+i toppen. (Han har fire som definerer båndet: "orchid care", "improve memory", "leadership skills", "beekeeping".)
+
+Ingen av de mislykkede bedriftene han undersøkte, lå i dette båndet.
+
+image:/assets/media/digital-marketing-trends.png[Digital Marketing Trend,float=left]
+
+Sammenlikn for eksempel med antall søk på "digital marketing".
+
+Du ønsker deg et marked som er stabilt, eller trender opp, men ikke slik som digital markedsføring gjør.
+
+Vi ser at "learn java" er midt i båndet -- grønt lys! "Learn programming" ligger på oversiden og dipper ned i båndet --
+gult lys!
+
+
+=== Konkurransen i markedet
+For mye konkurranse betyr at annonseprisene blir for høye, og du kan bli presset på pris.
+
+For lite konkurranse betyr antakelig at det ikke finnes et behov, og ergo, ikke noe marked.
+
+__Pioneers get shot and settlers get rich.__
+
+Det er bra om noen andre har vært der før deg. De har brukt tid og penger på å finne ut hva som virker.
+
+Du kan studere hva de har gjort, og emulere (ikke stjele!) -- la deg inspirere. Det Russell Brunson kaller
+https://clickfunnels.com?cf_affiliate_id=98701&affiliate_id=98701&aff_sub=tn_blogg&aff_sub2=markeds_research&nopopup=false&noautoplay=false&cookiepreview=false[Funnel Hacking^,role="ext-link"].
+
+Det du ønsker deg, er et marked som tjener penger "på tross av seg selv".
+
+Du kan se at det finnes feil, mangler, hull du kan fylle. I et eksisterende marked.
+
+Du trenger bare å lage noe __litt bedre__ eller _litt annerledes__.
+(Se notater om link:/markedsfring/2019/5/9/unik-mekanisme["Den Unike Mekanisme"])
+
+*Her er spørsmålet*: Finnes det noen som *annonserer* for produktene sine, i markedet du snuser på?
+
+Hvis ja, er det grønt lys! Hvorfor? Fordi annonsering koster penger, og om det finnes firmaer som annonserer over tid,
+så vet du *at de tjener penger* (eller har investorer og blør penger ...)
+
+På Google ser vi det er annonser.
+
+image:/assets/media/learn_java_ad.png[Google Keyword Planner,100%]
+
+Likevel ... er det nok? Det ser ut til at det kun er giganter som Udemy som går igjen.
+
+Codecademy dukket opp i går da jeg gjorde samme søket.
+
+Hva med på Amazon? Der er det også annonser, men heller ikke så mange.
+
+image:/assets/media/Amazon_com__learn_java.png[Amazon Sponsored Ad,100%]
+
+Dette er gult lys.
+
+Siste stopp er Gogle Keyword Planner. Her kan vi få innsikt i hva slags volum det er på søkeordene, hva de kommer
+til å koste per klikk med AdWords, og hvor mye konkurranse det er.
+
+Og her er det liv!
+
+image:/assets/media/google_keyword_forecast_learn_java.png[Google Keyword Planner,100%]
+
+Jeg satte makspris jeg var villig til å gi for et klikk til NOK 25.
+
+Da anslår Google at vi kan få omtrent 13 000 klikk i måneden. Riktig nok for NOK 200 000.
+
+image:/assets/media/Keyword_forecasts_-_summary.png[Summary Google Keyword Planner,100%]
+
+Og ikke bare det: Google forteller oss at det er "medium competition" på de mest relevante søkeordene.
+
+image:/assets/media/Keyword_historical.png[Historical Google Keyword Planner,100%]
+
+=== Fem kriterier for markedet
+
+- Evergreen: Check
+- Entusiastisk marked - ikke bare noe du kjøper for å bli kvitt et problem, men noe som de kan være
+enusiastiske for hele livet. Da kan du selge flere produkter til dem, og ha dem som kunder "for alltid": Check
+- Et "100 000 kroners problem" - altså: finnes det omstendigheter som gjør at et prospekt ville kunne betale så mye
+for ditt produkt / tjeneste? Ja. Dette er en bransje med millionlønninger, og enda større muligheter for
+den som lager egen software og klarer å bygge en SaaS-bedrift.
+- Fremtidige problemer: Når de har mestret deu lærte dem, er det mer du kan lære dem? Ja!
+- Players With Money: Finnes det noen som er villig til å betale store penger for dine produkter og tjenester? Ja,
+firmaer betaler både for programmering, programmerere og opplæring
+
+... kan jeg koble opp gode studenter med interesserte firmaer? Er det også en fantastisk bonus for studentene mine?
+
+
+
+---------
+Forutsetning:
+
+Forretningsmodell allerede valgt: Produktfokusert,altså ebøker, bøker, online kurs.
+
+I backend: Selge konsulent-tjenester (klientfokusert forretningsmodell).
+
+Også mulig å legge til medlemskapsmodell og eventer (boot camp, work shops, live)
+---------
+
