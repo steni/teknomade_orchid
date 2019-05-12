@@ -71,6 +71,59 @@ Form: Name, email, phone or skype (optional)
 Du vil vite hvor de henger i helgene, hvordan de lukter, og hva de ser på tc på fredagskveldene, hvilken bok de
 har på nattbordet, hva slags bil de kjører...
 
+==== Annonser til landingsside
+
+Bytt bribe mot info.
+
+Side 1: Jeg vil bytte bribe mot info. Knapp til...
+
+Side 2:  the open question
+
+Side 3: nytt open ended: What prompted you to search for the answer today in particular? (fra PPC!)
+
+Deretter: de andre spørsmålene, mot slutten, age, gender, professional situation
+
+Til slutt: Name, email, phone or skype (optional)
+
+Husk: Troverdighet ovenfor trafikk-kilde. Privacy Policy, Contact Page, Terms & Conditions, Content Pages,
+logo, og i noen tilfeller en klar beskrivelse av hva du selger og hvordan forretningsmodellen er (ROSCA).
+
+==== Analyse
+MULT = lagt igjen telefonnummer ? 1.5 : 1.0
+SCORE = LEN(svar på åpent spørsmål) * MULT
+
+Bra score er 400 og oppover
+
+Fokuser på top 20%, burde ha 100 stykker i top 20%. Alle i top 20% merkes 1 i HYPER-kolonnen.
+
+==== 80/20
+Let etter 80/20 i svarene til hvert spørsmål. Hvordan når du størst del av markedet, med færrest mulig bøtter?
+
+Hver bøtte skaper kompleksitet - websider, eposter. Hvor har du størst __impact__?
+
+(Finnes det en 80/20 inne i din 80/20?)
+
+==== Hva slags språk bruker de?
+Let gjennom svarene på det åpne spørsmålet, fokuser på de to 20%.
+
+Du skal finne:
+
+- Hvilket bøtter som viser seg i ditt marked
+- Finne folks "Hot buttons"
+- Avdekke "objections"
+- Avdekke "biggest challenges"
+- Bruk sammen med demografisk informasjon
+
+Nå: reduser til du har 3 - 5 bøtter som dekker cirka 50% av markedet.
+
+Med de 3 - 5 bøttene vil du for eksempel ha forskjellig:
+- messaging
+- produkt
+- eller begge
+
+
+
+
 === 2. Micro-Commitment Bucket Survey
 Dette blir en permament del av funnelen. Starter med å stille en serie ikke-truende multiple-choice spørsmål
 før man ber om mer spisset og personlig informasjon som navn og epost.
@@ -78,6 +131,53 @@ før man ber om mer spisset og personlig informasjon som navn og epost.
 Det siste spørsmålet før navn og epost, er gjerne segmenteringsspørsmålet.
 
 Svarene brukes til å putte folk i segmenter, så markedsføringen kan skreddersyes.
+
+==== Landingssiden
+Kunden skal inn i funnelen gjennom MCBSen.
+
+TIP: Presentasjon og posisjonering: Leke doktor (-Dan Kennedy). Diagnostisere problemet, og foreskrive
+(prescribe) en løsning
+
+- 1 inch header med logo og trust elements, og evt telefonnumer
+- Pre-Survey Landing Page Video
+- Headline: I video! "Is it possible to learn x in just y days using these techniques?" (e.l.)
+- Below video: "For the readers". Testimonials, media mentions, customer reviews, case studies(?). Summary
+of benefit of moving forward even if they didn't watch video
+
+Språket for å beskrive disse fordelene kommer fra Deep Dive Survey.
+
+==== Video script
+Ben Jonson - style link:https://book.askmethod.com/bonuses/downloads/vsl-checklist-final-rj.pdf[VSL^,role="ext-link"] :-D
+
+===== The Hook
+Dine prospekter har en røff ide om hva de sliter med, men akkurat som ved et legebesøk, så vet de ikke
+nødvendigvis akkurat hva som ergalt -- bare at noe er det (de når ikke målet sitt ... hvorfor?)
+
+De tror det er et ubegrenset antall muligheter.
+
+Din jobb er å finne ut hva det er, og det er herfra din hook burde komme.
+
+I videoscriptet hjelper vi dem se at det finnes bare en begrenset mengde muligheter, og det vil gi dem umiddelbar
+lettelse.
+
+Ryans hook: The #1 marketing bottleneck
+
+Script: "When it comes to your business, is it really possible to double your revenue simply by identifying
+your number one marketing bottleneck?
+
+Here's the thing ... When it comes to growing your business, there are basically seven possible bottlenecks that can
+hold businesses back from reaching the next level of income. And every business tends to have a primary marketing
+bottleneck, which is the #1 thing holding them back.
+
+However, the challenge is this: As a business owner with hundreds of different competting priorities, it's sometimes
+difficult to have enough perspective to identify what the #1 marketing bottleneck is and how to fix it.
+
+Solving this problem for business owners is what my team and I do all day, every day ..."
+
+===== If-then statements
+
+
+
 
 
 === 3. Do You Hate Me? Survey
