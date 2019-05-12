@@ -4,7 +4,7 @@ featuredImage = "assets/media/sbanken_vennlig_rebell.jpg"
 tags= "systemutvikling"
 +++
 
-== Sbansk: Styr egne konti med Sbanken API
+== Sbansk: Enkel tilgang til egen bank
 *Nye regler skaper muligheter for oppkomlinger innen finansteknologi (fintech). Det er duket for at PSD2 (EUs "Revised
 Payment Service Directive") vil føre til store endringer når det gjelder tradisjonelle bank-tjenester. (1)*
 
@@ -19,6 +19,9 @@ Sbanken var tidlig ute med å tilgjengjeliggjøre et knippe tjenester via et nyt
 slik at du kan se egne konti og transaksjoner, og utføre overføringer mellom egne konti.
 
 Teknomade presenterer i dag Sbansk, et bibliotek som gjør det enkelt for utviklere å komme i gang å bruke Sbanskens API.
+
+Tankegangen bak arkitekturen er å gjøre det så raskt som overhode mulig å komme i gang å bruke tjenestene som APIet tilbyr,
+i steden for å måtte sette seg inn i hvordan protokollen virker.
 
 === Slik snakker du Sbansk
 

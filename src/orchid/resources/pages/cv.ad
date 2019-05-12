@@ -3,20 +3,171 @@ title = "CV - Sten Morten Misund-Asphaug"
 +++
 image:/assets/media/smma-half-figure.jpg[200,300,float=left]
 
-## Sammendrag
+== Sammendrag
 
-*Systemutvikler.* Gift, tre barn.
+[.lead]
+*Teknomade: Programmererende prosjektleder med talent for markedsføring.* Gift, tre barn.
 
 *Utdanning*: Dobbel bachelor i Computer Science og Kognitiv Psykologi.
 
 
-Jeg er programmerer, prosjektleder og forfatter, og trives aller best i grenselandet mellom forretningsstrategi og teknologi.
+_Jeg programmerer, skriver, markedsfører og leder prosjekter. Trives som plommen i egget i grenselandet mellom
+forretningsstrategi og teknologi._
 
-De siste årene har jeg også vært "programmerende prosjektleder" i små team, og gleder meg over å trygge yngre programmerer og sikre deres utvikling og produktivitet.
+De siste årene har jeg vært "flyvende keeper": en *programmerende prosjektleder* i små team, og gleder meg over å trygge
+yngre programmerer og se dem spire og gro.
 
 Jeg har programmert siden jeg var 7 år gammel, og har har mer enn 15 års erfaring fra profesjonelle
-systemutviklingsprosjekter. Har velutviklet evne til å se forretningspotensiale og en metodisk tilnærming
-til avanserte problemstillinger.
+systemutviklingsprosjekter. Jeg har også solgt tusenvis av varer og tjenester for meg selv og mine kunder på nett.
+
+*Noen kunder*: FINN.no, Coop, NRK, NSB, Samlerhuset, Adam og Eva Gruppen
+
+
+
+== Historikk
+
+=== 2017- Giant Leap Technologies AS
+*Forretningsområde:* Mobilapplikasjoner og integrasjoner
+
+- "Flyvende keeper": Prosjekleder og utvikler for kunder som Coop og 1881.
+
+
+=== 2014-2016 Time Tools Industries AS
+*Forretningsområde:* Digital markedsføring.
+
+I 2014 hoppet jeg i noen år av konsulent-karrieren i Kodemaker AS for å starte Time Tools AS.
+
+Jeg gjorde all digital markedsføring for Adam og Eva Gruppen (frisørsalonger og frisørskole). Annonse- og
+salgssystemene vi skapte, står fremdeles og skaper kunder for Adam og Eva hver dag.
+
+I tillegg gjorde jeg blant annet:
+
+- Utarbeidet, produserte og solgte online-kurset "Salgsmaskin (R)".
+- Skrev boken "Enkel og Effektiv Digital Markedsføring" (ISBN: 978-82- 999697-3-4)
+- Stikkord: Direktemarkedsføring, digital markedsføring, A/B split testing, konverteringsoptimalisering, salgssporing.
+- Område: Utvikling og salg av digitale informasjonsprodukter. Konsulentvirksomhet innen digital markedsføring.
+
+***
+
+*I årene 2008 - 2014 var jeg partner, styremedlem, og systemutvikler (konsulent) i Kodemaker Systemutvikling AS.*
+
+=== 2012-2014 NSB
+*Forretningsområde:* Transport
+
+- Backend: Utvikling av system for datainnhenting, prosessering og rapportering rundt virksomhetskritiske data for NSB
+- Groovy, Oracle SQL
+
+=== 2012 Oiiku AS
+*Forretningsområde:* Eventer
+
+Oikku er et SaaS-system for å organisere eventer, og holde kontakten med deltakerene underveis. Jeg utviklet en modul for å
+kommunisere med deltakere via SMS og epost, gitt visse tidspunkter eller hendelser.
+
+- Nyutvikling av produkt i samarbeid med Onkel Estrup AS
+- Clojure, Google Closure, JavaScript, MongoDB, Quartz / Quartzite, Joda Time, JSON, XML/REST mot PSWinCom
+
+
+=== 2010-2012 FINN.no
+*Forretningsområde:* Digitale markedsplasser
+
+Scrum Master for Team Motor.
+
+I tillegg til den normale videreutviklingen av alle motor-produktene, lagde vi en helt ny løsning for Nybil.
+
+- Utvikling av Nybil-løsning.
+- Omskriving fra FAST søketeknologi til SolR
+- Utviklet data-innhentingstjeneste for "biltester" med Apache Camel
+- Utviklet ny, hierarkisk produktvelger
+- Java, Spring, Spring MVC, SolR, Apache Camel, FAST, Tiles 2, JSP, svn, Sybase, JavaScript, jQuery, Tomcat, Cucumber
+
+
+=== 2009-2010 NRK Nye Medier
+*Forretningsområde:* Kommunikasjon
+
+
+På NRK var jeg i 2009 del av et firemanns-team. Vi lagde en Facebook- applikasjon for å chatte om hva man ser på tv, kalt «TV-Prat».
+
+Dette innebar hovedsakelig å integrere eksisterende chat-teknologi (jabber / XMPP) med Facebook-apiet, samt design og implementasjon av et eget, tynt logikk-lag (php / mysql).
+
+I 2010 videreutviklet prosjektleder og jeg applikasjon til å kunne kjøre uavhengig av facebook, der innlogging kan skje via OpenID, og chatten er «embeddable» i enhver vanlig html-side.
+
+NRK er opptatt av å være relevant som allmennkringkaster også i fremtiden, og har lagt merke til at mange diskuterer det de ser på tv realtime på nettet. Facebook-applikasjonen «TV-Prat» ble promotert på nrk.no under de norske melodi grand prix-sendingene, og nevnt på Dagsrevyen under den norske finalen.
+
+- Tv-fokusert chat-løsning i og utenfor Facebook
+- PHP, Jabber (XMPP), JavaScript
+
+
+=== 2008-2009 Ably AS (Point Carbon)
+*Forretningsområde:* Energi
+
+*Stikkord:* Rådgivning, arkitektur, utvikling. Ablys teknologi er sentrert rundt telemetri utført ved hjelp av spesialdesignet hardware. Ably er deleid av Point Carbon.
+
+*Arbeidsoppgaver:*
+
+Jeg ble hentet inn fordi produksjons-databasen var ustabil, og min første oppgave var å optimalisere denne så den opererte stabilt.
+
+Deretter designet og implementerte jeg et data-harvesting system i PHP, som laster ned data i en rekke formater via en rekke protokoller, og lagrer i Ablys database.
+
+I tillegg utviklet jeg en applikasjon som ekstraherte data fra Ablys MySQL-database, transformerte disse på bakgrunn av visse regler, og lagret de nye dataene i Point Carbons Oracle database (Jasper ETL).
+
+Når dette var på plass, var jeg med å designe en ny, event-drevet arkitektur, og startet implementasjonen ved bruk av Java, Esper og Camel.
+
+Jeg hadde også ansvaret for videreutvikling av serveren som tar imot data fra Ablys spesialdesignede hardware. Jeg implementerte en ny protokoll som muliggjorde sikrere og mer effektiv sending/mottak av data, og som sikret mot data-tap.
+
+For Ably betyr datasikring og optimalisering at forretningskritiske data er sikret.
+
+- Stabilisering av eksisterende hendelses-basert system. Utvikling av nytt, skalerbart system
+- Perl, Esper Complex Event Processing (CEP)
+
+***
+
+=== 2004-2008 Sencel Bioinformatics AS
+*Forretningsområde:* Akademia / biologi
+
+- Gensøk-system, utviding av funksjonalitet, og nyutvikling av Pay Per Click - system
+- C, C++, PHP
+
+Sencels programvare er sentrert rundt en søkealgoritme for søk i store gendatabaser). Dette var skrevet i C. Min første oppgave var å gjøre det mulig å søke i flere gendatabaser på en gang, og deretter å kunne foreta flere søk mot en eller flere databaser.
+
+Programmet er sterkt parallellisert (over flere prosessorer per maskin, på en klynge på cirka 20 maskiner), og hovedfokus var på ytelse og stabilitet. Det ble tydelig at koden måtte struktureres bedre for å kunne utvikle programvaren videre. Jeg hadde ansvaret for det nye designet, og implementering i C++.
+
+Deretter var jeg med og portet programmet til en på den tiden ny IBM PPC-prosessor.
+
+Særlig restruktureringen av koden sikrer Sencel et konkurransefortrinn i og med at de nå enklere og fortere kan endre og legge til funksjonalitet. Det har også blitt lettere å porte koden til nye prosessortyper, noe som gir Sencel en bredde i markedet.
+
+Da Sencel ble kjøpt opp av PubGene AS, fikk jeg ansvaret for design, teknologivalg, og implementasjon av et nytt brukergrensesnitt for deres text-mining motor. Dette ble laget i Java / Google Web Toolkit (GWT).
+
+Jeg lagde også deler av backend-funksjonaliteten (Java / Tomcat / MySQL server, samt endel PHP og noe Perl). Hovedfokus var på å gjøre brukeropplevelse så behagelig at brukerne stadig ville komme tilbake til nettsiden, og anbefale den til andre.
+
+Jeg designet og implementerte en pay-per-click annonseringsløsning for PubGene AS til bruk i det nye grensesnittet, i PHP. Denne inneholdt en portal der annonsører kunne legge inn annonser og knytte dem til søketermer i text-mining databasen, og en modul for å hente ut relevante annonser i XML, i forhold til konteksten i brukergrensesnittet.
+
+Annonseringsløsningen er en viktig del av forretningsplanen til PubGene AS, og burde ha betalt for seg selv innen to år.
+
+Samtidig med utviklingsansvaret, drev jeg markedsføring for PubGene via Google AdWords og søkemotoroptimalisering.
+
+
+=== 2000-2001, 2004 Tri Mex AS
+*Forretningsområde:* Sporing av verditransporter
+
+- Sporing av veriditransport i real time
+- Java, C# MSSQL
+
+TRI-MEX sporer forsendelser gjennom alle reisens etapper ved hjelp av GPS, SMS og email.
+
+I 2000-2001 lagde jeg meldingsparseren (i Java) som tok imot SMSer og eposter fra sporingsenhetene og parset lokaliseringsdataene (disse kom i flere forskjellige formater), og la dem i en MSSQL database.
+
+I 2004 kom jeg inn i sluttfasen på et prosjekt der TRI-MEX bygde en web-portalløsning for sine kunder, så kunden selv kunne følge med på forsendelsene. Jeg implementerte logikken for tilgangsbegrensning etter en CRUD-analyse. Dette ble gjort i C# og MSSQL.
+
+
+=== 2000-2001 Norconsult AS
+*Forretningsområde:*
+
+- Utvikling av nytt dokumenthåndteringssystem
+- Visual Basic, Oracle database
+
+Ansvar for å designe og implementerte en dokumentdatabase for Norconsult. Formålet med databasen var å holde rede på hvor på huset et enkelt dokument befant seg.
+
+
 
 
 
@@ -52,7 +203,9 @@ MySQL, Oracle, MS SQL, Microsoft Access, HSQLDB, Sybase
 ### Et utvalg rammeverk / teknologier / verktøy jeg er kjent med
 Spring, Spring MVC, Compojure, SolR, Google Closure Compiler, MongoDB, Playframework, JSP, SQL, REST, Web Services, Maven, JIRA, Confluence, Firebug, Fiddler
 
-Jeg er vant til å jobbe etter smidige metoder, og er sertifisert scrum master.
+Jeg er vant til å jobbe etter smidige metoder, og er sertifisert Scrum Master.
+
+Jeg er også sertifisert GROW Coach.
 
 ***
 
@@ -67,117 +220,3 @@ Google AdWords, Facebook Ads, Wordstream, AdEspresso
 ### Funnel-bygging
 ClickFunnels, Infusionsoft
 
-
-***
-## Historikk
-
-### 2017- Giant Leap Technologies AS
-- Utvikler og prosjektleder for bl.a. ...
-- Java, Spring, MySQL
-
-### 2014-2016 Time Tools Industries AS
-- Utarbeidet, produserte og solgte online-kurset "Salgsmaskin (R)".
-- Skrev boken "Enkel og Effektiv Digital Markedsføring" (ISBN: 978-82- 999697-3-4)
-- Stikkord: Direktemarkedsføring, digital markedsføring, A/B split testing, konverteringsoptimalisering, salgssporing.
-- Område: Utvikling og salg av digitale informasjonsprodukter. Konsulentvirksomhet innen digital markedsføring.
-
-***
-
-*I årene 2008 - 2014 var jeg partner, styremedlem, og programmerer i Kodemaker Systemutvikling AS.*
-
-### 2012-2014 NSB
-- Utvikling av system for datainnhenting, prosessering og rapportering rundt virksomhetskritiske data for NSB
-- Groovy, Oracle SQL
-
-### 2012 Oiiku AS
-- Nyutvikling av produkt i samarbeid med Onkel Estrup AS
-- Clojure, Google Closure, JavaScript, MongoDB, Quartz / Quartzite, Joda Time, JSON, XML/REST mot PSWinCom
-
-Oikku er et SaaS-system for å organisere eventer, og holde kontakten med deltakerene underveis. Jeg utviklet en modul for å
-kommunisere med deltakere via SMS og epost, gitt visse tidspunkter eller hendelser. 
-
-### 2010-2012 FINN.no
-- Utvikling av Nybil-løsning.
-- Omskriving fra FAST søketeknologi til SolR.
-- Utviklet data-innhentingstjeneste for "biltester" med Apache Camel
-- Utviklet ny, hierarkisk produktvelger
-- Java, Spring, Spring MVC, SolR, Apache Camel, FAST, Tiles 2, JSP, svn, Sybase, JavaScript, jQuery, Tomcat, Cucumber
-
-I FINN fungerte jeg en stund som scrum master for Team Motor. I tillegg til den normale videreutviklingen av alle motor-produktene, lagde vi en helt ny løsning for Nybil.
-
-### 2009-2010 NRK Nye Medier
-- Tv-fokusert chat-løsning i og utenfor Facebook
-- PHP, Jabber (XMPP), JavaScript
-
-På NRK var jeg i 2009 del av et firemanns-team. Vi lagde en Facebook- applikasjon for å chatte om hva man ser på tv, kalt «TV-Prat».
-
-Dette innebar hovedsakelig å integrere eksisterende chat-teknologi (jabber / XMPP) med Facebook-apiet, samt design og implementasjon av et eget, tynt logikk-lag (php / mysql).
-
-I 2010 videreutviklet prosjektleder og jeg applikasjon til å kunne kjøre uavhengig av facebook, der innlogging kan skje via OpenID, og chatten er «embeddable» i enhver vanlig html-side.
-
-NRK er opptatt av å være relevant som allmennkringkaster også i fremtiden, og har lagt merke til at mange diskuterer det de ser på tv realtime på nettet. Facebook-applikasjonen «TV-Prat» ble promotert på nrk.no under de norske melodi grand prix-sendingene, og nevnt på Dagsrevyen under den norske finalen.
-
-
-### 2008-2009 Ably AS (Point Carbon)
-- Stabilisering av eksisterende hendelses-basert system. Utvikling av nytt, skalerbart system
-- Perl, Esper Complex Event Processing (CEP)
-
-*Stikkord:* Rådgivning, arkitektur, utvikling. Ablys teknologi er sentrert rundt telemetri utført ved hjelp av spesialdesignet hardware. Ably er deleid av Point Carbon.
-
-*Arbeidsoppgaver:*
-
-Jeg ble hentet inn fordi produksjons-databasen var ustabil, og min første oppgave var å optimalisere denne så den opererte stabilt.
-
-Deretter designet og implementerte jeg et data-harvesting system i PHP, som laster ned data i en rekke formater via en rekke protokoller, og lagrer i Ablys database.
-
-I tillegg utviklet jeg en applikasjon som ekstraherte data fra Ablys MySQL-database, transformerte disse på bakgrunn av visse regler, og lagret de nye dataene i Point Carbons Oracle database (Jasper ETL).
-
-Når dette var på plass, var jeg med å designe en ny, event-drevet arkitektur, og startet implementasjonen ved bruk av Java, Esper og Camel.
-
-Jeg hadde også ansvaret for videreutvikling av serveren som tar imot data fra Ablys spesialdesignede hardware. Jeg implementerte en ny protokoll som muliggjorde sikrere og mer effektiv sending/mottak av data, og som sikret mot data-tap.
-
-For Ably betyr datasikring og optimalisering at forretningskritiske data er sikret.
-
-***
-
-### 2004-2008 Sencel Bioinformatics AS
-- Gensøk-system, utviding av funksjonalitet, og nyutvikling av Pay Per Click - system
-- C, C++, PHP
-
-Sencels programvare er sentrert rundt en søkealgoritme for søk i store gendatabaser). Dette var skrevet i C. Min første oppgave var å gjøre det mulig å søke i flere gendatabaser på en gang, og deretter å kunne foreta flere søk mot en eller flere databaser.
-
-Programmet er sterkt parallellisert (over flere prosessorer per maskin, på en klynge på cirka 20 maskiner), og hovedfokus var på ytelse og stabilitet. Det ble tydelig at koden måtte struktureres bedre for å kunne utvikle programvaren videre. Jeg hadde ansvaret for det nye designet, og implementering i C++.
-
-Deretter var jeg med og portet programmet til en på den tiden ny IBM PPC-prosessor.
-
-Særlig restruktureringen av koden sikrer Sencel et konkurransefortrinn i og med at de nå enklere og fortere kan endre og legge til funksjonalitet. Det har også blitt lettere å porte koden til nye prosessortyper, noe som gir Sencel en bredde i markedet.
-
-Da Sencel ble kjøpt opp av PubGene AS, fikk jeg ansvaret for design, teknologivalg, og implementasjon av et nytt brukergrensesnitt for deres text-mining motor. Dette ble laget i Java / Google Web Toolkit (GWT).
-
-Jeg lagde også deler av backend-funksjonaliteten (Java / Tomcat / MySQL server, samt endel PHP og noe Perl). Hovedfokus var på å gjøre brukeropplevelse så behagelig at brukerne stadig ville komme tilbake til nettsiden, og anbefale den til andre.
-
-Jeg designet og implementerte en pay-per-click annonseringsløsning for PubGene AS til bruk i det nye grensesnittet, i PHP. Denne inneholdt en portal der annonsører kunne legge inn annonser og knytte dem til søketermer i text-mining databasen, og en modul for å hente ut relevante annonser i XML, i forhold til konteksten i brukergrensesnittet.
-
-Annonseringsløsningen er en viktig del av forretningsplanen til PubGene AS, og burde ha betalt for seg selv innen to år.
-
-Samtidig med utviklingsansvaret, drev jeg markedsføring for PubGene via Google AdWords og søkemotoroptimalisering.
-
-
-### 2000-2001, 2004 Tri Mex AS
-- Sporing av veriditransport i real time
-- Java, C# MSSQL
-
-TRI-MEX sporer forsendelser gjennom alle reisens etapper ved hjelp av GPS, SMS og email.
-
-I 2000-2001 lagde jeg meldingsparseren (i Java) som tok imot SMSer og eposter fra sporingsenhetene og parset lokaliseringsdataene (disse kom i flere forskjellige formater), og la dem i en MSSQL database.
-
-Da systemet var på plass, var jeg med å drifte det.
-
-I 2004 kom jeg inn i sluttfasen på et prosjekt der TRI-MEX bygde en web-portalløsning for sine kunder, så kunden selv kunne følge med på forsendelsene. Jeg implementerte logikken for tilgangsbegrensning etter en CRUD-analyse. Dette ble gjort i C# og MSSQL.
-
-
-### 2000-2001 Norconsult AS
-- Utvikling av nytt dokumenthåndteringssystem
-- Visual Basic, Oracle database
-
-I samarbeid med en annen designet og implementerte jeg en dokumentdatabase for Norconsult. Formålet med databasen var å holde rede på hvor på huset et enkelt dokument befant seg.

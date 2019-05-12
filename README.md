@@ -1,28 +1,22 @@
+# Vi er skapere  
 
-This is a quickstart repo for Orchid to get you up and running as soon as possible. The only system dependency 
-necessary to run Orchid is a valid Java 8 JDK and git. 
+En programmerer elsker dette:
 
-```bash
-git clone https://github.com/JavaEden/OrchidStarter.git
-cd OrchidStarter
-./gradlew orchidServe
+Å **automatisere** tungt, kjedelig og farlig arbeid: **Å skape intet ut av noe.**
 
-# View your generated site at http://localhost:8080/
-```
+Å gripe en idé ut av løse luften og forme den til virkelighet : **Å skape noe ut av intet.**
 
-Alternatively, you can click the button below to automatically clone this repo and deploy it to Netlify. This starter 
-repo includes the [Netlify CMS](https://www.netlifycms.org/), so you will be up and publishing content as soon as 
-possible. You will need to set the Github user/repo in `src/orchid/resources/config/netlifyCms.yml`, but the rest of the 
-CMS config is automatically generated based on your current Orchid plugins and configurations.  
+## *"Software is eating the world"* - Marc Andreessen 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JavaEden/OrchidStarter)
+*"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, 
+from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, 
+so readily capable of realizing grand conceptual structures....*
 
-### Example Orchid Sites
+*Yet the program construct, unlike the poet's words, is real in the sense that it moves and works, producing visible 
+outputs separate from the construct itself. […]* 
 
-* [Official Orchid documentation](https://orchid.netlify.com/)
-* [caseyjbrooks.com](https://www.caseyjbrooks.com/)
-* [pebbletemplates.io](https://pebbletemplates.io/)
-* [strikt.io](https://strikt.io/)
-* [Krow documentation](https://copper-leaf.github.io/krow/)
-* [Trellis documentation](https://copper-leaf.github.io/trellis/)
-* [Clog documentation](https://javaeden.github.io/Clog/)
+*The magic of myth and legend has come true in our time. One types the correct incantation on a keyboard, and a display 
+screen comes to life, showing things that never were nor could be."* 
+-Fred Brooks
+
+

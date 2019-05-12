@@ -4,6 +4,8 @@ categories:
     title: 'Systemutvkling'
   - key: 'markedsføring'
     title: 'Markedsføring'
+  - key: 'livet'
+    title: 'Livet'
 authors:
   - name: 'Sten Morten Misund-Asphaug'
     avatar: '/assets/images/smma-half-figure.jpg'
