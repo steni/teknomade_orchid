@@ -17,6 +17,13 @@ outputs separate from the construct itself. […]*
 
 *The magic of myth and legend has come true in our time. One types the correct incantation on a keyboard, and a display 
 screen comes to life, showing things that never were nor could be."* 
--Fred Brooks
+
+**-Fred Brooks**
 
 
+*"The plain fact is that the planet does not need more successful people. But it does desperately need
+ more peacemakers, healers, restorers, storytellers, and lovers of every kind. It needs people who live well 
+ in their places. It needs people of moral courage willing to join the fight to make the world habitable and 
+ humane. And these qualities have little to do with success as we have defined it."*
+ 
+ **― David W. Orr, Ecological Literacy: Educating Our Children for a Sustainable World"**

@@ -6,6 +6,8 @@ categories:
     title: 'Markedsføring'
   - key: 'livet'
     title: 'Livet'
+  - key: 'betraktninger'
+    title: 'Betraktninger'
 authors:
   - name: 'Sten Morten Misund-Asphaug'
     avatar: '/assets/images/smma-half-figure.jpg'
