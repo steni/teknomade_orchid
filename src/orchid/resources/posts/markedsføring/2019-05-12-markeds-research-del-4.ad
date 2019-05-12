@@ -44,10 +44,32 @@ Which of the following best describe you:
 
 (Dette spørsmålet kan kanskje også ende opp på Micro-Commitment Bucket Survey)
 
+Hvis du klikker den første:
 
+Which of the following best describe you:
+- I'm a hobbyist programmer
+- I'm studying programming and want to learn from many sources
+- I've started a course or two, but never finished anything
+- Something completely different: ______________
+
+(Vi trenger å randomisere rekkefølgen på multiple-choice spørsmålene!)
+
+... her fisker vi etter potensielle bøtter. Det åpne spørsmålet kommer til å definere bøttene, her prøver vi å finne
+ut om bøttene vi tror finnes, faktisk finnes.
 
 - Alder
 - Kjønn
+
+Siste spørsmål:
+
+"lastly, I want to follow up with a few people personally to learn about your situation. If you'd be open
+to chatting for a few minutes on the condition that I promise not to sell you anything -- please leave
+your name and phone number below"
+
+Form: Name, email, phone or skype (optional)
+
+Du vil vite hvor de henger i helgene, hvordan de lukter, og hva de ser på tc på fredagskveldene, hvilken bok de
+har på nattbordet, hva slags bil de kjører...
 
 === 2. Micro-Commitment Bucket Survey
 Dette blir en permament del av funnelen. Starter med å stille en serie ikke-truende multiple-choice spørsmål
