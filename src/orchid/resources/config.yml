@@ -46,6 +46,9 @@ theme:
       title: 'Bli Teknomade?'
       itemId: 'Bli en Teknomade?'
     - type: 'page'
+      title: 'Lære?'
+      itemId: 'Lære å programmere?'
+    - type: 'page'
       title: 'Kontakt'
       itemId: 'Kontakt'
 
