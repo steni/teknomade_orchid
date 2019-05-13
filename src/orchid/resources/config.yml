@@ -43,6 +43,9 @@ theme:
       title: 'Hva sier andre?'
       itemId: 'Og hva sier de andre?'
     - type: 'page'
+      title: 'Bli Teknomade?'
+      itemId: 'Bli en Teknomade?'
+    - type: 'page'
       title: 'Kontakt'
       itemId: 'Kontakt'
 

@@ -1,42 +1,13 @@
-# Vi kan bare to ting:
+# Vi kan bare to ting!
 
-## Skape Produkter: Fra idé til: App, webside, eller SaaS
+## Skape produkter
+Fra idé til app, webside, eller SaaS.
 
-Sånn og sånn og sånn gjør vi det
+Slik og sånn og sånn gjør vi det...
 
-## Automatisere Salg: Generere varme leads __som kontakter deg__, og salg rett-på-nett
+## Automatisere salg
+Generere varme leads _som kontakter deg_, og salg rett-på-nett
 
 Sånn og slik og sånn gjør vi det
 
-# Vi er skapere  
-
-En programmerer elsker dette:
-
-Å **automatisere** tungt, kjedelig og farlig arbeid: **Å skape intet ut av noe.**
-
-Å gripe en idé ut av løse luften og forme den til virkelighet : **Å skape noe ut av intet.**
-
-## *"Software is eating the world"* - Marc Andreessen 
-
-*"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, 
-from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, 
-so readily capable of realizing grand conceptual structures....*
-
-*Yet the program construct, unlike the poet's words, is real in the sense that it moves and works, producing visible 
-outputs separate from the construct itself. […]* 
-
-*The magic of myth and legend has come true in our time. One types the correct incantation on a keyboard, and a display 
-screen comes to life, showing things that never were nor could be."* 
-
-**-Fred Brooks**
-
-# Teknomadene rider igjen
-
 <script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>
-
-*"The plain fact is that the planet does not need more successful people. But it does desperately need
- more peacemakers, healers, restorers, storytellers, and lovers of every kind. It needs people who live well 
- in their places. It needs people of moral courage willing to join the fight to make the world habitable and 
- humane. And these qualities have little to do with success as we have defined it."*
- 
- **― David W. Orr, Ecological Literacy: Educating Our Children for a Sustainable World"**
