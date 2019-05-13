@@ -4,6 +4,69 @@ title = "Kontakt"
 // til webinarer og auto-webinarer
 
 == Ønsker du å komme i kontakt?
+++++
+ <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '2015199145383303',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v3.0'
+      });
+    };
 
-Det er stor etterspørsel, og vi kan bare jobbe med ett prosjekt av gangen.
-Derfor er det viktig at vi finner ut om vi er en god match ... RML...
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+      <h1 id="heading">
+        Skal jeg sende deg XYZ?
+      </h1>
+      <div id="text" style="text-align: center">
+        Klikk den blå &quot;Send this to me&quot;-knappen under.
+
+Du kan unsubscribe når som helst ved å skrive &quot;stop&quot; eller &quot;unsubscribe&quot;.
+
+      </div>
+      <div id="mm-fb-container">
+        <div class="fb-send-to-messenger"
+          messenger_app_id="2015199145383303"
+          page_id="551129798624503"
+          data-ref="071d10243ffd82c9517be8a998b845688e7b7669d840a6251c256d"
+          color="blue"
+          size="xlarge"
+          cta_text="SEND_THIS_TO_ME"
+        >
+        </div>
+      </div>
+  <div id="open-link">
+    <a href="https://m.me/551129798624503?ref=071d10243ffd82c9517be8a998b845688e7b7669d840a6251c256d" target="_blank">
+      Open in Messenger
+    </a>
+  </div>
+
+  </div>
+    <aside class="aside">
+    </aside>
+  </div>
+  <script>
+  function subscribeToFBEvents() {
+    window.FB.Event.subscribe('send_to_messenger', function(e) {
+      if (e.event === 'clicked') {
+        document.getElementById("open-link").style.display = 'block';
+        document.getElementById("mm-fb-container").style.display = 'none';
+      }
+    });
+  }
+  var intervalId = setInterval(() => {
+    if (window.FB) {
+      clearInterval(intervalId);
+      subscribeToFBEvents();
+    }
+  }, 200);
+</script>
+++++

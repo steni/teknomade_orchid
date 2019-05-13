@@ -1,3 +1,13 @@
+# Vi kan bare to ting:
+
+## Skape Produkter: Fra idé til: App, webside, eller SaaS
+
+Sånn og sånn og sånn gjør vi det
+
+## Automatisere Salg: Generere varme leads __som kontakter deg__, og salg rett-på-nett
+
+Sånn og slik og sånn gjør vi det
+
 # Vi er skapere  
 
 En programmerer elsker dette:
@@ -20,6 +30,9 @@ screen comes to life, showing things that never were nor could be."*
 
 **-Fred Brooks**
 
+# Teknomadene rider igjen
+
+<script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>
 
 *"The plain fact is that the planet does not need more successful people. But it does desperately need
  more peacemakers, healers, restorers, storytellers, and lovers of every kind. It needs people who live well 
