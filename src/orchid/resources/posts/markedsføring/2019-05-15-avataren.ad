@@ -3,7 +3,7 @@ title = "Avataren"
 tags= "markedsføring"
 +++
 
-== Notater: Avataren - Hvem selger jeg til?
+== Notater: Avataren og tilbudet - Hvem selger jeg hva til?
 
 Notater fra link:https://funnelbuildersecrets.com/membership-area12981752[Funnel Builder Secrets^,role="ext_-link"]
 link:https://s3content.s3.amazonaws.com/funnel_builder_secrets/module_2/Module_2_Homework_Checklist.pdf[Homework^,role="ext_-link"]
@@ -72,7 +72,10 @@ I.e., "sales funnels", "the five love languages", "The Pimsleur language learnin
 * "The Beginner's Secret Programming System"
 * "The Neophyte's Secret Programming System"
 * "The Misund-Asphaug Programming Learning System"
-* ... lage et akronym?
+* ... lage et akronym? MAPLS?
+
+- unikt: viser frem egne feil underveis, det er en viktig del av læringen å se hvor mye "dumt" selv en
+erfaren programmerer gjør
 
 
 === #2 The Pain
@@ -92,7 +95,15 @@ Jeg er redd kunnskapen jeg har i dag blir utdatert. At datamaskiner, algoritmer,
 
 Go crazy! Tenk på alt! Hva vil få Jacob Designeren til å bli yr av glede?
 
-Kategoriser bitene slik:
+* Lag en website med Java
+* få det på nett, med eget domenenavn og greier
+* verktøy: IntelliJ CE
+* ta betalt med websiden din (Stripe)
+* lage bruker-innlogging (skrive diise til database?, cloud?)
+* rammeverk for front-end, styling?
+* spring boot?
+
+*Kategoriser bitene slik:*
 
 * Foundational (necessary)
 * Prequel (would be helpful at the beginning)
