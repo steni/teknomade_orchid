@@ -95,13 +95,15 @@ Jeg er redd kunnskapen jeg har i dag blir utdatert. At datamaskiner, algoritmer,
 
 Go crazy! Tenk på alt! Hva vil få Jacob Designeren til å bli yr av glede?
 
-* Lag en website med Java
+* Lag en website med Java - dette er starten på din egen membership site, eller SaaS
 * få det på nett, med eget domenenavn og greier
-* verktøy: IntelliJ CE
+* verktøy: Først noe enkelt som Sublime? Senere introdusere IntelliJ CE
 * ta betalt med websiden din (Stripe)
 * lage bruker-innlogging (skrive diise til database?, cloud?)
 * rammeverk for front-end, styling?
 * spring boot?
+
+Forklaringer underveis: analogier. It's kind-of-like...
 
 *Kategoriser bitene slik:*
 
