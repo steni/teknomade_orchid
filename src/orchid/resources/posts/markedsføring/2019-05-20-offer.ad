@@ -44,48 +44,53 @@ Forklaringer underveis: analogier. It's kind-of-like...
 *Kategoriser bitene slik:*
 
 * Foundational (necessary)
-** installere jdk
-** installere verktøy
-** spring boot?
-** verktøy: Først noe enkelt som Sublime? Senere introdusere IntelliJ CE
-** Lag din egen website med Java - dette er starten på din egen membership site, eller SaaS
-** rammeverk for front-end, styling?
-** variabler, datatyper, operatorer
-** looper, if-else
-** klasser, objekt-orientering: arv, enkapsulering
-** Arrays, collections
+** installere jdk $
+** installere verktøy $
+** spring boot $$
+** verktøy: Først noe enkelt som Sublime? Senere introdusere IntelliJ CE $$
+** Lag din egen website med Java - dette er starten på din egen membership site, eller SaaS $$$$
+** rammeverk for front-end, styling? $$
+** variabler, datatyper, operatorer $
+** looper, if-else $
+** klasser, objekt-orientering: arv, enkapsulering $
+** Arrays, collections $
 
 * Prequel (would be helpful at the beginning)
-** git
-** gradle eller maven
-** spring boot
-** raskt opp og gå
+** git (git: https://www.atlassian.com/git/tutorials/install-git) $
+** gradle eller maven  $
+** raskt opp og gå $$$
 
 * Bonuses (would be awesome but not necessary)
-** ta betalt med websiden din (Stripe)
-** lage bruker-innlogging (skrive disse til database?, cloud?, inMemory)
+** ta betalt med websiden din (Stripe) $$$$
+** lage bruker-innlogging (skrive disse til database?, cloud?, inMemory) $$$
 
 * VIP (would be for the select few who have $$$)
-** updates - as the technology changes
-** få det på nett, med *eget domenenavn* og greier
-
-
+** updates - as the technology changes  $$$
+** få det på nett, med *eget domenenavn* og greier $$$$
 
 
 === #4 Determine Value
 
-Sett stjerner ved bitene, flere stjerner for mer verdi.
+Sett $ ved bitene, flere $ for mer verdi.
 
 === #5 Pick out the part you think your customer would want the most
 This is the bait. The tantalizing piece of awesomeness. Customer will be seduced by this.
 
 * A website you programmed with its own *domain name*, up and running?
 
-*Resist the urge to tidy it up here!*
-
 === #6 Collect Your Offer Assets
 
 * Names (to the offer, the modules, the bonuses)
+
+The Underground Java Programmer's Playbook
+
+(Underground), Expert, Academic, Certified, Systematic, Logical, Powerful
+System, Masterclass, Workshop, Program, Course
+(Posse, Clan)
+
+Java Programming Masterclass
+
+
 * Branding
 * Photos
 * Outlines
