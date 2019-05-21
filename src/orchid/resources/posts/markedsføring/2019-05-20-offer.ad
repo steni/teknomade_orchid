@@ -93,6 +93,10 @@ System, Masterclass, Workshop, Program, Course
 The Underground Java Programmer's Playbook
 Java Programming Masterclass
 
+The programming AND the tools and tricks of the trade
+- stack overflow
+
+I want them to become independent
 
 
 * Branding
@@ -110,7 +114,6 @@ When you have the name for the primary part of the offer, buy the domain.
 For product.
 
 ==== Part 1: Hitting the Ground Running (Init)
-
 - Downloading tools
 - Setup with JHipster
 - Your first web page, controlled by Java
@@ -119,7 +122,10 @@ For product.
 - Tool: Postman
 
 ==== Part 3: Creating users and persisting in a database
+- Data modelling: https://start.jhipster.tech/jdl-studio/ ?
+
 ==== Part 4: Frontend
+
 ==== Part 5: Gettin' the money (Stripe integration)
 - add dependency to pom
 
