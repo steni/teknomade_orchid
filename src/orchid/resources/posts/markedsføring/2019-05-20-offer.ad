@@ -48,10 +48,10 @@ Forklaringer underveis: analogier. It's kind-of-like...
 *Kategoriser bitene slik:*
 
 * Foundational (necessary)
-** installere jdk $
-** installere verktøy $
-** spring boot $$
-** verktøy: Først noe enkelt som Sublime? Senere introdusere IntelliJ CE $$
+** tools:
+*** installere jdk $
+*** spring boot $$
+*** verktøy: Først noe enkelt som Sublime? Senere introdusere IntelliJ CE $$
 ** Lag din egen website med Java - dette er starten på din egen membership site, eller SaaS $$$$
 ** rammeverk for front-end, styling? $$
 ** variabler, datatyper, operatorer $
@@ -86,13 +86,13 @@ This is the bait. The tantalizing piece of awesomeness. Customer will be seduced
 
 * Names (to the offer, the modules, the bonuses)
 
-The Underground Java Programmer's Playbook
-
 (Underground), Expert, Academic, Certified, Systematic, Logical, Powerful
 System, Masterclass, Workshop, Program, Course
 (Posse, Clan)
 
+The Underground Java Programmer's Playbook
 Java Programming Masterclass
+
 
 
 * Branding
@@ -108,3 +108,19 @@ When you have the name for the primary part of the offer, buy the domain.
 
 === Outlines
 For product.
+
+==== Part 1: Hitting the Ground Running (Init)
+
+- Downloading tools
+- Setup with JHipster
+- Your first web page, controlled by Java
+
+==== Part 2: REST and JSON - input and output
+- Tool: Postman
+
+==== Part 3: Creating users and persisting in a database
+==== Part 4: Frontend
+==== Part 5: Gettin' the money (Stripe integration)
+- add dependency to pom
+
+==== Part 6: Getting it online (Deploy)
