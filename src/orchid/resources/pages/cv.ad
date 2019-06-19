@@ -27,9 +27,20 @@ systemutviklingsprosjekter. Jeg har også solgt tusenvis av varer og tjenester f
 == Historikk
 
 === 2017- Giant Leap Technologies AS
-*Forretningsområde:* Mobilapplikasjoner og integrasjoner
+*Forretningsområde:* Mobilapplikasjoner og integrasjoner, for kunder som Coop og 1881
 
-- "Flyvende keeper": Prosjekleder og utvikler for kunder som Coop og 1881.
+- *CoopKey*: Fra idé til app på tre måneder
+
+Som *programmerende prosjektleder* for appen CoopKey sto jeg for arkitektur, protokollutvikling, mellomvare-programvare
+og prosjektstyring i løpet av en fantastisk morsom og hektisk vår og tidlig sommer. Arbeidet ledet ut i Norges første
+ubemannede, døgnåpne butikk. Nøkkelen som brukes for å åpne butikken om natten, er appen
+https://cdcapp.coop.no/user/c24h/app/Download[CoopKey,role="ext-link"].
+
+- *Coopay*: Betal for din handel med Coop Medlem-appen
+
+Arkitektur og kode i tidlig fase.
+
+
 
 
 === 2014-2016 Time Tools Industries AS
