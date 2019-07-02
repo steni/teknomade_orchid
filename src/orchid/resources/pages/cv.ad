@@ -41,17 +41,17 @@ Omtalt i https://www.nettavisen.no/okonomi/na-apner-extra-sin-forste-matbutikk-u
  https://www.aftenposten.no/norge/i/dOG6lo/Den-ubetjente-butikken-kan-apnes-med-en-app-midt-pa-natten[Aftenposten^,role="ext-link"], og
  https://www.tv2.no/v/1464552/[TV2^,role="ext-link"].
 
-image:/assets/media/sm_coop_extra_cut.png[Sten Morten Misund-Asphaug ved åpningen av Døgnåpen Coop Extra,640,677]
+image:/assets/media/sm_coop_extra_cut.png[Sten Morten Misund-Asphaug ved åpningen av Døgnåpen Coop Extra,width=100%]
 
 ==== *Coopay*: Betal for din handel med Coop Medlem-appen
 
 I Coopay-prosjektet var jeg dypt involvert i arkitektur og kode fra tidlig fase.
-image:/assets/media/coopay.png[Coopay,640]
+image:/assets/media/coopay.png[Coopay,width=100%]
 
 ==== *BaneNOR Pendler-app*: Automatisk bomanlegg
 
 For BaneNOR integrerte jeg parkerings-appen mot systemet som styrer bommene ved Lillestrøm parkeringshus
-image:/assets/media/banenor_endelig_slutt_koene.JPG[RB,640]
+image:/assets/media/banenor_endelig_slutt_koene.JPG[RB,width=100%]
 
 
 
@@ -72,7 +72,7 @@ I tillegg gjorde jeg blant annet:
 - Stikkord: Direktemarkedsføring, digital markedsføring, A/B split testing, konverteringsoptimalisering, salgssporing.
 - Område: Utvikling og salg av digitale informasjonsprodukter. Konsulentvirksomhet innen digital markedsføring.
 
-image:/assets/media/eedm_cover.png[Enkel og Effektiv Digital Markedsføring,307,417]
+image:/assets/media/eedm_cover.png[Enkel og Effektiv Digital Markedsføring,width=100%]
 
 ***
 
@@ -89,7 +89,7 @@ image:/assets/media/eedm_cover.png[Enkel og Effektiv Digital Markedsføring,307,
 === 2012 Oiiku AS
 *Forretningsområde:* Eventer
 
-image:/assets/media/oiiku.png[Oiiku,640]
+image:/assets/media/oiiku.png[Oiiku,width=100%]
 
 Oikku er et SaaS-system for å organisere eventer, og holde kontakten med deltakerene underveis. Jeg utviklet en modul for å
 kommunisere med deltakere via SMS og epost, gitt visse tidspunkter eller hendelser.
@@ -126,8 +126,8 @@ NRK er opptatt av å være relevant som allmennkringkaster også i fremtiden, og
 - Tv-fokusert chat-løsning i og utenfor Facebook
 - PHP, Jabber (XMPP), JavaScript
 
-image:/assets/media/nrk_tv_prat_hjernevask.png[NRK TV-Prat,640]
-image:/assets/media/nrk_tv_prat_hjernevask_2.png[NRK TV-Prat,640]
+image:/assets/media/nrk_tv_prat_hjernevask.png[NRK TV-Prat,width=100%]
+image:/assets/media/nrk_tv_prat_hjernevask_2.png[NRK TV-Prat,width=100%]
 
 
 
@@ -169,7 +169,7 @@ Deretter var jeg med og portet programmet til en på den tiden ny IBM PPC-proses
 
 Medforfatter (under navnet Sten Morten Andersen): "PARALIGN: "rapid and sensitive sequence similarity searches powered by parallel computing technology"
 
-image:/assets/media/paralign.png[Paralign,640]
+image:/assets/media/paralign.png[Paralign,width=100%]
 
 Særlig restruktureringen av koden sikrer Sencel et konkurransefortrinn i og med at de nå enklere og fortere kan endre og legge til funksjonalitet. Det har også blitt lettere å porte koden til nye prosessortyper, noe som gir Sencel en bredde i markedet.
 
@@ -258,7 +258,7 @@ Google AdWords, Facebook Ads, Wordstream, AdEspresso
 ### Funnel-bygging
 ClickFunnels, Infusionsoft
 
-image:/assets/media/sm_lion.jpg[Sten Morten i sitt rett element]
+image:/assets/media/sm_lion.jpg[Sten Morten i sitt rett element,width=100%]
 
 ++++
 <script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>

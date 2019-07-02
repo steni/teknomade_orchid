@@ -46,12 +46,12 @@ Gleder meg til å høre fra deg!
 Sten Morten Misund-Asphaug
 
 
-![alt text](assets/media/sm_prix_inne_cut.png "Sten Morten debugger CoopKey appen, Coop Bogstadveien")
+![alt text](assets/media/sm_prix_inne_cut.png "Sten Morten debugger CoopKey appen, Coop Bogstadveien"){width=100%}
 
 *Sten Morten gjør siste test av CoopKey-appen i Norges første ubemannede, døgnåpne butikk, i Bogstadveien, noen dager før åpning.*
 
 
-![alt text](assets/media/sm_lion.jpg "Sten Morten i sitt rette element")
+![alt text](assets/media/sm_lion.jpg "Sten Morten i sitt rette element"){width=100%}
 
 *Hvorfor ikke prøve?*
 
