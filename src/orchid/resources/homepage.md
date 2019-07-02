@@ -33,7 +33,7 @@ Vi kan ta en prat og hjelpe deg få et klarere bilde av hvor landet ligger...
 
 # B. Jeg er *allerede i full sving*, og trenger flere skitne hender og skarpe hoder for å hale dette i land!
 
-Vi har ryggen din! Som stolt tidligere konsulent i Kodemaker og utvikler i Giant Leap Technologies har vi (royalt flertall) hjulpet <a href="/cv" target="_blank">store og små kunder</a> nå sine mål.
+Vi har ryggen din! Som stolt tidligere konsulent i Kodemaker og nåværende utvikler i Giant Leap Technologies har vi (royalt flertall) hjulpet <a href="/cv" target="_blank">store og små kunder</a> nå sine mål.
 
 **Messenger-botten heter *Bitten*. Hun er harmløs, halvsmart, og vil gjerne hjelpe... 
 *Klikk det blå ikonet* for å se hvordan vi kan jobbe sammen...**
