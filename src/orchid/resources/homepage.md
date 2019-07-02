@@ -40,6 +40,8 @@ Vi har ryggen din! Som stolt tidligere konsulent i Kodemaker og nåværende pros
 
 Gleder meg til å høre fra deg!
 
+<script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>
+
 ![alt text](assets/media/SMMA-signatur.jpg "Sten Morten debugger CoopKey appen, Coop Bogstadveien")
 
 Sten Morten Misund-Asphaug
@@ -48,7 +50,8 @@ Sten Morten Misund-Asphaug
 ![alt text](assets/media/sm_prix_inne_cut.png "Sten Morten debugger CoopKey appen, Coop Bogstadveien")
 
 *Sten Morten gjør siste test av CoopKey-appen i Norges første ubemannede, døgnåpne butikk, i Bogstadveien, noen dager før åpning.*
-<script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>
 
 
+![alt text](assets/media/sm_lion.jpg "Sten Morten i sitt rette element")
 
+*Hvorfor ikke prøve?*
