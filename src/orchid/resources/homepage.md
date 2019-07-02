@@ -40,7 +40,6 @@ Vi har ryggen din! Som stolt tidligere konsulent i Kodemaker og nåværende pros
 
 Gleder meg til å høre fra deg!
 
-<script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>
 
 ![alt text](assets/media/SMMA-signatur.jpg "Sten Morten debugger CoopKey appen, Coop Bogstadveien")
 
@@ -55,3 +54,5 @@ Sten Morten Misund-Asphaug
 ![alt text](assets/media/sm_lion.jpg "Sten Morten i sitt rette element")
 
 *Hvorfor ikke prøve?*
+
+<script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>
