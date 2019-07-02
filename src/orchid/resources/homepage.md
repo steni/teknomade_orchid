@@ -4,9 +4,11 @@ next: 'systemutvikling'
 # Vi kan bare to ting!
 
 ## Skape produkter med kode
-Fra idé til app, webside, eller SaaS.
+**Fra idé til app, webside, eller SaaS**
 
-Slik og sånn og sånn gjør vi det...
+Har du en idé og trenger hjelp til å få den virkeliggjort? 
+
+
 
 ## Automatisere salg 
 Generere varme leads _som kontakter deg_, og salg rett-på-nett
