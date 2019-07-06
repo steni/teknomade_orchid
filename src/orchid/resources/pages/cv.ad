@@ -29,7 +29,7 @@ systemutviklingsprosjekter. Jeg har også solgt tusenvis av varer og tjenester f
 === 2017- Giant Leap Technologies AS
 *Forretningsområde:* Mobilapplikasjoner og integrasjoner, for kunder som Coop og 1881
 
-- *CoopKey*: Fra idé til app på tre måneder
+==== *CoopKey*: Fra idé til app på tre måneder
 
 Som *programmerende prosjektleder* for appen CoopKey sto jeg for arkitektur, protokollutvikling, mellomvare-utvikling
 og prosjektstyring i løpet av en fantastisk morsom og hektisk vår og tidlig sommer.
@@ -41,9 +41,17 @@ Omtalt i https://www.nettavisen.no/okonomi/na-apner-extra-sin-forste-matbutikk-u
  https://www.aftenposten.no/norge/i/dOG6lo/Den-ubetjente-butikken-kan-apnes-med-en-app-midt-pa-natten[Aftenposten^,role="ext-link"], og
  https://www.tv2.no/v/1464552/[TV2^,role="ext-link"].
 
-- *Coopay*: Betal for din handel med Coop Medlem-appen
+image:/assets/media/sm_coop_extra_cut.png[Sten Morten Misund-Asphaug ved åpningen av Døgnåpen Coop Extra,width=100%]
 
-I Coopay-prosjektet var jeg dypt involvert i arkitektur og kode i tidlig fase; code review i senere faser.
+==== *Coopay*: Betal for din handel med Coop Medlem-appen
+
+I Coopay-prosjektet var jeg dypt involvert i arkitektur og kode fra tidlig fase.
+image:/assets/media/coopay.png[Coopay,width=100%]
+
+==== *BaneNOR Pendler-app*: Automatisk bomanlegg
+
+For BaneNOR integrerte jeg parkerings-appen mot systemet som styrer bommene ved Lillestrøm parkeringshus
+image:/assets/media/banenor_endelig_slutt_koene.JPG[RB,width=100%]
 
 
 
@@ -52,8 +60,10 @@ I Coopay-prosjektet var jeg dypt involvert i arkitektur og kode i tidlig fase; c
 
 I 2014 hoppet jeg i noen år av konsulent-karrieren i Kodemaker AS for å starte Time Tools AS.
 
-Jeg gjorde all digital markedsføring for Adam og Eva Gruppen (frisørsalonger og frisørskole). Annonse- og
-salgssystemene vi skapte, står fremdeles og skaper kunder for Adam og Eva hver dag.
+Jeg gjorde all digital markedsføring for Adam og Eva Gruppen (frisørsalonger og frisørskole).
+
+**Annonse- og
+salgssystemene vi skapte, står fremdeles og skaper kunder for Adam og Eva hver dag.**
 
 I tillegg gjorde jeg blant annet:
 
@@ -61,6 +71,8 @@ I tillegg gjorde jeg blant annet:
 - Skrev boken "Enkel og Effektiv Digital Markedsføring" (ISBN: 978-82- 999697-3-4)
 - Stikkord: Direktemarkedsføring, digital markedsføring, A/B split testing, konverteringsoptimalisering, salgssporing.
 - Område: Utvikling og salg av digitale informasjonsprodukter. Konsulentvirksomhet innen digital markedsføring.
+
+image:/assets/media/eedm_cover.png[Enkel og Effektiv Digital Markedsføring,width=100%]
 
 ***
 
@@ -72,8 +84,12 @@ I tillegg gjorde jeg blant annet:
 - Backend: Utvikling av system for datainnhenting, prosessering og rapportering rundt virksomhetskritiske data for NSB
 - Groovy, Oracle SQL
 
+*I 2012 var jeg med å skrive om Oiiku, og er fremdeles medeier i selskapet.*
+
 === 2012 Oiiku AS
 *Forretningsområde:* Eventer
+
+image:/assets/media/oiiku.png[Oiiku,width=100%]
 
 Oikku er et SaaS-system for å organisere eventer, og holde kontakten med deltakerene underveis. Jeg utviklet en modul for å
 kommunisere med deltakere via SMS og epost, gitt visse tidspunkter eller hendelser.
@@ -99,8 +115,7 @@ I tillegg til den normale videreutviklingen av alle motor-produktene, lagde vi e
 === 2009-2010 NRK Nye Medier
 *Forretningsområde:* Kommunikasjon
 
-
-På NRK var jeg i 2009 del av et firemanns-team. Vi lagde en Facebook- applikasjon for å chatte om hva man ser på tv, kalt «TV-Prat».
+På NRK lagde vi en Facebook- applikasjon for å chatte om hva man ser på tv, kalt «TV-Prat».
 
 Dette innebar hovedsakelig å integrere eksisterende chat-teknologi (jabber / XMPP) med Facebook-apiet, samt design og implementasjon av et eget, tynt logikk-lag (php / mysql).
 
@@ -110,6 +125,10 @@ NRK er opptatt av å være relevant som allmennkringkaster også i fremtiden, og
 
 - Tv-fokusert chat-løsning i og utenfor Facebook
 - PHP, Jabber (XMPP), JavaScript
+
+image:/assets/media/nrk_tv_prat_hjernevask.png[NRK TV-Prat,width=100%]
+image:/assets/media/nrk_tv_prat_hjernevask_2.png[NRK TV-Prat,width=100%]
+
 
 
 === 2008-2009 Ably AS (Point Carbon)
@@ -147,6 +166,10 @@ Sencels programvare er sentrert rundt en søkealgoritme for søk i store gendata
 Programmet er sterkt parallellisert (over flere prosessorer per maskin, på en klynge på cirka 20 maskiner), og hovedfokus var på ytelse og stabilitet. Det ble tydelig at koden måtte struktureres bedre for å kunne utvikle programvaren videre. Jeg hadde ansvaret for det nye designet, og implementering i C++.
 
 Deretter var jeg med og portet programmet til en på den tiden ny IBM PPC-prosessor.
+
+Medforfatter (under navnet Sten Morten Andersen): "PARALIGN: "rapid and sensitive sequence similarity searches powered by parallel computing technology"
+
+image:/assets/media/paralign.png[Paralign,width=100%]
 
 Særlig restruktureringen av koden sikrer Sencel et konkurransefortrinn i og med at de nå enklere og fortere kan endre og legge til funksjonalitet. Det har også blitt lettere å porte koden til nye prosessortyper, noe som gir Sencel en bredde i markedet.
 
@@ -235,3 +258,8 @@ Google AdWords, Facebook Ads, Wordstream, AdEspresso
 ### Funnel-bygging
 ClickFunnels, Infusionsoft
 
+image:/assets/media/sm_lion.jpg[Sten Morten i sitt rett element,width=100%]
+
+++++
+<script async="async" src="https://static.mobilemonkey.com/js/551129798624503.js"></script>
+++++
