@@ -1,0 +1,222 @@
++++
+title = "Skal jeg gå inn i dette markedet? - Del 4"
+featuredImage = "assets/media/learn-coding.png"
+tags= "markedsføring"
++++
+
+== Notater: Skal jeg gå inn i nytt marked? - Del 4: Ryan Levesque's Ask Method
+
+link:/markedsfring/2019/5/11/markeds-research[Del 1] link:/markedsfring/2019/5/12/markeds-research-del-2[Del 2]
+link:/markedsfring/2019/5/12/markeds-research-del-3[Del 3]
+
+Se i sammenheng med link:/markedsfring/2019/5/9/unik-mekanisme[Unike mekanismer, fartøy og USPer]
+
+Fartøyet her er programmering - å lære seg å kode. Det er å lære deg å kode som vil ta deg dit du vil -
+til en bedre fremtid, med høyere lønn, med mulighet til å lage noe helt eget, med høyere status.
+
+Hvorfor har du ikke klart det før, om du har prøvd?
+
+Du manglet den hemmelige ingrediensen. Systemet, prosessen, mekanismen, biten som de som allerede har lykkes, vet om,
+men ikke du.
+
+Dette er __en helt ny mulighet__ for å oppnå målet, og den eneste som forteller deg det du trenger å vite, er dette
+kurset.
+
+Du finner masse informasjon på nettet, til og med gratis, men informasjon alene vil ikke ta deg til målet.
+
+== Surveys
+
+=== 1. Deep Dive Survey
+Før funnel-bygging.
+
+__"When it comes to learning (java / programming / coding), what's your single biggest challenge, frustration, or
+question you've been struggling with?"__ (bucket.io?)
+
+
+==== Potensielle spørsmål
+
+Very non-threatening first.
+
+Which of the following best describe you:
+
+- I have done some programming in the past
+- I have never programmed anything
+
+(Dette spørsmålet kan kanskje også ende opp på Micro-Commitment Bucket Survey)
+
+Hvis du klikker den første:
+
+Which of the following best describe you:
+- I'm a hobbyist programmer
+- I'm studying programming and want to learn from many sources
+- I've started a course or two, but never finished anything
+- Something completely different: ______________
+
+(Vi trenger å randomisere rekkefølgen på multiple-choice spørsmålene!)
+
+... her fisker vi etter potensielle bøtter. Det åpne spørsmålet kommer til å definere bøttene, her prøver vi å finne
+ut om bøttene vi tror finnes, faktisk finnes.
+
+- Alder
+- Kjønn
+
+Siste spørsmål:
+
+"lastly, I want to follow up with a few people personally to learn about your situation. If you'd be open
+to chatting for a few minutes on the condition that I promise not to sell you anything -- please leave
+your name and phone number below"
+
+Form: Name, email, phone or skype (optional)
+
+Du vil vite hvor de henger i helgene, hvordan de lukter, og hva de ser på tc på fredagskveldene, hvilken bok de
+har på nattbordet, hva slags bil de kjører...
+
+==== Annonser til landingsside
+
+Bytt bribe mot info.
+
+Side 1: Jeg vil bytte bribe mot info. Knapp til...
+
+Side 2:  the open question
+
+Side 3: nytt open ended: What prompted you to search for the answer today in particular? (fra PPC!)
+
+Deretter: de andre spørsmålene, mot slutten, age, gender, professional situation
+
+Til slutt: Name, email, phone or skype (optional)
+
+Husk: Troverdighet ovenfor trafikk-kilde. Privacy Policy, Contact Page, Terms & Conditions, Content Pages,
+logo, og i noen tilfeller en klar beskrivelse av hva du selger og hvordan forretningsmodellen er (ROSCA).
+
+==== Analyse
+MULT = lagt igjen telefonnummer ? 1.5 : 1.0
+SCORE = LEN(svar på åpent spørsmål) * MULT
+
+Bra score er 400 og oppover
+
+Fokuser på top 20%, burde ha 100 stykker i top 20%. Alle i top 20% merkes 1 i HYPER-kolonnen.
+
+==== 80/20
+Let etter 80/20 i svarene til hvert spørsmål. Hvordan når du størst del av markedet, med færrest mulig bøtter?
+
+Hver bøtte skaper kompleksitet - websider, eposter. Hvor har du størst __impact__?
+
+(Finnes det en 80/20 inne i din 80/20?)
+
+==== Hva slags språk bruker de?
+Let gjennom svarene på det åpne spørsmålet, fokuser på de to 20%.
+
+Du skal finne:
+
+- Hvilket bøtter som viser seg i ditt marked
+- Finne folks "Hot buttons"
+- Avdekke "objections"
+- Avdekke "biggest challenges"
+- Bruk sammen med demografisk informasjon
+
+Nå: reduser til du har 3 - 5 bøtter som dekker cirka 50% av markedet.
+
+Med de 3 - 5 bøttene vil du for eksempel ha forskjellig:
+- messaging
+- produkt
+- eller begge
+
+
+
+
+=== 2. Micro-Commitment Bucket Survey
+Dette blir en permament del av funnelen. Starter med å stille en serie ikke-truende multiple-choice spørsmål
+før man ber om mer spisset og personlig informasjon som navn og epost.
+
+Det siste spørsmålet før navn og epost, er gjerne segmenteringsspørsmålet.
+
+Svarene brukes til å putte folk i segmenter, så markedsføringen kan skreddersyes.
+
+==== Landingssiden
+Kunden skal inn i funnelen gjennom MCBSen.
+
+TIP: Presentasjon og posisjonering: Leke doktor (-Dan Kennedy). Diagnostisere problemet, og foreskrive
+(prescribe) en løsning
+
+- 1 inch header med logo og trust elements, og evt telefonnumer
+- Pre-Survey Landing Page Video
+- Headline: I video! "Is it possible to learn x in just y days using these techniques?" (e.l.)
+- Below video: "For the readers". Testimonials, media mentions, customer reviews, case studies(?). Summary
+of benefit of moving forward even if they didn't watch video
+
+Språket for å beskrive disse fordelene kommer fra Deep Dive Survey.
+
+==== Video script
+Ben Jonson - style link:https://book.askmethod.com/bonuses/downloads/vsl-checklist-final-rj.pdf[VSL^,role="ext-link"] :-D
+
+===== The Hook
+Dine prospekter har en røff ide om hva de sliter med, men akkurat som ved et legebesøk, så vet de ikke
+nødvendigvis akkurat hva som er galt -- bare at noe er det (de når ikke målet sitt ... hvorfor?)
+
+De tror det er et ubegrenset antall muligheter.
+
+Din jobb er å finne ut hva det er, og det er herfra din hook burde komme.
+
+I videoscriptet hjelper vi dem se at det finnes bare en begrenset mengde muligheter, og det vil gi dem umiddelbar
+lettelse.
+
+Ryans hook: The #1 marketing bottleneck
+
+Script: "When it comes to your business, is it really possible to double your revenue simply by identifying
+your number one marketing bottleneck?
+
+Here's the thing ... When it comes to growing your business, there are basically seven possible bottlenecks that can
+hold businesses back from reaching the next level of income. And every business tends to have a primary marketing
+bottleneck, which is the #1 thing holding them back.
+
+However, the challenge is this: As a business owner with hundreds of different competting priorities, it's sometimes
+difficult to have enough perspective to identify what the #1 marketing bottleneck is and how to fix it.
+
+Solving this problem for business owners is what my team and I do all day, every day ..."
+
+===== If-then statements
+"If you've struggled to make cold traffic work... if you've struggled with and underoptimized marketing funnel ...
+or if you're launching a new product or business, and you've struggled to build a profitable sales funnel to
+get that product or business off the ground ... then pay close attention, because there's a reason why. And that
+reason whi is because as a marketer, when you've got half a dozen different competing priorities in your business,
+it's difficult to figure out the #1 biggest leverage point in your marketing to focus on first...
+
+Simply put: It's tough to see the entire picture when you are already inside the frame..."
+
+Inkluderende.
+
+Fallback: "Then this could be the most important video you ever watch, and here's why ..."
+
+===== Promise of the solution and reintroducing another challenge
+Dismiss the option of a one-size-fits-all solution.
+
+"The challenge is this: When it comes to identifying what's holding your business back, there is no one-size-fits-answer."
+
+Eller...
+
+"When it comes to choosing a diet, the reason why people struggle is because there is no one-size-fits-all answer
+for keeping off all the weight ..."
+
+===== Credibility and proof
+
+
+
+
+
+
+=== 3. Do You Hate Me? Survey
+Everybody who has entered but not bought after the best deal:
+
+Subject: Do you hate me?
+
+"What's the single biggest reason you've decided not to work with me or purchase the XYZ product?
+Was it something I said? Something I didn't say? Or do you just hate me? :-) Click on this link
+to let me know.
+
+=== 4. Pivot Survey
+After all attempts at selling.
+
+"Hey, I know you're really not interested in what we've been talking about, so which of the following
+options would you like me to talk about next? Would you like to know about topic A, B., ..."
+
+

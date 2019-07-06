@@ -1,0 +1,178 @@
++++
+title = "Tilbudet (The Offer)"
+tags= "markedsføring"
++++
+
+== Notater: Tilbudet (The Offer)
+
+Notater fra link:https://funnelbuildersecrets.com/membership-area12981752[Funnel Builder Secrets^,role="ext-link"]
+link:https://s3content.s3.amazonaws.com/funnel_builder_secrets/module_2/Module_2_Homework_Checklist.pdf[Homework^,role="ext-link"]
+
+=== 2 Packaging up an irresistible offer
+link:https://s3content.s3.amazonaws.com/funnel_builder_secrets/module_2/Module_2_Packaging_an_Irresistible_Offer.pdf[Irresistible Offer^,role="ext-link"]
+_If I can make people believe that _______#1________________ is the key to
+_______#2_________ and is only attainable through _______#3__________, then all other
+objections will become irrelevant and they have to give me money._
+
+#1 is the new opportunity.
+#2 is the ONE thing they want.
+#3 is your offer.
+
+#3 is the easiest to fill in because it’s your offer (and we’ll fill it in at the bottom of this lesson).
+
+#2 is usually pretty easy to solve since most humans want the same things (not necessarily in that
+order).
+
+- Money
+- Power
+- Success
+- Love
+- Validation
+- Meaning
+- Safety
+- Pleasure
+
+You may have to make it specific to your niche, but it probably relates to one of the above.
+
+#1 is the hardest. What is the new opportunity? For Russell, it was Sales Funnels. For
+someone teaching on marriage, the new opportunity might be The Five Love Languages (the
+guy who thought that up created a new opportunity. A new vehicle in which to understand
+relationships).
+
+#1 is where you have to figure out what new opportunity, system, bootcamp, way of looking at
+things, that is your new opportunity for your customer
+
+If I can make people believe that *The I.F.L.-method (Instant Feedback Loop)* is the key to
+money, power, success, meaning, love, validation, safety, *pleasure* through programming,
+and is only attainable through *The Teknomade Master Class*, then all other
+objections will become irrelevant and they have to give me money.
+
+*Distilled:*
+
+_If I can make people believe that *The I.F.L.-method (Instant Feedback Loop)* is *the key to
+programming success*, and is only attainable through *The Teknomade Master Class*, then all other
+objections will become irrelevant and they have to give me money._
+
+
+
+=== #3 Create The Offer
+
+Go crazy! Tenk på alt! Hva vil få Jacob Designeren til å bli yr av glede?
+
+* Lag din egen website med Java - dette er starten på din egen membership site, eller SaaS
+* få det på nett, med *eget domenenavn* og greier
+* verktøy: Først noe enkelt som Sublime? Senere introdusere IntelliJ CE
+* ta betalt med websiden din (Stripe)
+* lage bruker-innlogging (skrive disse til database?, cloud?, inMemory)
+* rammeverk for front-end, styling?
+* spring boot?
+* updates - as the technology changes
+* installere jdk
+* installere verktøy
+* raskt opp og gå
+* variabler, datatyper, operatorer
+* looper, if-else
+* klasser, objekt-orientering: arv, enkapsulering
+* Arrays, collections
+* spring boot
+* git
+* gradle eller maven
+
+*Requirements:*
+A computer with either Windows, Mac or Linux to install all the free software and tools needed to build your new apps
+(I provide specific videos on installations for each platform).
+A strong work ethic, willingness to learn, and plenty of excitement about the awesome new programs you’re about to build.
+Nothing else! It’s just you, your computer and your hunger to get started today. -Tim Buchalka
+
+Du lærer underveis mens du lager noe, der hva vi lærer er drevet av behovet der og da.
+
+Du lærer matnyttig kunnskap, "marketable skills", som proffene bruker .. byggeverktøy, maven ..
+... ikke bare å lage noe, men getting it out there.
+
+Forklaringer underveis: analogier. It's kind-of-like...
+
+*Kategoriser bitene slik:*
+
+* Foundational (necessary)
+** tools:
+*** installere jdk $
+*** spring boot $$
+*** verktøy: Først noe enkelt som Sublime? Senere introdusere IntelliJ CE $$
+** Lag din egen website med Java - dette er starten på din egen membership site, eller SaaS $$$$
+** rammeverk for front-end, styling? $$
+** variabler, datatyper, operatorer $
+** looper, if-else $
+** klasser, objekt-orientering: arv, enkapsulering $
+** Arrays, collections $
+
+* Prequel (would be helpful at the beginning)
+** git (git: https://www.atlassian.com/git/tutorials/install-git) $
+** gradle eller maven  $
+** raskt opp og gå $$$
+
+* Bonuses (would be awesome but not necessary)
+** ta betalt med websiden din (Stripe) $$$$
+** lage bruker-innlogging (skrive disse til database?, cloud?, inMemory) $$$
+
+* VIP (would be for the select few who have $$$)
+** updates - as the technology changes  $$$
+** få det på nett, med *eget domenenavn* og greier $$$$
+
+
+=== #4 Determine Value
+
+Sett $ ved bitene, flere $ for mer verdi.
+
+=== #5 Pick out the part you think your customer would want the most
+This is the bait. The tantalizing piece of awesomeness. Customer will be seduced by this.
+
+* A website you programmed with its own *domain name*, up and running?
+
+=== #6 Collect Your Offer Assets
+
+* Names (to the offer, the modules, the bonuses)
+
+(Underground), Expert, Academic, Certified, Systematic, Logical, Powerful
+System, Masterclass, Workshop, Program, Course
+(Posse, Clan)
+
+The Underground Java Programmer's Playbook
+Java Programming Masterclass
+
+The programming AND the tools and tricks of the trade
+- stack overflow
+
+I want them to become independent
+
+
+* Branding
+* Photos
+* Outlines
+
+When you have the name for the primary part of the offer, buy the domain.
+
+=== Collect branding assets
+* Logos for the products or courses
+* A color palette
+* Standard typography
+
+=== Outlines
+For product.
+
+==== Part 1: Hitting the Ground Running (Init)
+- Downloading tools
+- Setup with JHipster
+- Your first web page, controlled by Java
+
+==== Part 2: REST and JSON - input and output
+- Tool: Postman
+
+==== Part 3: Creating users and persisting in a database
+- Data modelling: https://start.jhipster.tech/jdl-studio/ ?
+
+==== Part 4: Frontend
+
+==== Part 5: Gettin' the money (Stripe integration)
+- add dependency to pom
+
+==== Part 6: Getting it online (Deploy)
