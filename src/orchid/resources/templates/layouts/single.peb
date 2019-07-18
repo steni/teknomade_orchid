@@ -1,0 +1,37 @@
+{% extends 'layouts/layoutBase' %}
+
+{% block bodyClass %}
+    {{ 'single' }}
+{% endblock %}
+
+{% block body %}
+
+    <!-- Main -->
+    <div id="main">
+        {% page %}
+
+        <div class="pagination-single">
+            {% include 'includes/pagination' %}
+        </div>
+    </div>
+
+<!-- Footer -->
+<section id="footer">
+    <p class="copyright">
+        &copy; {{ site.about.siteName }}.
+    <a target="_blank" href="./terms">Terms</a>
+    <a target="_blank" href="./privacy">Privacy</a>
+    <a target="_blank" href="./cookies">Cookies</a>
+    <a target="_blank" href="./refunds">Refunds</a>
+    <a target="_blank" href="./contact">Contact</a>
+    </p>
+    <ul class="icons">
+    {% if theme.social is not empty %}
+    {% for item in theme.social.items %}
+        <li><a href="{{ item.link }}" class="{{ item.icon }}"><span class="label">{{ item.label }}</span></a></li>
+    {% endfor %}
+    {% endif %}
+    </ul>
+</section>
+
+{% endblock %}

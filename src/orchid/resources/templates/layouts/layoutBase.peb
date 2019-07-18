@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+    Future Imperfect by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+{% include '?trackingHeadStart' %}
+{% head %}
+{% styles %}
+{% include '?trackingHeadEnd' %}
+</head>
+<body class="{% block bodyClass %}{% endblock %}">
+{% include '?trackingBodyStart' %}
+
+<div id="search-results" data-orchid-search-results style="display: none;">
+    <header>Search Results</header>
+    <ul></ul>
+</div>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="{{ site.baseUrl }}">{{ site.about.siteName }}</a></h1>
+        <nav class="links">
+            <ul>
+            {% for menuItem in theme.menu.getMenuItems(page) %}
+                <li><a href="{{ menuItem.link }}">{{menuItem.title}}</a></li>
+            {% endfor %}
+            </ul>
+        </nav>
+        <nav class="main">
+            <ul>
+                <li class="search">
+                    <a class="fa-search" href="#search">Search</a>
+                    <form id="search" data-orchid-search="{{ (searchIndices is not empty) ? searchIndices|join(',') : '' }}">
+                        <input type="text" name="query" id="query" placeholder="Search"/>
+                    </form>
+                    <div id="search-progress" data-orchid-search-progress style="display: none;">
+                        <div class="loader">Loading...</div>
+                    </div>
+                </li>
+                <li class="menu">
+                    <a class="fa-bars" href="#menu">Menu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <section id="menu">
+
+        <!-- Search -->
+        <section>
+            <form class="search" id="search" data-orchid-search="{{ (searchIndices is not empty) ? searchIndices|join(',') : '' }}">
+                <input type="text" name="query" placeholder="Search"/>
+            </form>
+            <div id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Links -->
+        <section>
+            <ul class="links">
+            {% for menuItem in theme.menu.getMenuItems(page) %}
+                <li>
+                    <a href="{{ menuItem.link }}">
+                        <h3>{{menuItem.title}}</h3>
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+        </section>
+
+    </section>
+
+    {% block body %}{% endblock %}
+
+</div>
+
+{% scripts %}
+{% include '?trackingBodyEnd' %}
+</body>
+</html>

@@ -1,2 +1,3 @@
 staticPages:
   layout: single
+  type: 'pageContent'
