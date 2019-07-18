@@ -13,7 +13,7 @@
 
 <p>We issue refunds for digital products within 30 days of the original purchase of the product.</p>
 
-<p>We recommend contacting us for assistance if you experience any issues receiving or downloading our products.</p>
+<p>We recommend <a href="./contact">contacting us for assistance</a> if you experience any issues receiving or downloading our products.</p>
 
 
 
