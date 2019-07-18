@@ -21,11 +21,11 @@
        Copyright &copy; Teknomade Systemutvikling AS, NO899228332MVA. All rights reserved.
     </p>
     <p class="copyright">
-        <a target="_blank" href="./terms">Terms</a>
-        <a target="_blank" href="./privacy">Privacy</a>
-        <a target="_blank" href="./cookies">Cookies</a>
-        <a target="_blank" href="./refunds">Refunds</a>
-        <a target="_blank" href="./contact">Contact</a>
+        <a target="_blank" href="/terms">Terms</a>
+        <a target="_blank" href="/privacy">Privacy</a>
+        <a target="_blank" href="/cookies">Cookies</a>
+        <a target="_blank" href="/refunds">Refunds</a>
+        <a target="_blank" href="/contact">Contact</a>
     </p>
     <ul class="icons">
     {% if theme.social is not empty %}
