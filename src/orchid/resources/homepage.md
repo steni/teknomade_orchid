@@ -2,13 +2,13 @@
 next: 'systemutvikling'
 title: 'Vi kan bare én ting: Skape produkter, med kode'
 ---
-## Ok, quiz time...
+## Quiz time :-) ...
 
 **Spørsmål 1: Hvilke av disse beskriver deg best?**
 
-# A. Jeg har en knakende god idé verden bare *må få*, og trenger hjelp til å få den virkeliggjort...
+### A. Jeg har en knakende god idé verden bare *må få*, og trenger hjelp til å få den virkeliggjort...
 
-*Ok... har du **gjort dette mange ganger før***, og vet du trenger en **erfaren partner?**
+*Har du **gjort dette mange ganger før***, og vet du trenger en **erfaren partner?**
 
 Vi har jobbet med blant andre <a href="/cv" target="_blank">NRK, FINN.no, Coop, 1881...</a> 
 
@@ -30,7 +30,7 @@ Vi kan ta en prat og hjelpe deg få et klarere bilde av hvor landet ligger...
 
 *Eller er dette mer deg ...*
 
-# B. Jeg er *allerede i full sving*, og trenger flere skitne hender og skarpe hoder for å hale dette i land!
+### B. Jeg er *allerede i full sving*, og trenger flere skitne hender og skarpe hoder for å hale dette i land!
 
 Vi har ryggen din! Som stolt tidligere konsulent i Kodemaker og nåværende prosjektleder/utvikler i Giant Leap Technologies har vi hjulpet <a href="/cv" target="_blank">store og små kunder</a> nå sine mål.
 
