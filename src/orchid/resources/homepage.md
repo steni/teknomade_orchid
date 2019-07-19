@@ -1,9 +1,8 @@
 ---
 next: 'systemutvikling'
+title: 'Vi kan bare én ting: Skape produkter, med kode'
 ---
-## Vi kan bare én ting: Skape produkter, med kode
-
-**Ok, quiz time...**
+## Ok, quiz time...
 
 **Spørsmål 1: Hvilke av disse beskriver deg best?**
 
