@@ -1,0 +1,8 @@
+<article class="post single">
+    <header>
+        <div class="title">
+            <h2><a href="{{ page.link }}">{{ page.title }}</a></h2>
+        </div>
+    </header>
+    {{ page.content | raw }}
+</article>

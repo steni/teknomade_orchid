@@ -1,0 +1,61 @@
+{% extends 'layouts/layoutBase' %}
+
+{% block bodyClass %}
+    {{ 'index' }}
+{% endblock %}
+
+{% block body %}
+
+    <!-- Main -->
+    <div id="main">
+        {% page %}
+
+        {% include 'includes/pagination' %}
+    </div>
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+
+        <!-- Intro -->
+        <section id="introz">
+
+            <header>
+                <p>
+                  <a href="{{ site.baseUrl }}" class="logo"><img src="{{ site.about.avatar }}" alt="{{ site.about.siteName }}"/></a>
+                </p>
+                <p>{{ site.about.subtitle }}</p>
+            </header>
+        </section>
+
+        {% include 'includes/componentHolder' with {"componentHolder": theme.sidebar} %}
+
+        <!-- About -->
+        <section class="blurb">
+            <p>{{ site.about.siteDescription }}</p>
+        </section>
+
+       <!-- Footer -->
+<section id="footer">
+    <p class="copyright">
+       Copyright &copy; Teknomade Systemutvikling AS, NO899228332MVA. All rights reserved.
+    </p>
+    <p class="copyright">
+        <a target="_blank" href="/terms">Terms</a>
+        <a target="_blank" href="/privacy">Privacy</a>
+        <a target="_blank" href="/cookies">Cookies</a>
+        <a target="_blank" href="/refunds">Refunds</a>
+        <a target="_blank" href="/contact">Contact</a>
+    </p>
+    <ul class="icons">
+    {% if theme.social is not empty %}
+    {% for item in theme.social.items %}
+        <li><a href="{{ item.link }}" class="{{ item.icon }}"><span class="label">{{ item.label }}</span></a></li>
+    {% endfor %}
+    {% endif %}
+    </ul>
+</section>
+
+
+    </section>
+
+{% endblock %}

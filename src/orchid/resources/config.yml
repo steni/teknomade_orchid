@@ -3,8 +3,9 @@ site:
     siteName: 'TEKNOMADE'
     subtitle: 'Systemutvikling ♥ Markedsføring'
     siteDescription: 'Teknomader ... Gjør verden bedre med kode!'
-    avatar: '/assets/media/tn-merke.png'
+    avatar: '/assets/media/tn-logotype-clean.png'
     favicon: '/assets/media/favicons/favicon.ico'
+
 
 theme:
   social:
