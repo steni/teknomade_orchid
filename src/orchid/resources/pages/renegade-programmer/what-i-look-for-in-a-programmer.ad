@@ -41,6 +41,37 @@ all there is, then you will find the opposite to happen: you will only get dragg
 
 You will drown in everything you don't know.
 
+You will need a different approach.
+
+== Secret 1: Discover the constants
+
+If you've been in this game for a long time, or even if you just think about it deeply, you'll discover a
+couple of things:
+
+* There are *trends* in programming (and the industry is like a shoal of fish)
+* There are *timeless basics*, that will never go away as long as we´re using some version of the
+link:https://en.wikipedia.org/wiki/Von_Neumann_architecture[von Neumann machine^,role="ext-link"]
+
+For example, when it comes to trends, the pendulum is always swinging between so-called "thin" and
+"thick" clients.
+
+In a simple scenario, you have an architecture with one, large backend-server, which usually contains
+most or all of your business logic, and then you have "clients", which simply said contain the user
+interface towards the logic on the backend server.
+
+...
+
+== Secret 2: Niche down.
+
+== Secret 3: Become advanced at the basics
+
+There are many great niches, and I'm not going to tell you which one is the best for you, because, well,
+I'm not psychic and chances are I don't know you.
+
+
+
+== And the good news ...
+... is that *that's* a road less travelled, and yet it is a lot smoother sailing than the downtrodden path.
 
 
 
