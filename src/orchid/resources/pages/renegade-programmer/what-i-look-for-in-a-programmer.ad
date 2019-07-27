@@ -52,14 +52,14 @@ couple of things:
 * There are *timeless basics*, that will never go away as long as we´re using some version of the
 link:https://en.wikipedia.org/wiki/Von_Neumann_architecture[von Neumann machine^,role="ext-link"]
 
-For example, when it comes to trends, the pendulum is always swinging between so-called "thin" and
-"thick" clients.
+For example, when it comes to trends, the pendulum is always swinging between so-called
+link:thick-vs-thin-clients["thin" and
+"thick" clients], which I've written about elsewhere.
 
-In a simple scenario, you have an architecture with one, large backend-server, which usually contains
-most or all of your business logic, and then you have "clients", which simply said contain the user
-interface towards the logic on the backend server.
 
-...
+
+
+This particular dispute is abput
 
 == Secret 2: Niche down.
 

@@ -1,0 +1,91 @@
+= And The Pendulum Swings - Thick Vs Thin Clients
+
+Let's imagine a simplified, but very normal scenario...
+
+In your business, you have a so-called "backend server", containing a lot of your "business logic" --
+the rules that apply to your application.
+
+For example, if you're in the accounting business and you're automating to stay alive, and you've created a
+service to calculate taxes, the *backend server* would normally know the  different tax rates for classes
+of goods and services.
+
+Having software that simply *knows how to calculate something* isn't enough, of course. You're also
+likely to have "clients" that "speak" to the backend server.
+
+The client exposes a "user interface" towards your backend:
+
+Input fields, buttons and the like, allowing a user (a customer) to choose between classes of products,
+enter prices and quantities and such.
+
+Then, when the user has chosen a service, and entered the necessary
+data in the client, the data is sent to the backend server for calculation, and the answer is returned
+to the client, which displays it to the user.
+
+Nowadays, the "client" is often an app on a user's (customer's) phone. Or it is the web page that exposes
+functionality to the user. It could also take the form of a desktop program installed on the user's
+Mac or PC.
+
+== How much computation should be done on the client?
+Now, the pendulum is always swinging between the consideration of "how much computation should be done on
+the client"?
+
+Historically, there were a very few, very expensive computers that could do the calculations, and the user
+typically had to make due with a "dumb" terminal, a command line interface to the backend server.
+
+Thus, the user would type in commands on the dumb terminal, which would send the command to the server,
+which would do the calculations and return them to the terminal, to display to the user.
+
+As we entered the modern computing area, all of a sudden everyone and their uncle had computer on their
+desks, a real computer with a lot more computing power than the mission computer aboard the Apollo 11.
+
+And so, because the act of computing is energy-demanding and takes time, it made sense to distribute the
+logic to the clients.
+
+The thinking goes like this: We create the software, and we know the rules of calculation, so the calculations
+are going to be correct no matter what computer does the calculating.
+
+Our customers have computers, and they are already downloading the client anyway.
+
+So instead of us having to do all the calculations for all our customers on one super-duper expensive
+machine, or a cluster of such super-duper expensive machines, let the user's computers do the job.
+
+There is nothing wrong with this view, but it does have at least one serious drawback:
+
+== On Thick Clients, Changes To The Calculations Are Hard To Make
+
+If, for example, the government imposes new laws, with new tax regulations, *all the users need to update
+their software*.
+
+*If they don't, their tax calculations will be wrong.*
+
+One possible solution is to force updates, which will reach the internet-connected users, but not others,
+and adds complexity (update scripts, different users have different versions) and vulnerability (dns-takeover
+leads the update script to download malware, infecting users, and you get the blame).
+
+Another solution is to start bringing *some* of the logic over the the backend, for example, logic that is
+more likely to change. This obviously has issues of its own, and again it adds to complexity: what's where?
+... And in which version is what where?
+
+These days, we all walk around with fantastically powerful computers in our hands, on our wrists, in our
+pockets.
+
+That makes it very tempting to put the cost of computation on the user: The user already has so much
+computing power just sitting there, idling.
+
+== Updating Client Software In The Era Of A Two-Plattform App Ecosystem Isn't All That Bad
+
+We live in an era where two players dominate the clients: The Apple App Store and Google's Play Store is how
+most of us distribute clients to our customers.
+
+Aside from the fact that this is a vulnerable position for the rest of us to be in -- we can lose half our
+customer base when one of them decided to change the rules of the game -- it does offer something in the
+easy of which you can distribute updates to the user.
+
+...
+
+However, ..
+
+
+
+
+
