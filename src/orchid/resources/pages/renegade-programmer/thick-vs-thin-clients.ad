@@ -1,33 +1,78 @@
 = And The Pendulum Swings - Thick Vs Thin Clients
 
-Let's imagine a simplified, but very normal scenario...
+== Let's imagine a simplified, yet very normal scenario
 
-In your business, you have a so-called "backend server", containing a lot of your "business logic" --
-the rules that apply to your application.
+You're in the accounting business and you're automating to stay alive, and you've created a
+service, an app, to calculate taxes.
 
-For example, if you're in the accounting business and you're automating to stay alive, and you've created a
-service to calculate taxes, the *backend server* would normally know the  different tax rates for classes
-of goods and services.
+In your business, you have a so-called *"backend server"*, which simply is a computer somewhere,
+running some code you've had created.
 
-Having software that simply *knows how to calculate something* isn't enough, of course. You're also
-likely to have "clients" that "speak" to the backend server.
+In this very normal scenario, the code on the backend server encapsulates your "business logic"
+-- the rules that apply to your application:
 
-The client exposes a "user interface" towards your backend:
+Your backend server knows the different tax rates for classes of goods and services, it has
+these stored in a database, and it has some functions to calculate the correct taxes, given
+the classes of products, prices, quantities.
 
+Now, having software that simply *knows how to calculate something* isn't enough, of course.
+
+You need a way of interacting with this code, or a way for your customers to interact with the code.
+
+That is, you must also have "clients" that "speak" to the backend server.
+
+*The client exposes a "user interface" towards your backend:*
 Input fields, buttons and the like, allowing a user (a customer) to choose between classes of products,
 enter prices and quantities and such.
 
-Then, when the user has chosen a service, and entered the necessary
-data in the client, the data is sent to the backend server for calculation, and the answer is returned
-to the client, which displays it to the user.
+Then, when the user has chosen a service, and entered the necessary data in the client, *the data is
+sent to the backend server for calculation, and the answer is returned to the client*, which displays
+it to the user.
 
-Nowadays, the "client" is often an app on a user's (customer's) phone. Or it is the web page that exposes
-functionality to the user. It could also take the form of a desktop program installed on the user's
-Mac or PC.
+Nowadays, the "client" is often an app on a user's (customer's) phone. Or it is the web page that
+exposes functionality to the user. It could also take the form of a desktop program installed on
+the user's Mac or PC.
 
-== How much computation should be done on the client?
-Now, the pendulum is always swinging between the consideration of "how much computation should be done on
-the client"?
+== Your app is very popular and soon you have thousands of users
+
+The users love using your app, and they bombard your server with data,
+expecting it to very quickly calculate the correct answer and return it to them.
+
+The server is strained under all the pressure, and becomes slow.
+
+*Now what do you do?*
+
+== All the things you could do
+
+There's a multitude of things you *could* do:
+
+* Upgrade the computer with more memory, faster CPUs
+* Duplicate the server you've got, and put a load-balancer in front of the two
+machines, to distribute the load
+* Put the database on a separate server
+
+Now I'm not suggesting any of those are a good place to start,
+they are simply some of the options in the big ocean of options before you.
+
+Pop quiz: What do *these* solutions have in common?
+
+Answer: they involve throwing more hardware on the problem, hoping it would go
+away.
+
+Why that might not be a well thought-through strategy is a good topic for another
+piece, today suffice it to say: they all involve your company spending more money
+on hardware, and except the first option, they all involve adding complexity
+(which always is costly).
+
+So one bright head suddenly goes *ping*! -- light bulb moment:
+
+"Our user's have machines in their hands vastly more powerful than what is needed
+to do the calculations needed. Why can't we just move the logic to the clients --
+problem solved. No need for costly and complex upgrades on our side."
+
+== Here we go again
+Now, the pendulum is always swinging between the consideration of "how much
+computation should be done on the client"?
 
 Historically, there were a very few, very expensive computers that could do the calculations, and the user
 typically had to make due with a "dumb" terminal, a command line interface to the backend server.
