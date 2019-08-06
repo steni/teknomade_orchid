@@ -1,4 +1,4 @@
-= And The Pendulum Swings - Thick Vs Thin Clients
+= Thick App Clients Will Hurt You
 
 == Let's imagine a simplified, yet very normal scenario
 
@@ -40,6 +40,8 @@ expecting it to very quickly calculate the correct answer and return it to them.
 
 The server is strained under all the pressure, and becomes slow.
 
+Users complain. Stupid app. You start getting refund requests.
+
 *Now what do you do?*
 
 == All the things you could do
@@ -56,13 +58,17 @@ they are simply some of the options in the big ocean of options before you.
 
 Pop quiz: What do *these* solutions have in common?
 
-Answer: they involve throwing more hardware on the problem, hoping it would go
+Answer: they involve throwing more hardware on the problem, hoping it will go
 away.
 
 Why that might not be a well thought-through strategy is a good topic for another
 piece, today suffice it to say: they all involve your company spending more money
-on hardware, and except the first option, they all involve adding complexity
-(which always is costly).
+on hardware, and except with the first option, they all involve adding complexity.
+
+Adding this complexity makes new deployments harder and more error prone,
+new problems harder to debug, _et cetera_. Adding complexity is always costly.
+
+*Think hard on it before adding complexity.*
 
 So one bright head suddenly goes *ping*! -- light bulb moment:
 
@@ -70,17 +76,20 @@ So one bright head suddenly goes *ping*! -- light bulb moment:
 to do the calculations needed. Why can't we just move the logic to the clients --
 problem solved. No need for costly and complex upgrades on our side."
 
-== Here we go again
+==  Here we go again
 Now, the pendulum is always swinging between the consideration of "how much
 computation should be done on the client"?
 
-Historically, there were a very few, very expensive computers that could do the calculations, and the user
-typically had to make due with a "dumb" terminal, a command line interface to the backend server.
+To understand what's going on here, we need to take a step back and look at at history.
+
+Historically, there were a very few, very expensive computers that could do the calculations,
+and the user typically only had access to a  "dumb" terminal, a command line interface to the
+backend server -- basically: a screen and a keyboard.
 
 Thus, the user would type in commands on the dumb terminal, which would send the command to the server,
 which would do the calculations and return them to the terminal, to display to the user.
 
-As we entered the modern computing area, all of a sudden everyone and their uncle had computer on their
+As we entered the modern computing area, all of a sudden everyone and their uncle had a computer on their
 desks, a real computer with a lot more computing power than the mission computer aboard the Apollo 11.
 
 And so, because the act of computing is energy-demanding and takes time, it made sense to distribute the
@@ -117,18 +126,21 @@ pockets.
 That makes it very tempting to put the cost of computation on the user: The user already has so much
 computing power just sitting there, idling.
 
+And to make the idea even more tempting ...
+
 == Updating Client Software In The Era Of A Two-Platform App Ecosystem Isn't All That Bad
 
 We live in an era where two players dominate the clients: The Apple App Store and Google's Play Store is how
 most of us distribute clients to our customers.
 
 Aside from the fact that this is a vulnerable position for the rest of us to be in -- we can lose half our
-customer base when one of them decided to change the rules of the game -- it does offer something in the
-easy of which you can distribute updates to the user.
+customer base when one of them decided to change the rules of the game -- it does offer a lot when it comes
+to making it easy to distribute updates to your users.
 
-...
+Many users simply have automatic updating turned on. You simply push a button, and within a few days,
+most users have the updated version.
 
-However, ..
+== However, ..
 
 
 
