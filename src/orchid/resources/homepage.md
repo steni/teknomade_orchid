@@ -6,7 +6,7 @@ Hei!
 
 **Jeg heter Sten Morten Misund-Asphaug, Steni blant venner.**
 
-Jeg er Java-utvikler og prosjektleder, i Giant Leap Technologies AS.
+Java-utvikler og prosjektleder, i Giant Leap Technologies AS.
 
 Er gift på trettende året, har tre barn i barne- og ungdomsskolealder.
 
