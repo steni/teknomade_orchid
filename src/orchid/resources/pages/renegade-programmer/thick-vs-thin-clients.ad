@@ -140,7 +140,72 @@ to making it easy to distribute updates to your users.
 Many users simply have automatic updating turned on. You simply push a button, and within a few days,
 most users have the updated version.
 
-== However, ..
+However ...
+
+== You still will have those users who don't update
+
+Users who don't allow automatic updates.
+
+And who don't update manually.
+
+Users who's phones are too old to work with your latest updates.
+
+*If your business logic resides client-side, you've now left those customers behind.*
+
+== Critical bugs have more places to hide
+
+When business logic resides server-side, you have complete control and intimate knowledge of
+the hardware that runs your software.
+
+Your programmers know the hardware. They've debugged it before. They've instrumented it so they
+can keep a track on memory-usage, hard-drive usage, CPU usage.
+
+They probably have an alarm system in place, to notify someone if the hardware starts to struggle.
+
+Your customer's phones, on the other hand, constitute a plethora of hardware configurations and
+operating systems, you could not possibly know them all.
+
+That's one of the reasons critical bugs appear in clients at all -- there's simply too many
+configurations for you to able to test them all.
+
+== Critical bugs will take longer to fix
+No matter how well you test your apps before shipping, critical bugs will slip through.
+
+It's just a matter of time, it's a fact of life, and you should *plan for it*.
+
+If you have hundreds of thousands of users, a bug that only affects 1% of them can cause you
+a lot of grief.
+
+The fact that it only affects 1% should also worry you.
+
+That means it isn't a simple bug in the programming itself, but is rather caused by a combination
+of variables you don't control.
+
+If that bug is caused by some configuration of the customer's hardware, the customer's operating system,
+and the newest version of your software, you've just created a situation guaranteed to cause premature
+graying of developer hair.
+
+And, once the sinner is finally isolated and dealt with, complaints will still come rolling in as you
+wait for Apple to review your app again, then for customers' apps to update, again.
+
+== Conclusion: Keep business logic server side
+
+No matter how tempting it is to lay the burden of computing on the customer, you should have very
+specific and well thought-through reasons for doing so.
+
+You should make certain the benefits outweigh the costs. Because the costs are probably huge.
+
+Keeping the business logic server-side, and creating as thin as possible clients as possible, will
+make it a lot easier for you to upgrade logic and fix bugs, for everyone, quickly.
+
+So what _should_ you do when the server gets too much heat ...?
+
+That's a great topic for another post ...
+
+*Enter your best email address now receive exclusive insights and fun goodies
+and shameless pitches for stuff I sell ;-)  here:*
+
+
 
 
 
