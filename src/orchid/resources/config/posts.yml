@@ -8,6 +8,8 @@ categories:
     title: 'Livet'
   - key: 'betraktninger'
     title: 'Betraktninger'
+  - key: 'programming'
+    title: 'Programming'
 authors:
   - name: 'Sten Morten Misund-Asphaug'
     avatar: '/assets/images/smma-half-figure.jpg'

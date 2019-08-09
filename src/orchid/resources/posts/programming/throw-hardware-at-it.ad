@@ -1,0 +1,16 @@
+Fra Thick vs thin clients:
+
+There's a multitude of things you *could* do:
+
+* Upgrade the computer with more memory, faster CPUs
+* Duplicate the server you've got, and put a load-balancer in front of the two
+machines, to distribute the load
+* Put the database on a separate server
+
+Now I'm not suggesting any of those are a good place to start,
+they are simply some of the options in the big ocean of options before you.
+
+Pop quiz: What do *these* solutions have in common?
+
+Answer: they involve throwing more hardware on the problem, hoping it would go
+away.

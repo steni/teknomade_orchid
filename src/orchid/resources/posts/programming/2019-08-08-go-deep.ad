@@ -1,0 +1,149 @@
++++
+title = "The only way to not drown, is to go deep"
+featuredImage = "assets/media/"
+tags= "programming"
++++
+
+= The only way to not drown, is to go deep
+
+Are you just starting out on the wondrous journey of becoming a programmer?
+
+Or are you on your way, and sometimes just feel overwhelmed by all the technologies, the buzzwords?
+
+Maybe you're reading Hacker News, and you're gripped by that deep hollow feeling in your stomach because you don't
+know Angular, or React, or Kotlin, or Dart, or Go ...
+
+Or maybe you've just mastered Magento 2 Knockout, just to find out that it is being deprecated.
+
+And there's that sinking feeling again ...
+
+Like you're drowning in new stuff, like you're going deeper
+and deeper in the mud of learning. And instead of getting on top and getting ahead, you're up to your
+nose in quixotic frameworks and T.L.A.s (Three Letter Acronyms).
+
+Your ears are filling up with JDK 14, you can't breath because Flutter is forcing its way into your mouth.
+
+== Think of it this way ...
+
+Technology enables technology:
+
+Technology enables interconnectedness. Interconnectedness enables growth. Growth enables technology.
+
+(Et cetera, et cetara ...)
+
+What's more, new people come in to technology every day. Thus, more people will be creating more technology,
+faster.
+
+It isn't going to slow down.
+
+It's going to speed up.
+
+And with AI looming in the distance .... It might speed up *exponentially*.
+
+== Staying ahead will drag you deep down under
+
+It doesn't take a rocket scientist (or a computer scientist, fort that matter) to realize that if you try
+to stay ahead, to know all there is, you will find the opposite to happen: you will only get dragged
+further down.
+
+You will drown in everything you don't know.
+
+You need a different approach.
+
+== Secret 1: Discover the constants
+
+If you've been in this game for a long time, or even if you just think about it deeply, you'll discover a
+couple of things:
+
+* There are *trends* in programming (and the industry is like a shoal of fish)
+* There are *timeless basics*, that will never go away as long as we´re using some version of the
+link:https://en.wikipedia.org/wiki/Von_Neumann_architecture[von Neumann machine^,role="ext-link"]
+
+For example, when it comes to trends, the pendulum is always swinging between so-called
+link:thick-vs-thin-clients["thin" and
+"thick" clients], which I've written about elsewhere.
+
+You don't have to agree with what I say in that article, and you can probably come up with use cases
+that are good candidates for taking the opposite approach, but that's not what I'm talking about right
+now. Right now, the point is this: at one time, the majority view is that thin clients are the best
+(or even the only ones feasible), then thick clients, then thin again.
+
+*Be aware of the trends. Don't be a slave to them. Think for yourself.* That way, you will get a deep
+understanding of the benefits and problems with each approach.
+
+Deep understanding is they key. If you have a deep understanding, you don't need to memorize facts, and
+you don't have to resort to quoting "experts in the field".
+
+Taking the time to understand something deeply, will save you an enormous amount of time and stress in
+the long run. When you understand deeply, details you would otherwise have to memorize, will simply
+be logical, understandable consequences of the choices you make.
+
+Go deep.
+
+== Secret 2: Niche down
+
+With more people creating more technology every day, at an ever faster pace, you've got a snowball's chance
+in hell's kitchen of learning everything, and a smaller chance still at becoming an expert.
+
+True, a programmer needs to know a lot of different things, and is in some way a jack of all trades by
+necessity -- she has to know a couple of languages deeply, she needs to be ale to write and optimize sql,
+she needs to be able to use dozens and dozens of frameworks.
+
+Yet, riddle me this: Who do you think makes the most money: the general practitioner, or the brain
+surgeon?
+
+And who would you go to if you needed brain surgery?
+
+Even though you need to know quite a lot of "stuff", you should, intentionally and thoughtfully, decide
+how you want to be known. What's your speciality? In what field are you going to be the expert?
+
+That doesn't mean you need to be a world-class expert, not at all.
+
+If means: if somebody in your neck of the woods thought to themselves: "I need a damned good php-programmer",
+who would everybody else think of first, and recommend to them?
+
+Or even better, you could become an integration expert, in .NET. Or someone who specializes in shopping
+carts, in Java.
+
+That doesn't mean you don't know a lot of other languages and markets, and it doesn't mean you can't do
+a lot of other work; it just means that you're known
+for something, and that you're really good exactly there.
+
+The brain surgeon knows a lot about the rest of the body as well, it doesn't stop her from calling herself
+a brain surgeon.
+
+Go deep.
+
+
+== Secret 3: Become advanced at the basics
+
+There are many great niches, and I'm not going to tell you which one is the best for you, because, well,
+I'm not psychic and chances are I don't know you.
+
+However, there's a widely overlooked, essential niche you could delve into before anything else:
+
+_Your language of choice._
+
+If you're a Java programmer, and you have been for a while, you're comfortable with the frameworks
+and the SQL, why not get really good at the basics.
+
+This will be a force multiplier. Take some time every week to study the specs.
+[TODO: link]
+
+Go deep.
+
+
+== And the good news ...
+
+...is that *that's* the road less travelled, and yet it is a lot smoother sailing than the downtrodden path
+of incessant follow-up and diving into the latest trends.
+
+Stay aware of the trends. Keep an eye on them. Dive in, if there's something you find really interesting.
+
+However, don't smear yourself too thin.
+
+Instead, go deep.
+
+
+
+

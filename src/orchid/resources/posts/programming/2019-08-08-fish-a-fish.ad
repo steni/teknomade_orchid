@@ -1,0 +1,131 @@
++++
+title = "How long does it take to fish a fish? (On being a professional programmer)"
+featuredImage = "assets/media/"
+tags= "programming"
++++
+
+= How long does it take to fish a fish? (On fixing bugs and being a professional programmer)
+
+_(Thanks to Arne Jervell for clearing up my thinking on this subject!)_
+
+Quick, how long does it take to fish a fish?
+
+If you're like me, you don't know.
+
+And the reason is obvious: The ocean is big. It's deep. You can't see the fish.
+
+You know there's fish, fish are real, because you've seen fish before. You might even have
+caught a fish or two.
+
+You probably eat fish.
+
+But how long it takes from you pull out your rod and get the hook, line and sinker into the water,
+till there's an actual, real-life honest-to-God fish on the hook ...
+
+*No clue!*
+
+*And that's okay.*
+
+Why is that okay?
+
+
+== Now, consider this conversation that I've overheard
+
+Customer: "How long will it take to find and fix this bug?"
+
+Developer: "How long does it take to fish a fish?"
+
+*As a developer, it's a great metaphor to use for washing your hands of all responsibility.*
+
+The customer, after all, sees software development as the modern day equivalent of the black arts.
+
+It's a mysterious process driven by quirky people talking in strange languages.
+
+To the customer, there's always some _too-complex-to-understand_ reason for why the
+code wasn't finished one schedule ...
+
+And a _too-complex-to-understand_ reason for why the whole thing has to be rewritten,
+in another language, without any new functionality being added.
+
+And a _too-complex-to-understand_ reason for why the previous programmers, who don't work here
+anymore, has left a code base of such a quality that no new programmer is willing to change
+anything.
+
+And so, when the customer who's used to being in the tight grip of the unaisailable,
+necessary but oh so annoying programmer, is force-fed this metaphor, it comes almost as a
+relief:
+
+Okay, I can understand that ... I don't know how long it takes to fish a fish, either. Okay.
+
+== NO! NOT OKAY!
+
+*If you're a fisherman, you damned better know quite a lot about how long it takes to fish a fish.*
+
+Why?
+
+*Because your livelihood depends on it.*
+
+Because you know a lot about fish.
+
+You know about the ocean. You know where the fish goes at certain times of year.
+
+You know
+what bait to use, you know how deep the line should go. You know what wheather to fish in. You
+know the signs to look for, like birds diving.
+
+You have technology to help you map the sea.
+
+You've done this for years, and you know all this stuff by having mentors, by studying, by
+trying and failing, and always learning.
+
+*A professional programmer should not wash their hands of the responsibility by using an
+ill-fitted metaphor.*
+
+If you're a professional programmer, be like the professional fisherman.
+
+You have knowledge, tools and experience.
+
+_What kind of a bug is it?_
+
+_Does it appear every time the user does something, or only
+sometimes?_
+
+_Does it happen for all users, or only some users?_
+
+_If it only happens for
+some users, what's the commonality between the users?_
+
+_Are they doing the exact same thing?_
+
+_Have we watched them do it?_
+
+_Do they have the same hardware?_
+
+*_Can we reproduce the bug?_*
+
+When we can reproduce the bug, we can isolate it. When we can isolate it, we can fix it.
+
+The good thing about being a programmer, is that, at least in principle, everything that
+happens is _logical_, by its very nature. Therefore, it is _understandable_, by its very nature.
+
+I'm not saying it's easy. It can be damned hard. But as a professional programmer, it us up
+to you to _take on the responsibility_.
+
+== Your experience should let you estimate how long it will take to fix the bug
+
+Estimate the steps. Refine the estimates as you learn more. Explain what you need in order to
+get started:
+
+"To start fixing this bug, first we need to be able to reproduce it. I cannot see it happening
+in the logs, so we need to find a user for whom this happens. Can you get me access to one such
+user, or two, or three?"
+
+"If I'm able to reproduce the bug together with the user, I can instrument to see whether it's
+a bug in the client software, or in the server software. If it's on the client, I need help
+from Thomas. He's not here today, but he'll be in tomorrow. When I've looked at it with him,
+I can get you a better estimate ..."
+
+Take responsibility to isolate the damned thing. Express your thinking, how you weigh the cues,
+how you eliminate some possibilities. Explain your reasoning. And estimate as you go along.
+
+Rewards will follow.
