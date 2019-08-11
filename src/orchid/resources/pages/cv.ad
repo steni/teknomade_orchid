@@ -210,35 +210,35 @@ Ansvar for å designe og implementerte en dokumentdatabase for Norconsult. Form�
 
 
 ***
-## Teknologi
-### Programmeringsspråk jeg har levd av gjennom årene
+== Teknologi
+=== Programmeringsspråk jeg har levd av gjennom årene
 Java, Groovy, Clojure PHP, C, C++, C#
 
-### I hobbyprosjekter har jeg også brukt
+=== I hobbyprosjekter har jeg også brukt
 Kotlin, JavaScript, Perl, Python, Q, Scheme
 
-### Betalingsløsninger jeg har integrert mot
+=== Betalingsløsninger jeg har integrert mot
 Stripe, Braintree, PayPal, Nets, Bambora
 
-### Plattformer
+=== Servere
 Tomcat, Jetty, Apache, lighttpd, nginx
 
-### Programmeringsverktøy
+=== Programmeringsverktøy
 IntelliJ IDEA, Emacs, WebStorm, Eclipse, NetBeans, Aptana, Borland C++, Visual Studio C++ og .Net
 
-### Versjonsstyring
+=== Versjonsstyring
 Git, Subversion (svn), CVS, Mercurial
 
-### Testing
+=== Testing
 JUnit, Spock, PHPUnit, Mockito, Hamcrest, clojure.test
 
-### Enterprise Integration
+=== Enterprise Integration
 Apache Camel, ActiveMQ
 
-### Database
+=== Database
 MySQL, Oracle, MS SQL, Microsoft Access, HSQLDB, Sybase
 
-### Et utvalg rammeverk / teknologier / verktøy jeg er kjent med
+=== Et utvalg rammeverk / teknologier / verktøy jeg er kjent med
 Spring, Spring MVC, Compojure, SolR, Google Closure Compiler, MongoDB, Playframework, JSP, SQL, REST, Web Services, Maven, JIRA, Confluence, Firebug, Fiddler
 
 Jeg er vant til å jobbe etter smidige metoder, og er sertifisert Scrum Master.
