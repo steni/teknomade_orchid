@@ -62,7 +62,7 @@ theme:
   #    atRoot: true
   sidebar:
     - type: recentPosts
-      limit: 5
+      #limit: 5
       category: gallery
       noWrapper: true
       template:
