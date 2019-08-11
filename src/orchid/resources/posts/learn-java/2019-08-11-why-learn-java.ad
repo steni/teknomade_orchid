@@ -1,6 +1,111 @@
 +++
-title = "Why Should You Learn Java?"
-featuredImage = "assets/media/carles-rabada-reZbnolscDo-unsplash.jpg"
-tags= "programming"
+title = "Why Should You Learn Programming?"
+featuredImage = "assets/media/holger-link-RGvwatYi0-Q-unsplash.jpg"
+tags= "learn-java"
 +++
-_Photo by Carles Rabada on Unsplash_
+_Photo by Holger Link on Unsplash_
+
+According to Forbes <<for>>, millions of jobs have been lost to automation. The author, Amy Stirling
+says:
+
+_"Entire industries have evaporated from the American economy. This will only expand in years to come.
+Rather than fight technology, we should embrace it and prepare workers."_
+
+I think a lot of people is feeling the *wave of change* sweeping over us these days, no matter where they live:
+
+*The world is changing. In an ever faster pace.*
+
+And you know what?
+
+*That's a good thing.*
+
+Yes, really. At least it can be.
+
+It all depends on how you _meet_ the wave.
+
+== Don't let the wave crush you: Surf it!
+
+There are two distinct ways of meeting a big wave.
+
+You can let it crush you.
+
+Or you can surf it.
+
+This wave is coming, and it is big. And it _will_ crush you if you try to fight it.
+
+So don't.
+
+Surf it.
+
+Surfing is fun. Surfing is pleasurable. Surfing lets you harness the forces at play, instead
+of being smashed to a pulp by them.
+
+Don't be a pulp.
+
+Be a programmer.
+
+== Programmers earn more
+
+
+== Why Learn Java?
+There are many programming languages you could learn.
+
+I say: Learn Java.
+
+Why?
+
+Oh let me count the reasons:
+
+1. *You can get a job today.* When Coding Dojo <<codo>> looked at what programming languages have the most job offerings on Indeed.com,
+Java was a the very top, with only Python being at all in the same league.
+
+2. *You can get a job tomorrow*. What's more, they also saw more job offerings for Java programmers in 2019, than in 2018 (a 6% growth).
+
+3. *Even when you're old, Java can feed you.* Java itself is old, and that's a good thing. Java is about to celebrate its 24-year birthday. Not only has
+it stood the test of time: it is widespread, and still developing. Even if another language might
+take over the throne for number of jobs offerings for a while, there's Java so many places you will
+never be out of a job unless they find a way for all of us to live forever.
+(Hey, that's my honest opinion, anyways...)
+
+4. *Java is still developing*. Java isn't this old dinosaur silently rotting while us scavengers circle
+around for a piece of the meat.  Java is alive and kicking. There's a feature release every six months. <<wik>>
+
+5. *Java is mature*. This is so important. There's a lot of whippersnappers with cool new languages and
+frameworks and whatnot ... and I mean it, the _are really cool_ ... but they come with two problems:
+A: They are prone to disappear after a short while, and B: They lack the proper tooling.
+
+Because Java is so old, you programming environment can help you program faster and debug more
+efficiently. The technology has stood the test of time, it runs a gazillion places ... it works,
+it has been working for along time, and it will keep on working for a long time.
+
+Experiments are fun, but for work and business, there's Java.
+
+6. *Java is fun, too*.
+
+7. *Java skills generalize to a lot of other languages*. Java is in the same class of languages
+as C, C++, C#, _et cetera_, and by learning Java, you will have opened up a world of possibility.
+
+8. *Java is a modern language*. When I started programming, there was no easy way of getting an
+internet connection in your program. Writing my first email server felt like talking to an alien
+who'd recently watch Inception while dropping acid. With Java, you get a modern programming
+language created for the real world of today.
+
+
+
+
+
+
+
+
+
+
+
+[bibliography]
+== References
+
+- [[[for]]] Millions Of Jobs Have Been Lost To Automation. Economists Weigh In On What To Do About It
+  https://www.forbes.com/sites/amysterling/2019/06/15/automated-future/#78cc09f3779d
+
+- [[[codo]]] https://www.codingdojo.com/blog/the-7-most-in-demand-programming-languages-of-2019
+
+- [[[wik]]] https://en.wikipedia.org/wiki/Java_version_history

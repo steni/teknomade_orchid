@@ -10,6 +10,8 @@ categories:
     title: 'Betraktninger'
   - key: 'programming'
     title: 'Programming'
+  - key: 'learn-java'
+    title: 'Learn Java'
 authors:
   - name: 'Sten Morten Misund-Asphaug'
     avatar: '/assets/images/smma-half-figure.jpg'
