@@ -44,6 +44,7 @@ Concretely, you'll learn
 * the fundamentals of Java and object oriented programming
 * how to create a web app from scratch using Spring Boot and Spring MVC
 * how to create a database, and write to and read from that database
+* how to secure your web app with username / password (Spring Security?)
 * how to deploy your app to the web
 * how to create your own domain name (like www.iflmethod.com) for your web app
 
@@ -73,6 +74,11 @@ Play with that.
 == Some View Technology
 
 == Database
+Setup.
+
+Create first table.
+
+Then explain.
 
 == Security? Log in?
 
