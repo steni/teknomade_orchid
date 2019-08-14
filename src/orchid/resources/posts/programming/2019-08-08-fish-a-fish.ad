@@ -51,7 +51,7 @@ And a _too-complex-to-understand_ reason for why the previous programmers, who d
 anymore, has left a code base of such a quality that no new programmer is willing to change
 anything.
 
-And so, when the customer who's used to being in the tight grip of the unaisailable,
+And so, when the customer who's used to being in the tight grip of the unassailable,
 necessary but oh so annoying programmer, is force-fed this metaphor, it comes almost as a
 relief:
 
@@ -59,7 +59,8 @@ Okay, I can understand that ... I don't know how long it takes to fish a fish, e
 
 == NO! NOT OKAY!
 
-*If you're a fisherman, you damned better know quite a lot about how long it takes to fish a fish.*
+*If you're a fisherman, you damned better know  how long it takes to
+fish a fish.*
 
 Why?
 
@@ -67,16 +68,18 @@ Why?
 
 Because you know a lot about fish.
 
+And you do.
+
 You know about the ocean. You know where the fish goes at certain times of year.
 
 You know
-what bait to use, you know how deep the line should go. You know what wheather to fish in. You
-know the signs to look for, like birds diving.
+what bait to use, you know how deep the line should go. You
+know the signs to look for, you watch the birds diving into the water, the ever changing weather.
 
 You have technology to help you map the sea.
 
-You've done this for years, and you know all this stuff by having mentors, by studying, by
-trying and failing, and always learning.
+You've done this for years, and you know all this stuff because you've had mentors, you've studied, you've
+tried and failed, and always been learning.
 
 *A professional programmer should not wash their hands of the responsibility by using an
 ill-fitted metaphor.*
@@ -127,5 +130,7 @@ I can get you a better estimate ..."
 
 Take responsibility to isolate the damned thing. Express your thinking, how you weigh the cues,
 how you eliminate some possibilities. Explain your reasoning. And estimate as you go along.
+
+Know your fish.
 
 Rewards will follow.
