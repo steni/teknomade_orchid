@@ -1,0 +1,82 @@
++++
+title = "Outline"
++++
+
+Ressurser til mitt bruk når jeg lager kuset:
+
+* Frank Kern's Magic Model
+* Notater Tony Robbins
+* Bruk >> (Brendon Burchard)
+
+== Overview
+
+*What results we're after:* You'll get to create an actual web application that you can deploy to a web
+server, with your own domain name -- you'll have something you can show others and say: I created that.
+
+*How you're going to learn:* I'll throw you into the water at the deep end. But don't worry. You WILL
+learn to swim. I want you to come out the other end of this course a new person -- a person who
+not only knows some theoretical programming, but a person who knows how to create real programs in
+the real world.
+
+A person who can take an idea, and make it real.
+
+Obviously you're not going to become a master programmer after x weeks. You won't be able to take _any_
+idea and make it real. Only training and experience
+can give you true mastery. However, I want to start you on that path, the right way.
+You're not going to see toy languages and toy tools -- you're getting the real deal.
+
+You're not just going to learn to program. You're going to be on your way to _becoming a programmer_.
+
+To _become a programmer_, you need more than just theoretical knowledge. There's a way of
+thinking you need to adapt.
+
+When you do adapt the right kind of thinking, nothing can stop you from acquiring the skills and the
+knowledge you need, so that eventually, you _can_ take _any_ idea and _make it real_.
+
+To get there, we'll explore and play first, then learn theory. Because by exploring and trying things
+out, you start asking questions. And asking questions and finding answers to those questions
+is how you become a great programmer.
+
+*What we're going to learn.*
+
+Concretely, you'll learn
+
+* the fundamentals of Java and object oriented programming
+* how to create a web app from scratch using Spring Boot and Spring MVC
+* how to create a database, and write to and read from that database
+* how to deploy your app to the web
+* how to create your own domain name (like www.iflmethod.com) for your web app
+
+*Your mindset*
+There will be things you don't understand the first time you see them, that's okay. Don't worry. Play
+and go with the flow. Ask questions, try new stuff out. Sweat! It's a learning experience, and at times
+learning can be hard. That's what makes it so gratifying.
+
+
+
+== Tooling
+To get started, you need the right tools.
+
+IntelliJ CE
+Java 11
+
+== Up and running: Spring MVC web app with Spring Boot
+
+Get them up and running, and able to see the page in the browser.
+
+Then let them change the text in the browser.
+
+Create a model. Explain MVC.
+
+Play with that.
+
+== Some View Technology
+
+== Database
+
+== Security? Log in?
+
+== Deploy + domain name
+
+
+
