@@ -7,38 +7,44 @@ _Photo by Carles Rabada on Unsplash_
 
 = Thick App Clients Will Hurt You
 
-== Let's imagine a simplified, yet very normal scenario
+*Let's imagine a simplified, yet very normal scenario.*
 
 You're in the accounting business and you're automating to stay alive, and you've created a
-service, an app, to calculate taxes.
+product: A great new app for your customers to calculate taxes.
 
-In your business, you have a so-called *"backend server"*, which simply is a computer somewhere,
-running some code you've had created.
+Now, as per usual, the app doesn't stand alone. It merely serves as a user interface. To make
+the actual calculations, it sends the data to your server, a so-called *"backend server"*.
 
-In this very normal scenario, the code on the backend server encapsulates your "business logic"
+A backend server, then, is simply a computer somewhere, running some code you've had created, and it
+knows how to talk to the app you've created.
+
+Here's the important thing to notice:
+
+The code on the backend server encapsulates your "business logic"
 -- the rules that apply to your application:
 
-Your backend server knows the different tax rates for classes of goods and services, it has
+_Your backend server knows the different tax rates for classes of goods and services, it has
 these stored in a database, and it has some functions to calculate the correct taxes, given
-the classes of products, prices, quantities.
+the classes of products, prices, quantities._
 
-Now, having software that simply *knows how to calculate something* isn't enough, of course.
+To recap, the app, also known as _the client_, exposes a "user interface", allowing your user to
+ interact with the backend.
 
-You need a way of interacting with this code, or a way for your customers to interact with the code.
-
-That is, you must also have "clients" that "speak" to the backend server.
-
-*The client exposes a "user interface" towards your backend:*
-Input fields, buttons and the like, allowing a user (a customer) to choose between classes of products,
+Your user interface consists of input fields, buttons and the like, allowing the customer
+to choose between classes of products,
 enter prices and quantities and such.
 
-Then, when the user has chosen a service, and entered the necessary data in the client, *the data is
+Then, when the user has chosen a service, and entered the necessary data into the client, *the data is
 sent to the backend server for calculation, and the answer is returned to the client*, which displays
 it to the user.
 
-Nowadays, the "client" is often an app on a user's (customer's) phone. Or it is the web page that
-exposes functionality to the user. It could also take the form of a desktop program installed on
-the user's Mac or PC.
+The client doesn't have to be an app. You could have a web page expose the functionality to the user.
+It could also take the form of a desktop program installed on the user's Mac or PC.
+Or you could do all of those things, all clients talking to the same backend server.
+
+Let's just stick with the app for now.
+
+Because your app is heading into rough waters.
 
 == Your app is very popular and soon you have thousands of users
 
@@ -56,7 +62,7 @@ Users complain. Stupid app. You start getting refund requests.
 There's a multitude of things you *could* do:
 
 * Upgrade the computer with more memory, faster CPUs
-* Duplicate the server you've got, and put a load-balancer in front of the two
+* Duplicate the server you've got, and put a load balancer in front of the two
 machines, to distribute the load
 * Put the database on a separate server
 
@@ -80,7 +86,7 @@ new problems harder to debug, _et cetera_. Adding complexity is always costly.
 So one bright head suddenly goes *ping*! -- light bulb moment:
 
 "Our user's have machines in their hands vastly more powerful than what is needed
-to do the calculations needed. Why can't we just move the logic to the clients --
+to do the calculations we do. Why can't we just move the logic to the clients --
 problem solved. No need for costly and complex upgrades on our side."
 
 ==  Here we go again
@@ -103,37 +109,14 @@ And so, because the act of computing is energy-demanding and takes time, it made
 logic to the clients.
 
 The thinking goes like this: We create the software, and we know the rules of calculation, so the calculations
-are going to be correct no matter what computer does the calculating.
+are going to be correct no matter which computer does the calculating.
 
 Our customers have computers, and they are already downloading the client anyway.
 
 So instead of us having to do all the calculations for all our customers on one super-duper expensive
 machine, or a cluster of such super-duper expensive machines, let the user's computers do the job.
 
-There is nothing wrong with this view, but it does have at least one serious drawback:
-
-== On Thick Clients, Changes To The Calculations Are Hard To Make
-
-If, for example, the government imposes new laws, with new tax regulations, *all the users need to update
-their software*.
-
-*If they don't, their tax calculations will be wrong.*
-
-One possible solution is to force updates, which will reach the internet-connected users, but not others,
-and adds complexity (update scripts, different users have different versions) and vulnerability (dns-takeover
-leads the update script to download malware, infecting users, and you get the blame).
-
-Another solution is to start bringing *some* of the logic over the the backend, for example, logic that is
-more likely to change. This obviously has issues of its own, and again it adds to complexity: what's where?
-... And in which version is what where?
-
-These days, we all walk around with fantastically powerful computers in our hands, on our wrists, in our
-pockets.
-
-That makes it very tempting to put the cost of computation on the user: The user already has so much
-computing power just sitting there, idling.
-
-And to make the idea even more tempting ...
+Now, there is nothing essential wrong with this view, and to make the idea even more tempting ...
 
 == Updating Client Software In The Era Of A Two-Platform App Ecosystem Isn't All That Bad
 
@@ -159,7 +142,28 @@ Users who's phones are too old to work with your latest updates.
 
 *If your business logic resides client-side, you've now left those customers behind.*
 
-== Critical bugs have more places to hide
+
+== On Thick Clients, Changes To The Calculations Are Hard To Make
+
+If, for example, the government imposes new laws, with new tax regulations, *all the users need to update
+their software*.
+
+*If they don't, their tax calculations will be wrong.*
+
+As per usual, you get the blame:
+
+Stupid app.
+
+== On Thick Clients, You Lose Visibility
+
+When calculation requests are always sent to the server, you get the ability to analyze usage of your
+app. You get to analyze what is used, how often it is used, when it is used, how it is used,
+and by whom it is used.
+
+If you let the client do everything, you lose that. You lose all the important metrics that could
+help you improve your app over time.
+
+== On Thick Clients, Critical Bugs Have More Places To Hide
 
 When business logic resides server-side, you have complete control and intimate knowledge of
 the hardware that runs your software.
@@ -175,7 +179,7 @@ operating systems, you could not possibly know them all.
 That's one of the reasons critical bugs appear in clients at all -- there's simply too many
 configurations for you to able to test them all.
 
-== Critical bugs will take longer to fix
+== On Thick Clients, Critical bugs will take longer to fix
 No matter how well you test your apps before shipping, critical bugs will slip through.
 
 It's just a matter of time, it's a fact of life, and you should *plan for it*.
