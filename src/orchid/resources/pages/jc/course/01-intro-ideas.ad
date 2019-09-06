@@ -1,0 +1,38 @@
+Welcome
+
+Programming is a weird kind of beast -- what you create isn't what other people will see,
+they will only see the results of what you've created, is doing
+
+And your customers or your bosses won't care much about what you've created, how it really looks,
+as long as it does the right thing, and does it within a reasonable amount of time.
+
+However, other programmers, including your future self, DO care about the code itself, the thing
+you've created -- because you are probably going to come back to it in the future, to add to it,
+to change it.
+
+And that means that code is also about communication -- your code needs to communicate with other
+programmers, including your future self, its ideas and intentions, in a clear and distinct way.
+
+And just as programming is a different kind of beast than most any other endeavour, this is
+a different kind of course.
+
+Most programming courses starts with theory, with construct, and slowly builds towards an
+understanding that eventually will enable you to create something in the real world.
+
+To me, that is like teaching someone how to build a car -- how all the parts of the engine works,
+how to create your own transmission system, how to build the chassis, and so on, before you are
+willing to teach them how to drive.
+
+In this course, I'll teach you how to drive _first_. And once you've mastered the basics of driving,
+you might notice you're starting to get curious about _how things actually work_. And when you
+start having those questions, when you start feeling that curiosity, _that's_ the right time to
+introduce you to the concepts and theory.
+
+We'll do it leisurely. We won't rush. That way, we'll finish quicker. Yes. We'll go slow in order
+to be able to move quickly. If you rush it, if you're in a hurry, you'll miss crucial distinctions and
+you'll make subtle mistakes that will take you a long time to debug -- that is, to find and and fix
+your mistakes.
+
+(Debugging is about you, not the code.)
+
+
