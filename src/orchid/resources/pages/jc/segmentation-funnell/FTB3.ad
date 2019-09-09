@@ -1,0 +1,21 @@
+Customize:
+
+* Frame (on-ramp)
+* Testimonials
+* Benefits
+* Bullets
+* Bonuses
+
+
+= Bonuses for curious / beginners
+* Tools and tricks of the trade
+* Build your portfolio: Git & github
+* Maven, a Yiddish word meaning accumulator of knowledge
+
+When you create modern software, it consists of a lot of pieces, a lot of moving parts. Thankfully,
+we don't have to create the wheel from scratch every time we want to create a new project. We can
+build upon the thousands and thousands of hours other people have put in before us. To be able to
+manage all the pieces of your software project, you need a professional grade
+_build system_. I'll show you how a Yiddish word meaning _accumulator of knowledge_ will help you.
+
+
