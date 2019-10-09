@@ -1,0 +1,27 @@
+= Technobabble
+
+Vi skal bygge en enkelt medlemskaps-site der brukere betaler for å være med, og ikke lenger
+får tilgang om de slutter å betale.
+
+Dette kan være brukes for å dishe ut content etter en viss tid, eller som tidsutgangspunktet for en
+komplett SaaS-løsning.
+
+Vi kommer til å touche innom alle disse temaene:
+
+* Source repository / Version control
+* IDE (IntelliJ IDEA)
+* Java fundamentals
+* Web Applications
+* Spring Boot
+* Security (https / user login / GDPR)
+* Architecture: Front end / back end
+* Creating the front end
+* Database design
+* Database implementation, MySQL
+* Code Project management with Maven
+* Agile Project Management with Trello
+* APIs / Integrations (Spring)
+
+Kurset vil gi deg en bred oversikt over temaet _programmering_, i særdeleshet moderne web-programmering,
+samtidig som du helt konkret får benytte verktøyene profesjonelle programmerere bruker hver dag. Du får
+dermed et ordentlig innblikk i en programmers hverdag og tankemåter.
