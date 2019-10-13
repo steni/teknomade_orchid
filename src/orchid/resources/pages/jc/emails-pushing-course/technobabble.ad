@@ -8,10 +8,11 @@ komplett SaaS-løsning.
 
 Vi kommer til å touche innom alle disse temaene:
 
-* Source repository / Version control
-* IDE (IntelliJ IDEA)
+
 * Java fundamentals
 * Web Applications
+* Source repository / Version control
+* IDE (IntelliJ IDEA)
 * Spring Boot
 * Security (https / user login / GDPR)
 * Architecture: Front end / back end
@@ -22,7 +23,7 @@ Vi kommer til å touche innom alle disse temaene:
 * Agile Project Management with Trello
 * APIs / Integrations (Spring)
 * HTML & CSS
-*
+* Automated testing
 
 Kurset vil gi deg en bred oversikt over temaet _programmering_, i særdeleshet moderne web-programmering,
 samtidig som du helt konkret får benytte verktøyene profesjonelle programmerere bruker hver dag. Du får

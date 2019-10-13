@@ -168,6 +168,7 @@ og deploye den online
 ==== Part 1: Hitting the Ground Running (Init)
 - Downloading tools - IntelliJ, git
 - Setup with  Spring boot -- clone from git! give them something that will immediately run
+- Look at the structure - folders, files, maven pom
 - Your first web page, controlled by Java
 
 ==== Part 2: Creating users and persisting in a database
@@ -176,24 +177,26 @@ og deploye den online
 ==== Part 3: REST and JSON - input and output
 - Tool: Postman
 - Prepare for Stripe integration
+- Security: Basic Auth <-- only use with https, simplest but so secure Sbanken use it for API
+
 
 ==== Part 4: Frontend
-Twitter Bootstrap?
-User log-in - security
-Timed delivery of content
+- Twitter Bootstrap?
+- User log-in - security
+- Timed delivery of content
 
 ==== Part 5: Gettin' the money (Stripe integration)
 - add dependency to pom
 
 ==== Part 6: Getting it online (Deploy)
-- this is the juicy part -- here is where you actually get it, and refund period is over
+- this is the juicy part -- here is where you actually get it online, and refund period is over
 
 == We'll be hitting on these crucial concepts:
 
-* Source repository / Version control
-* IDE (IntelliJ IDEA)
 * Java fundamentals
 * Web Applications
+* Source repository / Version control
+* IDE (IntelliJ IDEA)
 * Spring Boot
 * Security (https / user login / GDPR)
 * Architecture: Front end / back end
@@ -204,3 +207,4 @@ Timed delivery of content
 * Agile Project Management with Trello
 * APIs / Integrations (Spring)
 * HTML & CSS
+* Automated testing
