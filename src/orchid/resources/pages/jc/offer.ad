@@ -172,13 +172,17 @@ og deploye den online
 - Your first web page, controlled by Java
 
 ==== Part 2: Creating users and persisting in a database
+- what is our program going do to? What data tables and endpoints do we need to support that?
+- Trello?
 - Data modelling: https://start.jhipster.tech/jdl-studio/ ?
 
 ==== Part 3: REST and JSON - input and output
 - Tool: Postman
 - Prepare for Stripe integration
-- Security: Basic Auth <-- only use with https, simplest but so secure Sbanken use it for API
-
+- Security:
+* Basic Auth <-- only use with https, simplest but so secure Sbanken use it for API
+* Mistake: Security by obscurity - don't think your url is secret
+* Storing passwords or b64encoded passwords -- hash them! (onw way)
 
 ==== Part 4: Frontend
 - Twitter Bootstrap?
@@ -186,7 +190,13 @@ og deploye den online
 - Timed delivery of content
 
 ==== Part 5: Gettin' the money (Stripe integration)
+- Sign up with Stripe
+- Get your api key
 - add dependency to pom
+- stripe cli? https://stripe.com/docs/stripe-cli#install
+- write the integration - what's supposed to happen when someone buys or cancels?
+- test it with the cli
+- how do we need to update the data model? do it. make calls from Stripe have real consequences.
 
 ==== Part 6: Getting it online (Deploy)
 - this is the juicy part -- here is where you actually get it online, and refund period is over
