@@ -8,6 +8,7 @@
 * Frontend
 * Backend
 * Server
+* Client
 * GUI
 * UI
 * CLI
@@ -36,4 +37,6 @@
 * Conditional
 * Object orientation, objects
 * Function / method
+* Debugging
+
 
