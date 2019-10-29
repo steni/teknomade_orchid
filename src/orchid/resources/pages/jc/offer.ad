@@ -165,7 +165,7 @@ For product.
 Mål: Vi skal lage en enkel medlemskaps-site med innlogging, Stripe-integrering, database, og front-end,
 og deploye den online
 
-==== Part 1: Hitting the Ground Running (Init)
+==== Part 1: Hitting the Ground Running / Kickstart (Init)
 - Downloading tools - IntelliJ, git
 - Setup with  Spring boot -- clone from git! give them something that will immediately run
 - Look at the structure - folders, files, maven pom
@@ -182,7 +182,7 @@ og deploye den online
 - Security:
 * Basic Auth <-- only use with https, simplest but so secure Sbanken use it for API
 * Mistake: Security by obscurity - don't think your url is secret
-* Storing passwords or b64encoded passwords -- hash them! (onw way)
+* Storing passwords or b64encoded passwords -- hash them! (one way)
 
 ==== Part 4: Frontend
 - Twitter Bootstrap?
