@@ -6,16 +6,19 @@ Customize:
 * Bullets
 * Bonuses
 
-== On-ramp: The #1 thing you need to do next
+== Curious - I have never done any Java programming before, but I like computers
+=== On-ramp: The #1 thing you need to do next
 
-=== Curious - I have never done any Java programming before, but I like computers
+You've told me that you're curious about Java programming, and that you've never done it before.
+
+Maybe you've never done any programming at all, our maybe you've done programming in other
+languages?
 
 Find out whether or not programming is something you would like to do. Spending years at university
 or even a year and thousands of dollars on a school might perhaps be a little overkill -- instead,
 try it, get your feet wet, your hands dirty, and see of you like it ... then you're going to love ...
 
-
-==== Bonuses for curious / beginners
+=== Bonuses for curious / beginners
 * Tools and tricks of the trade
 * Build your portfolio: Git & github
 * Maven, a Yiddish word meaning accumulator of knowledge
@@ -28,12 +31,15 @@ manage all the pieces of your software project, you need a professional grade
 _build system_. I'll show you how a Yiddish word meaning _accumulator of knowledge_ will help you.
 
 
+== Beginner - I have played around with Java or have learned at school / university
 
+=== On-ramp: The #1 thing you need to do next
+You've told me that you've already played around with Java, or that you you've learned at school or
+university. So that's a great starting point. You already know you're ready to go a bit deeper
+with this.
 
-=== Beginner - I have played around with Java or have learned at school / university
+== Intermediate: I consider myself a junior programmer, I've been paid to do Java programming
 
-=== Intermediate: I consider myself a junior programmer, I've been paid to do Java programming
-
-=== Expert: I'm a senior Java developer, I have a deep understanding of Java and the ecosystem
+== Expert: I'm a senior Java developer, I have a deep understanding of Java and the ecosystem
 
 
