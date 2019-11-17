@@ -10,11 +10,15 @@ Now let me tell you a story...
 
 Once upon a time there was a boy named Sten.
 
-For his seventh birthday, his mother and father gifted him something unheard of. Nobody else in his street had one.
+Me.
 
-It was like a miracle.
+For my seventh birthday, my mother and father gifted me something unheard of.
 
-It looked like the typewriter he had in his room.
+Nobody else in our street had one.
+
+It was a miracle.
+
+It looked like the typewriter I had in my room.
 
 It wasn't a typewriter, though.
 
@@ -22,21 +26,150 @@ It had a power cord.
 
 And a cable to connect it to a television. And it came with an integrated cassette player.
 
-And he knew perfectly well what it was.
+And the little boy knew well what it was.
 
 A computer.
 
 A shiny new Sharp MZ-721.
 
-In 1983, the Sharp MZ-721 was the coolest thing in the galaxy. At least to this seven your old kid.
+In 1983, the Sharp MZ-721 was the coolest thing in the galaxy.
 
-Like the kid he was, whenever he looked at something, anything at all, his mind had one thought, and one thought only:
+At least to a seven your old kid growing up in a small community, twenty kilometers from Norway's capital.
+
+(For you non-metric people, twenty kilometers is approximately twelve miles.)
+
+I was in my room, the computer on my desk in front of me.
+
+My body was shaking with anticipation.
+
+Like the kid I was, whenever I looked at something, anything at all, my mind had one thought, and one thought only:
 
 How can I play with this thing?
 
 How much fun can this thing be?
 
-A computer, surely, could provide a huge mountain of fun.
+A computer, I knew in my pounding little heart, could provide huge mountains of fun.
+
+Problem was, it didn't come with any games.
+
+None.
+
+All it had, was this weird cassette with the word BASIC written on it.
+
+I didn't know it at the time, but that was an acronym.
+
+And that specific acronym would change my life forever.
+
+In front of me was an adventure I knew nothing about.
+
+All I knew, was I had to answer the call.
+
+I didn't know I'd meet challenges and setbacks, and experience pain so deep I would cry my heart out.
+
+I put the cassette in the player.
+
+
+...
+
+I will reveal what happened in emails to come.
+
+For now, suffice to say that BASIC is a programming language.
+
+I didn't know what it was our how to learn it.
+
+Yet I overcame the hurdles, and fell in love with the process on the way.
+
+´nuff said for now ...
+
+...
+
+So there you have it.
+
+That was my big WHY.
+
+I wanted to play games.
+
+In the grander scheme of things, I wanted fun.
+
+Such simple motivation, yet the most powerful kind of motivation there is, because it is so direct.
+
+In that story hides the secret to your success, too.
+
+I'll tell you more about that, soon.
+
+Now, how about you?
+
+What is your big reason why you want to learn, or become better, at programming?
+
+What is your driving force?
+
+Here's your first assignment:
+
+Ponder, then write down your big reason why.
+
+Go deep.
+
+If the first thing that comes to mind is "I want a job that pays well", that's not going to motivate you in the long run.
+
+Sure, you can use programming to land a well paying job.
+
+You can use programming to start your own company.
+
+You can use programming to get a raise in the job you already have.
+
+Which is great, and all are valid and valuable goals.
+
+Still, for most of us, money isn't enough.
+
+There is so much fun to be had!
+
+So many opportunities to change the world.
+
+A programmer is a creator. A person who can take an idea and make it real.
+
+I'm not asking you to find the grand purpose of your life.
+
+I'm only asking you to look beyond the money.
+
+If your first thought is: "I want to make more money in my job", that's a great starting point. The ask yourself: "Why?"
+
+What are you going to use that money for?
+
+Maybe your answer is "so I can buy a car".
+
+Okay, then ask yourself again: "Why? Why do I want a car?"
+
+And maybe your answer is something to the effect that: "A car will allow me to take my family on nice outings on the weekends" ...
+
+Now you're getting somewhere. Fun, love, family, security.
+
+Those are some of the things that keeps us humans fueled year after year.
+
+That's only my opinion, though.
+
+There are no right or wrong answers.
+
+This is only the start of the journey.
+
+I'd love to hear yours. Obviously, you can keep it to yourself. This is your fuel.
+
+Yet, I'd be delighted to hear from you. To read your thoughts about this subject.
+
+To learn about your life.
+
+Hit reply and write me some words!
+
+I read every email I receive.
+
+Please don't be offended if I don't answer yours. I try to answer as many emails as I can, but I do receive a lot of them.
+
+
+
+Housekeeping:
+
+At the end of every email I send to you, there's an unsubscribe link.
+
+If there comes a time when you don't want to hear from me again, click that link, and I'll be out of your inbox.
 
 
 
