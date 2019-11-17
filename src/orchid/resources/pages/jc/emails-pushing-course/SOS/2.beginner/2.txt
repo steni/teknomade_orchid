@@ -1,3 +1,46 @@
+There I was in my room, my little heart pounding.
+
+I was a seven year old Norwegian kid, a strange cassette resting in my hand:
+
+BASIC - it said.
+
+I didn't know it was an acronym.
+
+I didn't even know what that English word meant.
+
+All I knew was I had a machine with a cassette player.
+
+And I had a cassette.
+
+One plus one.
+
+In it went.
+
+Nothing.
+
+Now what?
+
+I yelled for my dad.
+
+He picked up the manual, which I had ignored completely, and translated into Norwegian as he read:
+
+"People use language to communicate with each other, and specially designed languages are also used for communication with computers. BASIC is one such language."
+
+I could talk to the computer?
+
+Cool!
+
+He read on:
+
+Set the cassette tape containing the BASIC language in the computer's data recorder.
+
+Type in the word (l][o][a][d| and press the |CR| key. After doing this, the message PLAY appears on the screen.
+
+Press the data recorder's | PLAY | button; the cassette tape starts moving and loading of the BASIC language begins.
+
+After loading has been completed, the message READY is displayed and the cursor starts to blink again.
+
+
 Here's the secret:
 
 You have to fall in love with programming.
@@ -6,7 +49,7 @@ You can have all the external motivation in the world...
 
 It will only take you that far.
 
-Those who succeed, are the ones who simply fall head-over-heals in love with the process.
+Those who succeed, are the ones who fall head-over-heals in love with the process.
 
 Only they will endure the pain.
 
