@@ -1,0 +1,32 @@
+if (!(hasAdminAccessToParkingAgreement(agreement, user) && (isFreeProduct || agreement.paymentIsPending()))) {
+throw new AuthorizationException();
+}
+
+Denne er vel riktig, men jeg synes den er litt tung å lese?
+Kunne det hjulpet å gå i retning av ?
+
+if ( !hasAdminAccessToParkingAgreement(agreement,user) || !isFreeProduct || !agreement.paymentIsPending)) {
+
+? eller noe liknende?
+
+Jeg mener absolutt ikke setningen over som fasit ? jeg bare lurer på om det går an å jobbe med lesbarheten?
+
+Det vi prøver å si her, er altså: Om bruker ikke har rettigheter, eller om det hverken er et gratisprodukt eller foreløpig-ubetalt, da får bruker ikke lov å kansellere.
+
+Sånt sett, kunne det vært enda tydeligere uttrykt med forskjellige exceptions ?
+
+if (!hasAdminAccess?) { throw new AuthorizationException(); }
+
+if (! (isFreeProduct || agreement.paymentIsPending()) { throw new UncancellableException(); } // finnes ikke, jeg fant den på nå
+
+? ?
+
+Videre hadde det gått an å pakke inn (isFreeProduct || agreement.paymentIsPending()) i en egen metode som het noe slikt som boolean isCancellable(?)
+
+Da ville du endt opp med:
+
+if (!hasAdminAccess?) { throw new AuthorizationException(); }
+
+if (!(isCancellable(..)) { throw new UncancellableException(); }
+
+? bare sånn til inspirasjon? ?
