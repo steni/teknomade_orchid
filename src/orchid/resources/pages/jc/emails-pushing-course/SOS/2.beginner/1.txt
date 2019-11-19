@@ -2,15 +2,17 @@ Java Control: From Beginner To Winner
 
 How to Quickly Learn Java Even If You Think You Lack The Time And Discipline
 
-Hi, and welcome!
+Yes! You made it!
+
+Welcome!
 
 I'm thrilled you've decided to join us.
 
-Now let me tell you a story...
+Now before we get all serious and stuff, I'd like to tell you a story...
 
 Once upon a time there was a boy named Sten.
 
-Me.
+Okay, that's me.
 
 For my seventh birthday, my mother and father gifted me something unheard of.
 
