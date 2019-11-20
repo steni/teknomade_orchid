@@ -1,3 +1,7 @@
+Hey, you're back!
+
+So let's recap ...
+
 There I was in my room, my little heart pounding.
 
 I was a seven year old Norwegian kid, a strange cassette resting in my hand:
@@ -14,7 +18,7 @@ And I had a cassette.
 
 One plus one.
 
-In it went.
+In it went: I put the cassette in the player.
 
 Nothing.
 
@@ -32,13 +36,20 @@ Cool!
 
 He read on:
 
-Set the cassette tape containing the BASIC language in the computer's data recorder.
+"Set the cassette tape containing the BASIC language in the computer's data recorder."
 
-Type in the word (l][o][a][d| and press the |CR| key. After doing this, the message PLAY appears on the screen.
+Okay, I had already done that.
+
+"Type in the word LOAD and press the CR key. After doing this, the message PLAY appears on the screen."
+
+Sure. I typed the word LOAD.
+
+The CR key?
 
 Press the data recorder's | PLAY | button; the cassette tape starts moving and loading of the BASIC language begins.
 
 After loading has been completed, the message READY is displayed and the cursor starts to blink again.
+
 
 
 Here's the secret:

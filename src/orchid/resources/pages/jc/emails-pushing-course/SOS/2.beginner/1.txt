@@ -1,5 +1,9 @@
 Java Control: From Beginner To Winner
 
+**ALTERNATIVE: (How to create a) Web app (in Java) - from idea to your own code deployed to the Internet (i en mer sexy innpakking :-) **
+
+** Learn Java by creating your own web app **
+
 How to Quickly Learn Java Even If You Think You Lack The Time And Discipline
 
 Yes! You made it!
@@ -66,7 +70,7 @@ In front of me was an adventure I knew nothing about.
 
 All I knew, was I had to answer the call.
 
-I didn't know I'd meet challenges and setbacks, and experience pain so deep I would cry my heart out.
+I didn't know I was about to meet challenges and setbacks, and experience pain so deep I would cry my heart out.
 
 I put the cassette in the player.
 
@@ -74,19 +78,13 @@ And then ...
 
 ...
 
-I will reveal what happened in emails to come.
-
-For now, suffice to say that BASIC is a programming language.
-
-I didn't know what it was our how to learn it.
-
-Yet I overcame the hurdles, and fell in love with the process on the way.
-
-´nuff said for now ...
+I'll tell you what happened tomorrow ;-)
 
 ...
 
-So there you have it.
+In the mean time ...
+
+Think about it:
 
 That was my big WHY.
 
@@ -98,17 +96,17 @@ Such simple motivation, yet the most powerful kind of motivation there is, becau
 
 In that story hides the secret to your success, too.
 
-I'll tell you more about that, soon.
-
 Now, how about you?
 
 What is your big reason why you want to learn, or become better, at programming?
 
+Why do you want to learn Java?
+
 What is your driving force?
 
-Here's your first assignment:
+Here's your first assignment (it's easy, but hard):
 
-Ponder, then write down your big reason why.
+Ponder, then write down your big reason why!
 
 Go deep.
 
@@ -134,7 +132,13 @@ I'm not asking you to find the grand purpose of your life.
 
 I'm only asking you to look beyond the money.
 
-If your first thought is: "I want to make more money in my job", that's a great starting point. The ask yourself: "Why?"
+Maybe you want to make a new Twitter. A new Facebook. A new Ebay.
+
+Maybe you want to create a new kind of member site.
+
+Maybe you want to create something the world has never seen before.
+
+If your first thought is: "I want to learn programming to make more money in my job", that's a great starting point, too. The ask yourself: "Why?"
 
 What are you going to use that money for?
 
@@ -152,9 +156,11 @@ That's only my opinion, though.
 
 There are no right or wrong answers.
 
-This is only the start of the journey.
+This is only the start of your journey.
 
-I'd love to hear yours. Obviously, you can keep it to yourself. This is your fuel.
+I'd love to hear yours. Where are you at right now? What do you think?
+
+Obviously, you can keep it to yourself. This is your fuel.
 
 Yet, I'd be delighted to hear from you. To read your thoughts about this subject.
 

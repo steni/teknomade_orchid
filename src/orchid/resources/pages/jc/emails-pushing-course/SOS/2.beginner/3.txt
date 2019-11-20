@@ -1,3 +1,94 @@
 Avoiding these first year mistakes
 
 https://simpleprogrammer.com/first-year-programmer-mistakes/
+
+
+Ta utgangspunkt i "løgnene" i VSL:
+
+- du må vite alt
+
+- No. It's like driving a car. You don't need to know every workings of the engine for you to drive it. You might need to know about clutching and gearing and steering, and you need to know and follow the traffic rules.
+
+When you're creating a web app in a programming language like Java, it's the same thing.
+
+You obviously don't need to know how to build a computer from scratch.
+
+(You know, to make an omelet from scratch, first you have to create the universe ...)
+
+So ... no need to create a universe, a computer, or a "web framework" from scratch.
+
+Instead, you can (and should) "stand on the shoulder of giants" -- the people who came before you, and have done their heavy lifting, so that you can do other work ...
+
+Let's start with the basics, so we're all up to scratch. Feel free to skim this part if you already know what a server is, and how a web app functions.
+
+We can start by looking at what Wikipedia says about web applications:
+
+In computing, a web application or web app is a client–server computer program that the client (including the user interface and client-side logic) runs in a web browser. Common web applications include webmail, online retail sales, online banking, and online auction.
+
+Okay, so a web app is a program that runs in a browser, like webmail and online auctions.
+
+Not only is it a computer program, it is a "client-server computer program".
+
+What does that mean?
+
+It means the program has two parts.
+
+A server part.
+
+A client part.
+
+Often, these run on separate computers.
+
+Not always, though, as you'll see very quickly when you start developing these things: In the development phase, you'll be running both on your own computer.
+
+The next question that comes to mind is: What's a server? Then: what's a client?
+
+The two are deeply connected. In the client-server model of computing, a "server" is a sort of servant that perform tasks requested by the "client".
+
+When you are surfing the web, some of the pages you surf are merely text and images. You probably know the text comes wrapped in "hypertext markup language" (HTML) and "cascading style sheets" (CSS), which tells your browser (like Internet Explorer, Chrome, Firefox) what to display (HTML) and how to display it (CSS).
+
+That's all well and good, and it get's a lot more interesting.
+
+Some web pages let you input "something" and typically push a button. Like the front page of Google, for instance.
+
+What happens when you press that button, is that the text that you just wrote, is sent from your browser, to Google.
+
+Or said in another way: The text is sent from the client (in this instance: your browser), to the server (in this instance: one of Googles thousands of servers).
+
+Most apps you use on your phone apply the same kind of architecture.
+
+The app you download is to a large extent just the "front", the "user interface", that let's you interact with a server somewhere one the internet.
+
+And this server does the heavy lifting:
+
+The server performs calculations.
+
+The server searches its databases.
+
+The server sends your message to another user.
+
+The server stores your "like".
+
+Okay?
+
+To sum up: A web application consists of two parts:
+
+The client.
+
+The server.
+
+The client takes care of interacting with the user. It takes input from the user and sends it to the server for processing. Then it displays the result to the user.
+
+The server does the heavy lifting, the work, the calculations.
+
+Talking about calculations, tomorrow I'll show you some code that exposes an endpoint that receives two numbers, and returns the sum of those numbers.
+
+What's that, you say? And "endpoint"?
+
+Sounds horrible, doesn't it?
+
+See you tomorrow!
+
+Take care,
+Sten
+
