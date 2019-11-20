@@ -57,7 +57,7 @@ Or said in another way: The text is sent from the client (in this instance: your
 
 Most apps you use on your phone apply the same kind of architecture.
 
-The app you download is to a large extent just the "front", the "user interface", that let's you interact with a server somewhere one the internet.
+The app you download is to a large extent just the "front", the "user interface", that lets you interact with a server somewhere one the internet.
 
 And this server does the heavy lifting:
 
