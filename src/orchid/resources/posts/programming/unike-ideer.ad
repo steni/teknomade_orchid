@@ -1,0 +1,593 @@
+package com.glt.smspark.domain.id;
+
+import no.giantleap.houston.util.TimeServer;
+import org.springframework.stereotype.Component;
+
+import java.math.BigInteger;
+import java.net.NetworkInterface;
+import java.nio.ByteBuffer;
+import java.security.SecureRandom;
+import java.util.Base64;
+import java.util.Enumeration;
+
+/**
+* Distributed Id Generator, based on https://www.callicoder.com/distributed-unique-id-sequence-number-generator/
+* Inspired by Twitter snowflake: https://github.com/twitter/snowflake/tree/snowflake-2010
+* <p>
+* Uniqueness is based on the idea of a single point in space-time.
+* <p>
+* Space is either:
+* 1) a MAC-address (represented as an integer)
+* 2) a secure random integer, or
+* 3) an integer signifying a node in your cluster.
+* <p>
+* In the last instance, it us up to you to ensure that space is uniquely identifiable across system
+* (i.e, per Permit customer).
+* <p>
+* Time is identified as milliseconds since a custom epoch.
+* <p>
+* In short: Ids are 64 bits, of which 42 represent time, 12 represent different ids at the same time (sequence),
+* and 10 represent place (node / MAC address / random number).
+* <p>
+* Ids are Base64-encoded, without padding. In Base64, 4 bits are needed per 3 bits of input.
+* Thus, for our 64 bit id: 64 / 3 * 4 = 85,33 bits are needed; these can be represented by
+* 85,33 bits / 8 bits per byte = 11 bytes.
+* <p>
+* This class should be used as a Singleton.
+* <p>
+* Make sure that you create and reuse a Single instance of SequenceGenerator per node in your distributed system cluster.
+* <p>
+*/
+@Component
+public class IdGenerator {
+private TimeServer timeServer = TimeServer.SYSTEM_TIME_SERVER;
+
+    private static final char VERSION = 'A';
+
+    private static final int TOTAL_BITS = 64;
+    private static final int EPOCH_BITS = 42;
+    private static final int NODE_ID_BITS = 10;         // 0 - 1023
+    private static final int SEQUENCE_BITS = 12;        // Max 4095 ids on the same ms
+
+    private static final int maxNodeId = (int) (Math.pow(2, NODE_ID_BITS) - 1);
+    private static final int maxSequence = (int) (Math.pow(2, SEQUENCE_BITS) - 1);
+
+    // Custom Epoch (January 1, 2015 Midnight UTC = 2015-01-01T00:00:00Z)
+    private static final long CUSTOM_EPOCH = 1420070400000L;
+
+    private final int nodeId;
+
+    private volatile long lastTimestamp = -1L;
+    private volatile long sequence = 0L;
+
+    /**
+     * Creates a sequence generator guaranteed to return system-unique ids as long as supplied nodeId is unique
+     * in your system.
+     *
+     * @param nodeId integer uniquely representing node in your system
+     */
+    public IdGenerator(int nodeId) {
+        if (nodeId < 0 || nodeId > maxNodeId) {
+            throw new IllegalArgumentException(String.format("NodeId must be between %d and %d", 0, maxNodeId));
+        }
+        this.nodeId = nodeId;
+    }
+
+    /**
+     * Creates a sequence generator with following characteristics:
+     * <p>
+     * On single-node system, is guaranteed to return system-unique ids
+     * On multi-node system, will probably return system-unique ids.
+     * <p>
+     * If you need guaranteed system-unique ids on multi-node system,
+     * use constructor accepting node id instead.
+     */
+    public IdGenerator() {
+        this.nodeId = createNodeId();
+    }
+
+    public synchronized UniqueId nextId() {
+        final long nextId = _nextId();
+        return UniqueId.from(VERSION, nextId);
+    }
+
+    public static long timestampOf(UniqueId id) {
+        ensureCanHandle(id);
+        long decodedId = toLong(id.encoded());
+        return timestampOf(decodedId);
+    }
+
+    public static long nodeIdOf(UniqueId id) {
+        ensureCanHandle(id);
+        long decodedId = toLong(id.encoded());
+        return _nodeIdOf(decodedId);
+    }
+
+    public static long sequenceNoOf(UniqueId id) {
+        ensureCanHandle(id);
+        long decodedId = toLong(id.encoded());
+        return _sequenceNoOf(decodedId);
+    }
+
+    public static char versionOf(UniqueId id) {
+        return id.version();
+    }
+
+    private static void ensureCanHandle(UniqueId id) {
+        if (!canHandle(id)) {
+            throw new IllegalArgumentException("Can only handle version A ids, got " + id.version());
+        }
+    }
+
+    public static boolean canHandle(UniqueId id) {
+        return id.version() == VERSION;
+    }
+
+    private static byte[] toBytes(long nextId) {
+        BigInteger integer = BigInteger.valueOf(nextId);
+        return integer.toByteArray();
+    }
+
+    private static long fromBytes(byte[] bytes) {
+        ByteBuffer wrapped = ByteBuffer.wrap(bytes);
+        return wrapped.getLong();
+    }
+
+    private static String encode(byte[] bytes) {
+        return Base64.getEncoder().withoutPadding().encodeToString(bytes);
+    }
+
+    private static byte[] decode(String id) {
+        return Base64.getDecoder().decode(id);
+    }
+
+    private synchronized long _nextId() {
+        long currentTimestamp = timestamp();
+
+        // Don't allow time to move backwards. If using NTP to synchronize clocks, it may tell system to
+        // repeat a few milliseconds. Note: NTP can be configured to run in mode where clock won't be moved
+        // backwards, see http://wiki.dovecot.org/TimeMovedBackwards#Time_synchronization
+        if (currentTimestamp < lastTimestamp) {
+            throw new IllegalStateException("Invalid System Clock!");
+        }
+
+        if (currentTimestamp == lastTimestamp) {
+            sequence = (sequence + 1) & maxSequence;
+            if (sequence == 0) {
+                // Sequence Exhausted, wait till next millisecond.
+                currentTimestamp = waitNextMillis(currentTimestamp);
+            }
+        } else {
+            // reset sequence to start with zero for the next millisecond
+            sequence = 0;
+        }
+
+        lastTimestamp = currentTimestamp;
+
+        long id = currentTimestamp << (TOTAL_BITS - EPOCH_BITS);
+        id |= (nodeId << (TOTAL_BITS - EPOCH_BITS - NODE_ID_BITS));
+        id |= sequence;
+        return id;
+    }
+
+    private static long timestampOf(long id) {
+        return _timestampOf(id) + CUSTOM_EPOCH;
+    }
+
+    private static long _timestampOf(long id) {
+        return id >> (TOTAL_BITS - EPOCH_BITS);
+    }
+
+    private static long toLong(String id) {
+        byte[] decodedBytes = IdGenerator.decode(id);
+        return IdGenerator.fromBytes(decodedBytes);
+    }
+
+    private static long _nodeIdOf(long id) {
+        long l = id >> (TOTAL_BITS - EPOCH_BITS - NODE_ID_BITS);
+        return l & maxNodeId;
+    }
+
+    private static long _sequenceNoOf(long id) {
+        return id & maxSequence;
+    }
+
+
+    // Get current timestamp in milliseconds, adjust for the custom epoch.
+    private long timestamp() {
+        return timeServer.currentTimeMillis() - CUSTOM_EPOCH;
+    }
+
+    // Block and wait till next millisecond
+    private long waitNextMillis(long currentTimestamp) {
+        while (currentTimestamp == lastTimestamp) {
+            currentTimestamp = timestamp();
+        }
+        return currentTimestamp;
+    }
+
+    /**
+     * Create a node id based on MAC address. Should be unique, but hardware manufacture mistakes are known
+     * to exist, making this a soft guarantee. Also, if MAC address cannot be fetched, resorts to generating
+     * a "secure random" int. To ensure uniqueness, instantiate class with custom node id.
+     *
+     * @return a node id "weakly guaranteed" to be system-wide unique
+     */
+    private int createNodeId() {
+        int nodeId;
+        try {
+            StringBuilder sb = new StringBuilder();
+            Enumeration<NetworkInterface> networkInterfaces = NetworkInterface.getNetworkInterfaces();
+            while (networkInterfaces.hasMoreElements()) {
+                NetworkInterface networkInterface = networkInterfaces.nextElement();
+                byte[] mac = networkInterface.getHardwareAddress();
+                if (mac != null) {
+                    for (byte b : mac) {
+                        sb.append(String.format("%02X", b));
+                    }
+                }
+            }
+            nodeId = sb.toString().hashCode();
+        } catch (Exception ex) {
+            nodeId = (new SecureRandom().nextInt());
+        }
+        nodeId = nodeId & maxNodeId;
+        return nodeId;
+    }
+
+    public void setTimeServer(TimeServer timeServer) {
+        this.timeServer = timeServer;
+    }
+
+    public static class UniqueId implements Comparable {
+        private final char version;
+        private final String encoded;
+        private final long internal;
+
+        public static UniqueId from(String encoded) {
+            ensureValidFormat(encoded);
+
+            final char version = encoded.charAt(0);
+            final String value = encoded.substring(1);
+
+            return new UniqueId(version, value);
+        }
+
+        private static void ensureValidFormat(String encoded) {
+            final char version = encoded.charAt(0);
+
+            ensureLegalVersion(version);
+            ensureLegalLength(encoded);
+        }
+
+        public String value() {
+            return version + encoded;
+        }
+
+        public char version() {
+            return version;
+        }
+
+        private UniqueId(char version, String encoded) {
+            this.version = version;
+            this.internal = toLong(encoded);
+            this.encoded = encoded;
+        }
+
+        private static UniqueId from(char version, long value) {
+            return new UniqueId(version, value);
+        }
+
+        private UniqueId(char version, long value) {
+            this.version = version;
+            this.internal = value;
+            this.encoded = encode(toBytes(value));
+        }
+
+        private String encoded() {
+            return encoded;
+        }
+
+        private static void ensureLegalVersion(char version) {
+            if (version < 'A' || version > 'Z') {
+                throw new IllegalArgumentException("Only versions A-Z are valid. Received " + version);
+            }
+        }
+
+        private static void ensureLegalLength(String encoded) {
+            final int NEEDED_FOR_UNIQUENESS = 12;
+            final int DB_LIMIT = 15;
+            final int length = encoded.length();
+
+            if (length < NEEDED_FOR_UNIQUENESS || length > DB_LIMIT) {
+                throw new IllegalArgumentException("Id length must be > 12 and <= 15, was " + length);
+            }
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+
+            UniqueId uniqueId = (UniqueId) o;
+
+            return internal == uniqueId.internal;
+        }
+
+        @Override
+        public int hashCode() {
+            return (int) (internal ^ (internal >>> 32));
+        }
+
+        @Override
+        public int compareTo(Object o) {
+            return Long.compare(this.internal, ((UniqueId) o).internal);
+        }
+    }
+}
+
+
+
+package com.glt.smspark.domain.id
+
+import no.giantleap.houston.util.TimeServer
+import spock.lang.Specification
+
+class IdGeneratorSpec extends Specification {
+def "Can create several ids in the same millisecond"() {
+given:
+long currentTimeMillis = mockTimeServerOne.currentTimeMillis()
+
+        when:
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+        IdGenerator.UniqueId id_two = idGeneratorOne.nextId()
+        IdGenerator.UniqueId id_three = idGeneratorOne.nextId()
+
+        then: "time has not changed"
+        currentTimeMillis == mockTimeServerOne.currentTimeMillis()
+
+        and: "generated ids are not the same"
+        id_one != id_two
+        id_one != id_three
+        id_two != id_three
+    }
+
+    def """What separates ids created at the same time, at the same node, are the sequence numbers.
+           Sequence number can be retrieved from generated id"""() {
+        given: "two ids are generated at the same time, on the same node"
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+        IdGenerator.UniqueId id_two = idGeneratorOne.nextId()
+
+        when:
+        long seqNo_one = IdGenerator.sequenceNoOf(id_one)
+        long seqNo_two = IdGenerator.sequenceNoOf(id_two)
+
+        then:
+        seqNo_one == 0
+        seqNo_two == 1
+    }
+
+
+    def "Timestamp can be retrieved from generated id"() {
+        given:
+        long currentTimeMillis = mockTimeServerOne.currentTimeMillis()
+
+        when:
+        IdGenerator.UniqueId id = idGeneratorOne.nextId()
+
+        then:
+        currentTimeMillis == IdGenerator.timestampOf(id)
+    }
+
+    def "Node id can be retrieved from generated id"() {
+        given:
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+        IdGenerator.UniqueId id_two = idGeneratorTwo.nextId()
+
+        when:
+        long nodeId_one = IdGenerator.nodeIdOf(id_one)
+        long nodeId_two = IdGenerator.nodeIdOf(id_two)
+
+        then:
+        nodeId_one == NODE_ONE_ID
+        nodeId_two == NODE_TWO_ID
+    }
+
+    def "Id version can be retrieved from generated id"() {
+        when:
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+
+        then:
+        IdGenerator.versionOf(id_one) == 'A'
+    }
+
+    def "Will not generate id if time has moved backwards"() {
+        given:
+        long currentTimeMillis = mockTimeServerOne.currentTimeMillis()
+
+        when: "generating an id"
+        idGeneratorOne.nextId()
+
+        and: "time moves backwards"
+        mockTimeServerOne.setNow(currentTimeMillis - 1);
+
+        and: "generating another id"
+        idGeneratorOne.nextId()
+
+        then: "exception is thrown"
+        thrown IllegalStateException
+    }
+
+    def "Will generate id if time has moved backwards, and then forwards enough again"() {
+        given:
+        long currentTimeMillis = mockTimeServerOne.currentTimeMillis()
+
+        when: "generating an id"
+        idGeneratorOne.nextId()
+
+        and: "time moves backwards"
+        mockTimeServerOne.setNow(currentTimeMillis - 1);
+
+        and: "generating another id"
+        try {
+            idGeneratorOne.nextId()
+        } catch (IllegalStateException e) {
+            // ignore
+        }
+
+        and: "time moves forwards again"
+        mockTimeServerOne.setNow(currentTimeMillis)
+
+        and:
+        IdGenerator.UniqueId id = idGeneratorOne.nextId()
+
+        then: "nothing bad happens"
+        id != null
+    }
+
+    def "Identity: ids with same value are the same id"() {
+        given:
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+
+        when:
+        IdGenerator.UniqueId id_two = IdGenerator.UniqueId.from(id_one.value())
+
+        then:
+        id_one == id_two
+    }
+
+    def "Ids are comparable with respect to order of creation"() {
+        when: "generating  to ids at the same time, i.e., the same millisecond"
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+        IdGenerator.UniqueId id_two = idGeneratorOne.nextId()
+
+        then: "time stamps are the same"
+        IdGenerator.timestampOf(id_one) == IdGenerator.timestampOf(id_two)
+
+        and: "ids are naturally ordered"
+        id_one < id_two
+    }
+
+    def "Ids are comparable with respect to time of creation"() {
+        given: "some time"
+        long currentTimeMillis = mockTimeServerOne.currentTimeMillis()
+
+        when: "an id is generated"
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+
+        and: "time moves forward"
+        mockTimeServerOne.setNow(currentTimeMillis + 1)
+
+        and: "an id is generated"
+        IdGenerator.UniqueId id_two = idGeneratorOne.nextId()
+
+        then: "time stamps are different"
+        IdGenerator.timestampOf(id_one) != IdGenerator.timestampOf(id_two)
+
+        and: "ids are naturally ordered"
+        id_one < id_two
+    }
+
+
+    def "Ids are comparable with respect to name of node"() {
+        given: "time servers report exactly same moment in time"
+        long currentTimeMillis = mockTimeServerOne.currentTimeMillis()
+        mockTimeServerTwo.setNow(currentTimeMillis)
+
+        when: "an id is generated on both nodes"
+        IdGenerator.UniqueId id_one = idGeneratorOne.nextId()
+        IdGenerator.UniqueId id_two = idGeneratorTwo.nextId()
+
+        then: "time stamps are the same"
+        IdGenerator.timestampOf(id_one) == IdGenerator.timestampOf(id_two)
+
+        and: "sequence numbers are the same"
+        IdGenerator.sequenceNoOf(id_one) == IdGenerator.sequenceNoOf(id_two)
+
+        and: "node ids are different"
+        IdGenerator.nodeIdOf(id_one) != IdGenerator.nodeIdOf(id_two)
+
+        and: "ids are naturally ordered"
+        id_one < id_two
+    }
+
+    def "Ids must start with a capital letter, signifying id scheme version"() {
+        when:
+        IdGenerator.UniqueId.from("001234567890")
+
+        then:
+        thrown IllegalArgumentException
+
+        when:
+        IdGenerator.UniqueId.from("a01234567890")
+
+        then:
+        thrown IllegalArgumentException
+    }
+
+    def "Ids cannot be shorter than 12 characters"() {
+        when:
+        IdGenerator.UniqueId.from("A1234567890")
+
+        then:
+        thrown IllegalArgumentException
+    }
+
+    def "Ids cannot be longer than 15 characters"() {
+        when:
+        IdGenerator.UniqueId.from("A123456789012345")
+
+        then:
+        thrown IllegalArgumentException
+    }
+
+    def "IdGenerator will not handle ids with unknown version"() {
+        given:
+        IdGenerator.UniqueId unknownVersion = IdGenerator.UniqueId.from("B01234567890")
+
+        when:
+        IdGenerator.timestampOf(unknownVersion)
+
+        then:
+        thrown IllegalArgumentException
+    }
+
+
+    void setup() {
+        mockTimeServerOne = new MockTimeServer()
+        mockTimeServerTwo = new MockTimeServer()
+
+        idGeneratorOne = new IdGenerator(NODE_ONE_ID)
+        idGeneratorOne.setTimeServer(mockTimeServerOne)
+
+        idGeneratorTwo = new IdGenerator(NODE_TWO_ID)
+        idGeneratorTwo.setTimeServer(mockTimeServerTwo)
+    }
+
+    class MockTimeServer implements TimeServer {
+        long now = System.currentTimeMillis();
+
+        @Override
+        void sleep(long milliseconds) throws InterruptedException {
+            now += milliseconds;
+        }
+
+        @Override
+        long currentTimeMillis() {
+            return now;
+        }
+
+        void setNow(long now) {
+            this.now = now;
+        }
+    }
+
+    IdGenerator idGeneratorOne
+    IdGenerator idGeneratorTwo
+
+    MockTimeServer mockTimeServerOne
+    MockTimeServer mockTimeServerTwo
+
+    int NODE_ONE_ID = 1
+    int NODE_TWO_ID = 2
+}

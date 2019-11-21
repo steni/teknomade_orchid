@@ -1,0 +1,8 @@
+       final String syncLockKey = LicencePlateNumber.normalized(licencePlateNumber.value()) + "|" + user.getId().stringValue();
++        synchronized (parkingsBeingStarted) {
++            boolean added = parkingsBeingStarted.add(syncLockKey);
++            if (!added) {
++                throw new MoreThanOneParkingAttemptedException("Start parking already in progress for " + licencePlateNumber);
++            }
++        }
+
