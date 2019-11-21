@@ -1,6 +1,8 @@
 Hey, you're back!
 
-So let's recap ...
+Awesome.
+
+So  ...
 
 There I was in my room, my little heart pounding.
 
@@ -46,29 +48,49 @@ Sure. I typed the word LOAD.
 
 The CR key?
 
+What's the CR key.
+
+Okay, there's a button on the computer that says CR.
+
+I pressed it.
+
+The manual went on:
+
 Press the data recorder's | PLAY | button; the cassette tape starts moving and loading of the BASIC language begins.
 
-After loading has been completed, the message READY is displayed and the cursor starts to blink again.
+Again, I was flabbergasted.
+
+The "data recorder"? What's that?
+
+And so it it went.
+
+Slowly, painfully, we were able to load the programming language called BASIC.
+
+Which opened up a totally new and much larger world of pain and confusion, of course ;)
+
+And more fun than I could ever have imagined.
+
+More opportunities.
+
+Was the gateway to more friendships and joys than this 7 year old boy could ever have dreamed of.
+
+Yet, he was so, so happy.
+
+The world of programming was slowly, but surely opening up to him.
+
+Looking back, the manual could have been clearer.
+
+The people writing it, must have been great. Yet, experts lose sight of the small stuff. They forget to mention things that are obvious to them, causing you to get stuck.
+
+Which is such a shitty feeling.
+
+Problem is, today it is a lot harder to get up and running with a functioning programming environment, than it was back in 1983.
+
+Complexity is way higher.
+
+[i dont want you to get stuck at this important junction / juncture. which is why i created the kickstart ,...]
 
 
-
-Here's the secret:
-
-You have to fall in love with programming.
-
-You can have all the external motivation in the world...
-
-It will only take you that far.
-
-Those who succeed, are the ones who fall head-over-heals in love with the process.
-
-Only they will endure the pain.
-
-The pain that comes from searching for a bug for hours, not being able to crush it.
-
-The acronym: Beginner's All-Purpose Symbolic Instruction Code.
-
-BASIC.
 
 ...
 Moralen er: Jeg vet hvordan det føles at noen steg er unnnlatt, de som produsenten tenker er opplagte (eller riktigere ikke tenker på at det går an å lure på i det hele tatt.)
