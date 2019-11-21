@@ -10,7 +10,17 @@ Yes! You made it!
 
 Welcome!
 
-I'm thrilled you've decided to join us.
+I'm thrilled you've decided to join us, because...
+
+Programming is the superpower you can learn!
+
+And you are going to learn it!
+
+(I'm doing a little happy-dance for you here in my office right now.)
+
+In the next few days and weeks, you'll learn Java by creating your very own web app.
+
+Not only will you learn to create your own web app, you'll also make it available online.
 
 Now before we get all serious and stuff, I'd like to tell you a story...
 
@@ -78,7 +88,7 @@ And then ...
 
 ...
 
-I'll tell you what happened tomorrow ;-)
+I'll tell you what happened then, tomorrow ;-)
 
 ...
 
@@ -100,27 +110,23 @@ Now, how about you?
 
 What is your big reason why you want to learn, or become better, at programming?
 
-Why do you want to learn Java?
-
 What is your driving force?
 
 Here's your first assignment (it's easy, but hard):
 
-Ponder, then write down your big reason why!
+Ponder, then write down your (tiny or huge) reason why!
 
 Go deep.
 
-If the first thing that comes to mind is "I want a job that pays well", that's not going to motivate you in the long run.
+Yes, you can use programming to land a well paying job.
 
-Sure, you can use programming to land a well paying job.
+Yes, you can use programming to start your own company.
 
-You can use programming to start your own company.
+Yes, you can use programming to get a raise in the job you already have.
 
-You can use programming to get a raise in the job you already have.
+Which is great, all are valid and valuable goals.
 
-Which is great, and all are valid and valuable goals.
-
-Still, for most of us, money isn't enough.
+Still, for most of us, money isn't enough ...
 
 There is so much fun to be had!
 
@@ -130,52 +136,85 @@ A programmer is a creator. A person who can take an idea and make it real.
 
 I'm not asking you to find the grand purpose of your life.
 
-I'm only asking you to look beyond the money.
+I'm only asking you to look beyond the money (if that's what you were looking at :-D )
 
-Maybe you want to make a new Twitter. A new Facebook. A new Ebay.
+If you're already in a job, perhaps you will get much more interesting assignments.
 
-Maybe you want to create a new kind of member site.
+Or ... do you want to create something totally new?
 
-Maybe you want to create something the world has never seen before.
+A new social media platform, like Twitter or Instagram?
 
-If your first thought is: "I want to learn programming to make more money in my job", that's a great starting point, too. The ask yourself: "Why?"
+A new auctioning site, like Ebay?
 
-What are you going to use that money for?
+A bingo card creator?
 
-Maybe your answer is "so I can buy a car".
+A site that sells Transformers figurines?
 
-Okay, then ask yourself again: "Why? Why do I want a car?"
+As a programmer, the world is your oyster.
 
-And maybe your answer is something to the effect that: "A car will allow me to take my family on nice outings on the weekends" ...
-
-Now you're getting somewhere. Fun, love, family, security.
-
-Those are some of the things that keeps us humans fueled year after year.
-
-That's only my opinion, though.
+Maybe you want to create something the world has never seen before?
 
 There are no right or wrong answers.
 
 This is only the start of your journey.
 
-I'd love to hear yours. Where are you at right now? What do you think?
+I'd love to hear you reasons.
 
-Obviously, you can keep it to yourself. This is your fuel.
+Where are you at right now?
 
-Yet, I'd be delighted to hear from you. To read your thoughts about this subject.
+What do you think?
+
+What do you dream about the future?
+
+Who do you want to become?
+
+Obviously, you can keep your thoughts to yourself.
+
+This is your fuel.
+
+Yet, I'd be delighted to hear from you. To read your thoughts.
 
 To learn about your life.
 
-Hit reply and write me some words!
+If you're willing to share, please hit reply and write me some words!
 
-I read every email I receive.
+This is my fuel. I want to help you reach your goals ...
 
-Please don't be offended if I don't answer yours. I try to answer as many emails as I can, but I do receive a lot of them.
+And that's a lot easier when I know what those goals are :-)
+
+A word of warning:
+
+Please don't be offended if I don't answer your email.  I try to answer as many emails as I can, but I do receive a lot of them.
+
+However, I do read and appreciate every email I receive.
+
+As I said, this is *my* fuel. It keeps me writing and creating stuff for you.
+
+And when I know what you want, then it's easier for me to help you.
+
+Simple as that.
+
+Remember: Programming is the superpower you can learn.
+
+And you are going to learn it!
+
+Glad to have you aboard!
+
+I look forward to getting to know you.
 
 Best regards,
 Sten
 
-Remember: Programming is the superpower you can learn.
+P.S. If you want to supercharge your experience, join me and the team at {{link}}.
+
+You'll instantly receive the Kickstart Guide and the Kickstarter package to get you up and running with the right tools.
+
+In fact, you should be able to get your first, tiny webapp up and running within a few hours.
+
+That means you could start your own journey ... today!
+
+Just sayin' :-)
+
 
 
 Housekeeping:
