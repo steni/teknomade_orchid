@@ -26,3 +26,7 @@ The only one of all those languages that really stand apart, is Clojure. I'll te
 
 
 ----
+
+Fra Learn Programming Academy:
+Should You Care Which Programming Language You Learn?
+In a nutshell, yes - you should care; the wrong choice of programming language can literally cripple your career, so choose wisely.  It all depends on your goals and what you are trying to achieve.: https://learnprogramming.academy/career-guidance/what-is-the-best-programming-language-to-learn/?utm_source=Newsletter4&utm_medium=email&utm_campaign=pc-ebook
