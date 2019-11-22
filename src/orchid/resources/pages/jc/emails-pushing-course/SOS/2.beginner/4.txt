@@ -2,20 +2,27 @@ Casually mention meeting Kent Beck backstage at JavaZone.
 
 
 
-Here's the secret:
+MÅL: Velg Java
 
-You have to fall in love with programming.
+When I started, there was no choice. I had one machine. It had one language.
 
-You can have all the external motivation in the world...
+There was one instruction manual.
 
-It will only take you that far.
+Thus, I learned programming with BASIC on the Sharp MZ-721.
 
-Those who succeed, are the ones who fall head-over-heals in love with the process.
+Today, you have a plethora of choices.
 
-Only they will endure the pain.
+Mac or Windows. Java or Python or JavaScript, or C or C++, or Visual Basic, or C#. Or Clojure or Kotlin or Dart. Or PHP. Or Perl.
 
-The pain that comes from searching for a bug for hours, not being able to crush it.
+And so on. And so forth.
 
-The acronym: Beginner's All-Purpose Symbolic Instruction Code.
+Here's a secret:
 
-BASIC.
+It' doesn't matter much where you start.
+
+The concepts I learned from BASIC, still hold in all the languages above.
+
+The only one of all those languages that really stand apart, is Clojure. I'll tell you more about that later...
+
+
+----

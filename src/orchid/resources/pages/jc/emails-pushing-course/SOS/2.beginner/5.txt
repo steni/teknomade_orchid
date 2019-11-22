@@ -11,3 +11,25 @@ I still don't know how he did that.
 These days, I'm teaching my kids to create a game of pacman that makes the lights in their rooms start blinking when they eat the pill.
 
 I guess I'm a lot like my dad that way ... fascinated by the logic of electronics and programming, and by that making stuff happen in the real world.
+
+
+
+
+
+Here's the secret:
+
+You have to fall in love with programming.
+
+You can have all the external motivation in the world...
+
+It will only take you that far.
+
+Those who succeed, are the ones who fall head-over-heals in love with the process.
+
+Only they will endure the pain.
+
+The pain that comes from searching for a bug for hours, not being able to crush it.
+
+The acronym: Beginner's All-Purpose Symbolic Instruction Code.
+
+BASIC.

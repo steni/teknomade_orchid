@@ -1,5 +1,5 @@
 
-
+Mål: Forstå webapp (client-server) og AT DE ER I STAND TIL Å LAGE EN, FORT
 
 Ta utgangspunkt i "løgnene" i VSL:
 
