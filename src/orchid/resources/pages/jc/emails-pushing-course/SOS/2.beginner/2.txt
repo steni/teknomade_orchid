@@ -64,7 +64,7 @@ The "data recorder"? What's that?
 
 And so it it went.
 
-Slowly, painfully, we were able to load the programming language called BASIC.
+Slowly, painfully, we were able to load the programming language called BASIC into the computer.
 
 Which opened up a totally new and much larger world of pain and confusion, of course ;)
 
@@ -72,7 +72,7 @@ And more fun than I could ever have imagined.
 
 More opportunities.
 
-Was the gateway to more friendships and joys than this 7 year old boy could ever have dreamed of.
+The gateway to more friendships and joys than this 7 year old boy could ever have dreamed of.
 
 Yet, he was so, so happy.
 
@@ -80,16 +80,79 @@ The world of programming was slowly, but surely opening up to him.
 
 Looking back, the manual could have been clearer.
 
-The people writing it, must have been great. Yet, experts lose sight of the small stuff. They forget to mention things that are obvious to them, causing you to get stuck.
+The people writing it, must have been great.
+
+Yet, experts lose sight of the small stuff. They forget to mention things that are obvious to them, causing you to get stuck.
 
 Which is such a shitty feeling.
 
-Problem is, today it is a lot harder to get up and running with a functioning programming environment, than it was back in 1983.
+I know that feeling well.
 
-Complexity is way higher.
+Problem is, it's getting worse.
 
-[i dont want you to get stuck at this important junction / juncture. which is why i created the kickstart ,...]
+Today its a lot harder to get up and running with a functioning programming environment, than it was back in 1983.
 
+Complexity is way higher. There's a lot of moving pieces.
+
+It's easy to get confused and stuck on simply how to get started.
+
+Many people get stuck and give up here.
+
+That's not what I want for you.
+
+I don't want you to get stuck at this important juncture.
+
+If you're already up and running, if you can compile and run your programs, great!
+
+If you need a little help, then that's exactly why I created the Kickstart package.
+
+When you join us at {{link}}, you'll immediately get access to the Kickstart Package.
+
+It consists of two parts: The Guide, and The Team.
+
+The Guide is a pdf you download to your computer.
+
+It shows you how you set up your own professional development environment, perfect for creating web apps.
+
+It even shows you how to get your very first, simple web app up and running on your own computer.
+
+I wrote it for complete beginners, to make sure I could get as many people as possible on board ...
+
+... Still, I know there can be hiccups for some people.
+
+It's not your fault.
+
+And it isn't my fault :-)
+
+The reason is that there's just so many combinations of computer hardware and software out there, that no-one can possibly know them all beforehand.
+
+No matter how diligent I am in creating the instructions, and how carefully you follow them ...
+
+... problems might arise. Sad fact of life :-(
+
+So that's where The Team comes into play.
+
+If you have any problem at all installing the necessary software or getting your first webapp up and running, my Team will help you.
+
+Yeah! Happy dance!
+
+Problem solved.
+
+And YOU will be on your merry way to becoming a real programmer.
+
+Best regards,
+Sten
+
+P.S. Getting up and running the right way need not be hard. My team has your back. Join us at {{link}}.
+
+You'll instantly receive the Kickstart Guide and the Kickstarter package.
+
+And then you'll be ready to delve right into The I.F.L. Method Master Class, where you create your very own, very real, Java web app. And deploy it to the internet!
+
+
+That means you could start your own journey ... today!
+
+Just sayin' :-)
 
 
 ...
