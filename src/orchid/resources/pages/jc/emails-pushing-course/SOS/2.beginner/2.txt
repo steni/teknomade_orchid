@@ -88,7 +88,9 @@ Which is such a shitty feeling.
 
 I know that feeling well.
 
-Problem is, it's getting worse.
+It was bad enough in 1983.
+
+Problem is, it's been getting worse ever since.
 
 Today its a lot harder to get up and running with a functioning programming environment, than it was back in 1983.
 
@@ -96,7 +98,7 @@ Complexity is way higher. There's a lot of moving pieces.
 
 It's easy to get confused and stuck on simply how to get started.
 
-Many people get stuck and give up here.
+Many people do get stuck, and give up right here.
 
 That's not what I want for you.
 
@@ -106,11 +108,13 @@ If you're already up and running, if you can compile and run your programs, grea
 
 If you need a little help, then that's exactly why I created the Kickstart package.
 
-When you join us at {{link}}, you'll immediately get access to the Kickstart Package.
+I created it for you.
 
-It consists of two parts: The Guide, and The Team.
+When you join us at {{link}}, you'll get immediate access.
 
-The Guide is a pdf you download to your computer.
+The  Kickstart package consists of two parts: The Guide, and The Team.
+
+The Guide is a pdf document you download to your computer.
 
 It shows you how you set up your own professional development environment, perfect for creating web apps.
 
@@ -145,14 +149,13 @@ Sten
 
 P.S. Getting up and running the right way need not be hard. My team has your back. Join us at {{link}}.
 
-You'll instantly receive the Kickstart Guide and the Kickstarter package.
+You'll instantly receive the Kickstart Guide and access to The team.
 
 And then you'll be ready to delve right into The I.F.L. Method Master Class, where you create your very own, very real, Java web app. And deploy it to the internet!
 
-
 That means you could start your own journey ... today!
 
-Just sayin' :-)
+Feel the love! :-)
 
 
 ...
