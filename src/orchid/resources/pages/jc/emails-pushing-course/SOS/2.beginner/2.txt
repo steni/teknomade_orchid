@@ -74,9 +74,9 @@ More opportunities.
 
 The gateway to more friendships and joys than this 7 year old boy could ever have dreamed of.
 
-Yet, he was so, so happy.
+Yet, I was so, so happy.
 
-The world of programming was slowly, but surely opening up to him.
+The world of programming was slowly, but surely opening up to me.
 
 Looking back, the manual could have been clearer.
 
@@ -92,7 +92,7 @@ It was bad enough in 1983.
 
 Problem is, it's been getting worse ever since.
 
-Today its a lot harder to get up and running with a functioning programming environment, than it was back in 1983.
+Today it's a lot harder to get up and running with a functioning programming environment, than it was back in 1983.
 
 Complexity is way higher. There's a lot of moving pieces.
 
