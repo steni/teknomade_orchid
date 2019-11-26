@@ -48,7 +48,7 @@ Sure. I typed the word LOAD.
 
 The CR key?
 
-What's the CR key.
+What's the CR key?
 
 Okay, there's a button on the computer that says CR.
 
@@ -62,7 +62,7 @@ Again, I was flabbergasted.
 
 The "data recorder"? What's that?
 
-And so it it went.
+And so it went.
 
 Slowly, painfully, we were able to load the programming language called BASIC into the computer.
 
