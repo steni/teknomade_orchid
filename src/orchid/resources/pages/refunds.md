@@ -13,7 +13,7 @@
 
 <p>We issue refunds for digital products within 30 days of the original purchase of the product.</p>
 
-<p>We recommend <a href="./contact">contacting us for assistance</a> if you experience any issues receiving or downloading our products.</p>
+<p>We recommend <a href="/contact">contacting us for assistance</a> if you experience any issues receiving or downloading our products.</p>
 
 
 
@@ -23,7 +23,7 @@
 
 <ul>
 <li>
-    <p>By visiting this page on our website: https://www.teknomade.no/contact/</p>
+    <p>By visiting this page on our website: https://teknomade.no/contact/</p>
 </li>
 </ul>
 
