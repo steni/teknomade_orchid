@@ -233,13 +233,13 @@ Git, Subversion (svn), CVS, Mercurial
 JUnit, Spock, PHPUnit, Mockito, Hamcrest, clojure.test
 
 === Enterprise Integration
-Apache Camel, ActiveMQ
+Spring Integration, Apache Camel, ActiveMQ
 
 === Database
-MySQL, Oracle, MS SQL, Microsoft Access, HSQLDB, Sybase
+MySQL, Oracle, MS SQL, Microsoft Access, HSQLDB, Sybase, H2
 
 === Et utvalg rammeverk / teknologier / verktøy jeg er kjent med
-Spring, Spring MVC, Compojure, SolR, Google Closure Compiler, MongoDB, Playframework, JSP, SQL, REST, Web Services, Maven, JIRA, Confluence, Firebug, Fiddler
+Spring, Spring MVC, Spring Boot, Spring Security, Compojure, SolR, MongoDB, SQL, REST, Web Services, Maven, JIRA, Confluence, Firebug, Fiddler
 
 Jeg er vant til å jobbe etter smidige metoder, og er sertifisert Scrum Master.
 
@@ -247,15 +247,15 @@ Jeg er også sertifisert GROW Coach.
 
 ***
 
-## Forretningsutvikling / Teknisk salg / Online salg
+== Forretningsutvikling / Teknisk salg / Online salg
 
-### Epost-automatisering
+=== Epost-automatisering
 Infusionsoft, Aweber, Mailchimp, ClickFunnels
 
-### Annonse-styring
+=== Annonse-styring
 Google AdWords, Facebook Ads, Wordstream, AdEspresso
 
-### Funnel-bygging
+=== Funnel-bygging
 ClickFunnels, Infusionsoft
 
 image:/assets/media/sm_lion.jpg[Sten Morten i sitt rett element,width=100%]
