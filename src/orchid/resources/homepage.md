@@ -16,18 +16,8 @@ For det har de.
 
 Lage ting. Selge ting.
 
-Love.
+Kjærlighet.
 
-**I Giant Leap lager vi apper.** 
-
-Og akkurat nå lurer jeg på: Hva er din største utfordring når du skal få laget en ny app?
-
-Vil du hviske meg det i øret?
- 
-<link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/bucket-io-widget-assets/home/styleBucket.css"><button style="background-color:#F78133;color:#FFFFFF;border:none;padding:10px 20px;cursor:pointer" onclick="lunchModal('https://go.bucketquizzes.com/ds/808ca3f8')" id="myBtnBucket" class="btn-outline-bucket">Jo det skal jeg si deg!</button><div id="myModalButton" class="modalBucket"><div class="modal-content-bucket"> <span class="close-bucket">X</span></div></div> <script src="https://s3.amazonaws.com/bucket-io-widget-assets/home/scriptBucket.js" type="text/javascript"></script>
-
-
-Gleder meg til å høre fra deg! Trykk på knappen over! :-D
 
 
 ![alt text](assets/media/SMMA-signatur.jpg "Sten Morten debugger CoopKey appen, Coop Bogstadveien")
