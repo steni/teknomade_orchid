@@ -6,18 +6,20 @@ Hei!
 
 **Jeg heter Sten Morten Misund-Asphaug, Steni blant venner.**
 
-Java-utvikler og prosjektleder, i Giant Leap Technologies AS.
+Programmerer og prosjektleder i *Giant Leap Technologies AS*.
 
-Er gift på trettende året, har tre barn i barne- og ungdomsskolealder.
 
-**Jeg skriver om systemutvikling og markedsføring, som om de to skulle hatt et kjærlighetsforhold.**
+**Jeg løser problemer med kode.**
+
+Skriver om programmering og markedsføring 
+som om de skulle hatt et kjærlighetsforhold.
 
 For det har de.
 
 Lage ting. Selge ting.
 
-Kjærlighet.
 
+❤
 
 
 ![alt text](assets/media/SMMA-signatur.jpg "Sten Morten debugger CoopKey appen, Coop Bogstadveien")
