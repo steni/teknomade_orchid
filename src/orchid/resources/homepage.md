@@ -1,6 +1,6 @@
 ---
 next: 'systemutvikling'
-title: 'Hva er din største utfordring når du skal få laget en ny app?'
+title: 'Teknomader – Gjør verden bedre med kode!'
 ---
 Hei!
 
