@@ -54,14 +54,6 @@ Okay, there's a button on the computer that says CR.
 
 I pressed it.
 
-The manual went on:
-
-Press the data recorder's | PLAY | button; the cassette tape starts moving and loading of the BASIC language begins.
-
-Again, I was flabbergasted.
-
-The "data recorder"? What's that?
-
 And so it went.
 
 Slowly, painfully, we were able to load the programming language called BASIC into the computer.

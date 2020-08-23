@@ -22,6 +22,8 @@ In the next few days and weeks, you'll learn Java by creating your very own web 
 
 Not only will you learn to create your own web app, you'll also make it available online.
 
+Yes. You!
+
 Now before we get all serious and stuff, I'd like to tell you a story...
 
 Once upon a time there was a boy named Sten.
