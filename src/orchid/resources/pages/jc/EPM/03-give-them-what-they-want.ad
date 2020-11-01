@@ -12,28 +12,31 @@ Aim for 50 - 100 responses for survey.
 
 *Naming the survey*
 
-Discover the three biggest challenges facing [new programmers] when it comes to [your topic area here].
+Discover the greatest challenge facing new programmers when it comes to learning Java.
 
-Discover the three biggest challenges facing [new programmers] when it comes to [your topic area here].
+Hi,
+
+I'm conducting a survey about new Java programmers and their challenges for my upcoming MasterClass project.
+
+If that's you, I'd be grateful if you could take three minutes out of your time to take this quick survey :-)
+
+If you do, there's also a nice surprise for you at the end :-D
 
 
 === 2. Design survey (quiz)
 
-SMIQ + demography + se Worksheet (8) og ASK training
-
-1. __"When it comes to learning (java / programming / coding), what's your single biggest challenge, frustration, or
-question you've been struggling with?"__ (bucket.io?).
+1. __"When it comes to learning Java programming, what's your single biggest challenge, frustration, or
+question you've been struggling with?"__
 
     Comment box
 
 2. How have you tried to solve this challenge in the past?
 
     Multiple choice
-    - I'm studying computer science
-    - I've taken a course or three
-    - I've watched some YouTube-tutorials
-    - I'm trying to learn on my own
+    - I've taken, or at least started, a course or three ...
+    - I'm trying to learn on my own, watching YouTube tutorials and such
     - I've done nothing
+    - I'm studying computer science
     - Other: __________
 
 3. What are your 1-3 main outcomes or goals when it comes to learning programming?
@@ -54,7 +57,7 @@ question you've been struggling with?"__ (bucket.io?).
     - By yourself reading information or watching videoes
     - With a community of peers in an online training program
 
-5. When it comes to learning programming, what are the specific topic areas you want to learn more about?
+5. When it comes to learning Java programming, what are the specific topic areas you want to learn more about?
 
     Multiple choice and / or comment box
     - Creating mobile apps
@@ -67,6 +70,8 @@ question you've been struggling with?"__ (bucket.io?).
 
 
 STEP 2 - THANK YOU CONFIRMATION PAGE
+
+
 
 Then on the confirmation page, if they left their email address, I would say something along the lines of this:
 
