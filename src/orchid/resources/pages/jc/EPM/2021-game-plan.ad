@@ -170,36 +170,58 @@ F: I need to learn the "best" programming language to become a developer
 Purpose: Make a first impression, connect and bond, deliver value (show we can help people, by actually helping them),
 send to content (and that content will further strengthen the bond and make offers)
 
-==== Email 1 (Confirm opt-in)
+==== Email 1 (Confirm opt-in) -- confirmation link should log  them in and redirect to a video-version of this letter
 
-Subject:  You’re in! Now, let’s get started...
-
-Yes yes YES!
+Subject:  IMPORTANT: Action needed! (You’re almost in!)
 
 Hey _first name_!
 
-When I saw that you -
+IMPORTANT: Click this link to confirm your email address.
 
-Welcome to The Java Journey ...
+Upon receiving notice that you signed up, I was immediately pleased!
 
-My goal for you is that you'll learn more programming this month than you have in the past year, without feeling as if
-you're working two jobs...
+Then I sat down to write you this very personal letter to welcome you to The Java Journey ...
 
-Enough with the hyperbole ;-) .... Actually, learning to code will be a lot of fun.
+Or not :-) Being a programmer, I obviously automated it. That's what we programmers do.
 
-I have a couple of secrets to help us accomplish that goal, and I will share those with you now and in the next few days.
+(That's how we create value ... by freeing up humans to do human-work, while machines do the repetitive tasks.)
 
-IMPORTANT: You need to click [this link] to confirm this is really your email. It's for your own good, you know ;-) ...
+Make no mistake though ... I'm a real life flesh-and-blood, sweat-and-tears, warts-and-worries - person, and if you'd happen to reply to this email, whaddaya know -- you'd actually reach me.
+
+Now I'm guessing for some people receiving this email, it's not your first stab at learning how to code.
+
+If that's you, and you feel that you've failed, or that you're confused and overwhelmed, the first thing I want to mention
+is that it's not your fault. There's a lot of information out there, and it can be confusing. Many times the
+information overload keeps you from success. It's okay!
+
+If you've been concerned in the past that you just can't succeed with programming, I want to put those fears to rest. You can do this. You just need the right person to explain it to you.
+
+The universities and colleges want you to think you need an expensive education to be successful. I'm here to tell you
+they're wrong. They have their own reasons for wanting you to think that, but it's not true.
+
+So that's what we're here for. I know you have a dream to change the world and make an impact, and during the next few days
+I want to show you how to make that happen.
+
+Do you agree with this statement: "Everything is easy when you know how"?
+
+Yes?
+
+Well, I have a goal for you ...
+
+My goal for you is that you'll see how programming is easy, and as such, how it can help you reach your goals.
+
+I have three secrets to help us accomplish that goal, and I will share those with you in the next few days.
+
+IMPORTANT: You need to click [this link] to confirm this really is your email. It's for your own good, you know ;-) ...
 This is how I can protect your inbox from the bad peoples ...
 
-Only when you click that link will I be able to send you my very best and FREE training!
+Only when you click that link will I be able to send you my very best and FREE training, and help you on your journey.
 
 If you don't, I won't be able to help you learn programming the fun way, and I'll be a sad duck. And I don't want to be a sad duck. I want to be a happy duck!
 
+
+
 So how do you know if clicking the link is a Good Idea For You (TM) ?
-
-
-Well ...
 
 YOU'RE IN THE RIGHT POINT IN THE SPACE-TIME CONTINUUM AND SHOULD CLICK THE LINK NOW IF ANY ONE OF THESE RING TRUE TO YOU:
 
@@ -220,9 +242,9 @@ Do you recognize yourself in any of those descriptions? Then by all means, be my
 
 ... you're new to programming
 
-... you've programmed something before, and you're new to Java
+... you've programmed some other language before, but you're new to Java
 
-... you've programmed Java before, and you haven't created a web app before
+... you've programmed Java before, but you haven't created a web app before
 
 ... you manage programmers or work with programmers -- and you need to know more about what this whole coding
 thing is all about
@@ -239,12 +261,20 @@ It's where we start the work ... on you ... to blast some blocks you might be ha
 
 So click the link to get cracking now:
 
-Then, tomorrow, I'll tell you about how my 11-year old learned all the basics of programming in a few hours :-)
+[link]
+
+Then tomorrow, I'll tell you the story of how I got a consulting client in a programming language I didn't know,
+while being totally upfront with the client about that fact --
+
+... and we'll explore what that's go to do with you ... (it's a LOT MORE than you probably think).
+
+And the day after tomorrow, I'll let you in on the secret of how my 11-year old learned the basics of programming in a few hours :-)
 
 Best regards,
 Sten
 
-P.S.
+P.S. Click [this link] to start your journey right now. If at some stage later you want to unsubscribe, there is a link to
+do exactly that in all the emails I send you.
 
 P.P.S.  If you have a second, I'd love to know:
 
@@ -253,9 +283,9 @@ Why did you come to The Java Journey today? ...
 What can we do to help you solve your biggest problem right now?
 
 
-
-
 ==== Email 2
+
+Subject:
 
 ==== Email 3
 
