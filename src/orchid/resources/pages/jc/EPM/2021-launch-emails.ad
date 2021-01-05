@@ -228,7 +228,7 @@ and the good that thankfully followed from that screw-up ...
 
 The day after tomorrow, we'll dive into the number one thing that holds a lot of people back from becoming programmers ...
 
-And the day after that, I'll let you in on the secret of how my 11-year-old son learned the basics of programming and
+And the day after that, I'll let you in on the secret of how my 9-year-old son learned the basics of programming and
 created his first computer game in a few hours :-)
 
 Best regards,
@@ -424,7 +424,19 @@ Why wouldn't you choose Java?
 Well, if you're doing something very specialized, like statistical number crunching, some languages are more tailored
 specifically for that. Otherwise, it's as good as it gets :-)
 
+So if that's cool with you, I want you to commit right now to learn Java. To stick with it for a while. To stick with it
+even when the going gets tough.
 
+Say to yourself: For the next six weeks, I'm learning Java.
+
+Say it out loud!
+
+Write it on a piece of paper.
+
+Commit to it.
+
+Tomorrow, I'll teach you the basics of programming, and I'll you how my 11-year old used those basics to create the
+game of Pong :-)
 
 
 
@@ -437,12 +449,79 @@ F: I have to know an endless amount of things to become a proficient programmer 
 
 T: You have to understand the basics well. You can learn the rest when you need something specific.
 
-Epiphany Story: How My 11-Year Old Son Learned the basics of programming in a few hours :-)
+Epiphany Story: How My 9-Year Old Son Learned the basics of programming in a few hours :-)
 
-My 11-year old wanted to make a computer game ....
+*Subject: How my 9-year old made his first computer game in a few hours*
 
-*Subject: How my 11-year old made his first computer game in a few hours*
+A lot of students come into programming thinking it's very hard.
 
+Fact is, you can learn the basics in a few hours.
+
+Sure, like they say about chess: "it takes an hour to learn, but a lifetime to master."
+
+However, unlike chess, you're not competing against anyone. Which is good news, because you can start having fun straight away.
+
+Five years ago, my oldest son came to me because he wanted to create a video game. He was 9 at the time.
+
+At nine, you haven't really developed your ability for abstract thinking. Neither have you heard anything about how
+hard coding is supposed to be, which makes everything a lot easier for everybody.
+
+So we sat down with something called Scratch -- which is a graphical programming website for kids, and we looked at what
+pieces we had to play with and what they did.
+
+We decided we wanted to make the game of Pong, because it is a very simple game.
+
+We created a ball.
+
+It just sat there. That was very boring.
+
+It needs to move, said my son.
+
+I concurred.
+
+We examined what we knew about the ball.
+
+There were two numbers: one called x, the other y.
+
+We added 1 to x.
+
+The ball jumped the tiniest fraction to the right.
+
+Cool!
+
+There it stood still again.
+
+Not cool.
+
+We added 200 to x.
+
+The ball seemed to move magically from where it was, to somewhere further to the right.
+
+Neat, but not what we wanted.
+
+Continuing like this, experimenting with the pieces, we were able to create the game of Pong in a few hours, and then
+we played our new game for a few hours.
+
+It's not that my son now had grasped all the concepts of programming perfectly and was now a master programmer.
+
+Not at all.
+
+The point is, he had understood how to PLAY with programming, to peek and poke around to see what happens ... to have FUN with it.
+
+And that makes all the difference.
+
+He has made all sorts of weird and wonderful things in the last few years. A couple of years ago, he created a web site
+where he could control the IKEA Smart Lights in his room ... setting the colors and turning them on and off through the
+website.
+
+Then we took a course in JavaScript together, and created the classical game Snake ...
+
+... and now we're going to connect the game and the IKEA code so that when you crash the snake into the wall,
+the lights in his room will start flashing :-D
+
+I guess I digress :-) ...
+
+The point I'm trying to make is that you can have a lot of fun with the basics, and you can build upon the basics fast.
 
 
 ==== Day 2 - Email 2
