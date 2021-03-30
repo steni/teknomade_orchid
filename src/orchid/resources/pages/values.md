@@ -15,4 +15,4 @@
 
 <h1>Contact Us</h1>
 
-<p>If you have any questions about these Terms, please <a href="./contact">contact us</a>.</p>
+<p>If you have any questions about these Terms, please <a href="/contact">contact us</a>.</p>
